@@ -1,0 +1,27 @@
+h1, h3, p{
+    color: white;
+}
+
+.icon-styles{
+    background-color: rgb(64, 64, 64);
+    border-radius: 5px;
+}
+
+#icon-check{
+    color: rgb(24, 172, 24);
+    filter: drop-shadow(2px 2px 5px  rgb(24, 172, 24));
+}
+
+#example-styles{
+    margin-top: 30px;
+    background-color: rgb(65, 63, 63);
+    width: 230px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 20px;
+}
+
+#example-styles p:first-child {
+  margin-top: 20px; 
+}

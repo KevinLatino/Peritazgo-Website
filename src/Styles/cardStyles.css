@@ -1,0 +1,43 @@
+.card {
+    background-color: #242424; 
+    border: 3px solid #5c9a99;
+    border-radius: 10px; 
+    width: 270px; 
+    height: 270px; 
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  
+.card-header {
+    color: #d1c9b3; 
+    font-weight: bold;
+}
+  
+.card-divider {
+    height: 1px;
+    background-color: #5c9a99; 
+    margin: 10px 0;
+    border: none;
+}
+  
+.card-content {
+    color: white;
+}
+  
+.card-container {
+    text-align: center; 
+}
+
+.icon-book{
+  cursor: pointer;
+  color: #C8AD7F
+}
+
+p{
+  font-family: sans-serif;
+}
