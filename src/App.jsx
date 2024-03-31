@@ -2,7 +2,7 @@ import React from 'react'
 import { MainTitle } from './Components/MainTitle';
 import { CardComponent } from './Components/CardComponent';
 import { SearchBar } from './Components/SearchBar';
-import { BasicKnowledge } from './Components/BasicKnowledge';
+import { BasicKnowledgeScreen } from './Components/BasicKnowledgeScreen';
 import './App.css'
 
 
@@ -14,8 +14,8 @@ function App() {
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocófigo, diagramas de flujo.'
     },
 
-    {title:'Expresiones lógicas', 
-    description: 'Combinación válida de operadores, variables, constantes y funciones que producen un valor.'
+    {title:'Expresiones', 
+    description: 'Se abordan temas como valores, distintos tipos de operadores y disntintos tipos de expresiones.'
     },
 
     {title:'Estructuras de control', 
@@ -24,7 +24,7 @@ function App() {
 
     {title:'Estructura de datos', 
     description: 'Son las que organizan nuestro proyecto en ejecución.'
-    }
+    },
 
   ]
 
@@ -43,7 +43,7 @@ function App() {
     <MainTitle />
     <SearchBar search={search} setSearch={setSearch}/>
     {searchTopics.map(topic => (<CardComponent key={topic.title} title={topic.title} description={topic.description}/>))} 
-    <BasicKnowledge />
+    <BasicKnowledgeScreen/>
     </>
 
 

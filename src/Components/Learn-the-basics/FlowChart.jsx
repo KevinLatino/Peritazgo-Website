@@ -1,5 +1,4 @@
 import React from 'react'
-import { TbOvalVertical } from "react-icons/tb";
 import '../../Styles/FlowChart.css'
 
 const FlowChart = () => {
