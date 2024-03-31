@@ -8,22 +8,10 @@ import './App.css'
 
 function App() {
   const arrayTopics = [
-    {
-      title:'Variables', 
-      description: 'Es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.'
-    },
 
     {
-      title: 'Algoritmos',
-      description: 'Un algoritmo es una secuencia de acciones lógicas necesarias para realizar una tarea.'
-    },
-
-    {title:'Pseudocodigo', 
-    description: 'El pseudocódigo describe un algoritmo utilizando un lenguaje cercano al lenguaje humano.'
-    },
-
-    {title:'Diagramas de flujo', 
-    description: 'Un diagrama de flujo es una representación gráfica de un pseudocódigo.'
+      title: 'Entiende las bases',
+      description: 'Se abordan temas básicos, variables, algoritmos, pseudocófigo, diagramas de flujo.'
     },
 
     {title:'Expresiones lógicas', 

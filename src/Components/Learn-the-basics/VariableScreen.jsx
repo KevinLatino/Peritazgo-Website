@@ -3,7 +3,7 @@ import { MoveLeft, Equal, CircleCheckBig } from 'lucide-react';
 import '../../Styles/VariableScreen.css'
 
 
-const VariableScreen = () => {
+const Variable = () => {
   return (
     <>
       <h1>Las variables</h1>
@@ -22,8 +22,8 @@ const VariableScreen = () => {
         <p>num = 0</p>
       </section>
 
-      <section>
         <h3>Buenas prácticas al utilizar variables <CircleCheckBig id='icon-check'/></h3>
+        <section id='allowed'>
         <p>○ Nombres descriptivos: que reflejen el propósito de la variable.</p>
         <p>○ Utilizar camelCase:  para mantener la consistencia en el código</p>
         <p>○ Usar nombres en inglés: debido a que es el idioma universal</p>
@@ -33,5 +33,5 @@ const VariableScreen = () => {
   );
 };
 
-export { VariableScreen };
+export { Variable };
 

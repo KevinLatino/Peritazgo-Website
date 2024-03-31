@@ -1,0 +1,9 @@
+#examples{
+    margin-top: 30px;
+    background-color: rgb(65, 63, 63);
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 20px;
+}

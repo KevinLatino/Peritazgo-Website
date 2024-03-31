@@ -1,0 +1,14 @@
+h1{
+    color: #61b8b6;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.Pseudocodigo-Examples{
+    margin-top: 30px;
+    background-color: rgb(65, 63, 63);
+    width: 300px;
+    height: 310px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+}
