@@ -3,6 +3,7 @@ import '../Styles/cardStyles.css';
 import { CircleArrowRight } from 'lucide-react';
 
 
+
 const CardComponent = (props) => {
   return (
     <article className="card">

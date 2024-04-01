@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styles/ExpressionScreen.css'
 
 const ExpressionScreen = () => {
   return (
@@ -16,9 +17,9 @@ const ExpressionScreen = () => {
 
     <section id='background-styles'>
         <h3>Tipos de valores</h3>
-        <p>Números: Representan valores numéricos, existen enteros o flotantes</p>
-        <p>Texto: Representa secuencias de caracteres.</p>
-        <p>Booleanos: Representan verdadero o falso.</p>
+        <p>● Números: Representan valores numéricos, existen enteros o flotantes</p>
+        <p>● Texto: Representa secuencias de caracteres.</p>
+        <p>● Booleanos: Representan verdadero o falso.</p>
     </section>
 
     <h1>Operadores Aritméticos</h1>
@@ -26,13 +27,13 @@ const ExpressionScreen = () => {
        valores numéricos.
     </p>
     <section id='operations-style'>
-        <p>Suma +: Utilizado para sumar dos valores.</p>
-        <p>Resta -: Utilizado para restar un valor de otro.</p>
-        <p>Multiplicación *: Utilizado para multiplicar dos valores.</p>
-        <p>División /: Utilizado para dividir un valor entre otro.</p>
-        <p>Módulo %: Devuelve el residuo de la división de un valor entre otro.</p>
-        <p>Potenciación ** o ^: Utilizado para elevar un valor a una potencia.</p>
-        <p>Incremento ++ y decremento --2: Utilizados para aumentar o disminuir el valor de una variable en 1 unidad.</p>
+        <p>● Suma +: Utilizado para sumar dos valores.</p>
+        <p>● Resta -: Utilizado para restar un valor de otro.</p>
+        <p>● Multiplicación *: Utilizado para multiplicar dos valores.</p>
+        <p>● División /: Utilizado para dividir un valor entre otro.</p>
+        <p>● Módulo %: Devuelve el residuo de la división de un valor entre otro.</p>
+        <p>● Potenciación ** o ^: Utilizado para elevar un valor a una potencia.</p>
+        <p>● Incremento ++ y decremento --2: Utilizados para aumentar o disminuir.</p>
     </section>
     </>
   )

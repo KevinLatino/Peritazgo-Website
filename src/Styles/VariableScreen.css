@@ -8,13 +8,16 @@ h1, h3, p{
 }
 
 #icon-check{
-    color: rgb(24, 172, 24);
-    filter: drop-shadow(2px 2px 5px  rgb(24, 172, 24));
+    color: #44AC99;
+    filter: drop-shadow(2px 2px 5px  #44AC99);
+    margin-left: 10px;
 }
+
+
 
 #example-styles{
     margin-top: 30px;
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(52, 48, 48);
     width: 230px;
     height: 170px;
     border-radius: 15px;
@@ -24,4 +27,18 @@ h1, h3, p{
 
 #example-styles p:first-child {
   margin-top: 20px; 
+}
+
+#allowed{
+    background-color: #2B6E6233;
+    width: 360px;
+    height: 330px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#allowed-h3{
+    color: #44AC99;
 }

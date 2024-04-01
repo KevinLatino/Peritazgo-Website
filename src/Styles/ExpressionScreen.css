@@ -1,0 +1,19 @@
+#background-styles{
+    background-color: rgb(52, 48, 48);
+    width: 300px;
+    height: 280px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 20px;
+}
+
+#operations-style{
+    background-color: rgb(52, 48, 48);
+    width: 400px;
+    height: 380px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 20px; 
+}
