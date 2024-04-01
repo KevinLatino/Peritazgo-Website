@@ -45,7 +45,8 @@ function App() {
     <MainTitle />
     <SearchBar search={search} setSearch={setSearch}/>
     {searchTopics.map(topic => (<CardComponent key={topic.title} title={topic.title} description={topic.description}/>))} 
-    <ExpressionScreen/>
+    <BasicKnowledgeScreen/>
+    <ExpressionScreen />
     </>
 
 

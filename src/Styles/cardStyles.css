@@ -1,6 +1,6 @@
 .card {
-    background-color: #242424; 
-    border: 3px solid #5c9a99;
+    background-color: #161b22; 
+    border: 3px solid #444d5c;
     border-radius: 10px; 
     width: 270px; 
     height: 270px; 
@@ -14,13 +14,13 @@
   }
   
 .card-header {
-    color: #d1c9b3; 
+    color: #ffdfb6; 
     font-weight: bold;
 }
   
 .card-divider {
     height: 1px;
-    background-color: #5c9a99; 
+    background-color: #444d5c; 
     margin: 10px 0;
     border: none;
 }
@@ -35,7 +35,7 @@
 
 .icon-book{
   cursor: pointer;
-  color: #C8AD7F
+  color: #ffdfb6
 }
 
 p{

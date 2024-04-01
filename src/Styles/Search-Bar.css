@@ -8,8 +8,8 @@
 .search-input {
     border-radius: 20px;
     padding: 8px 12px;
-    border: 3px solid #4b7877;
-    background-color: rgb(15, 15, 15);
+    border: 3px solid #444d5c;
+    background-color: #161b22;
     outline: none;
     width: 300px; 
     display: flex;

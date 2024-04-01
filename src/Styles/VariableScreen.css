@@ -3,7 +3,7 @@ h1, h3, p{
 }
 
 .icon-styles{
-    background-color: rgb(64, 64, 64);
+    background-color:#1c2431;
     border-radius: 5px;
 }
 
@@ -17,7 +17,7 @@ h1, h3, p{
 
 #example-styles{
     margin-top: 30px;
-    background-color: rgb(52, 48, 48);
+    background-color: #1c2431;
     width: 230px;
     height: 170px;
     border-radius: 15px;
