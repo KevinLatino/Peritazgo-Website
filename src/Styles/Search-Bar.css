@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .search-input {
@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .search-input::placeholder {
