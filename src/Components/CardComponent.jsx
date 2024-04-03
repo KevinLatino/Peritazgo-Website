@@ -4,6 +4,7 @@ import '../Styles/cardStyles.css';
 
 
 const CardComponent = (props) => {
+
   return (
     <article className="card">
       <header className="card-header">{props.title}</header>

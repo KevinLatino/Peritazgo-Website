@@ -4,7 +4,7 @@ import '../../Styles/Algorithm.css'
 const Algorithm = () => {
   return (
     <>
-     <h1>Los algotimos</h1>
+     <h1>Los algoritmos</h1>
      <p>Un algoritmo es una secuencia de acciones lógicas necesarias para realizar una tarea en específico.</p>
      <p>Caracteristicas de los algotimos:</p>
      <section id='examples'>
