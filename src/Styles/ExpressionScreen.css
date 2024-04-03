@@ -11,9 +11,52 @@
 #operations-style{
     background-color: #1c2431;
     width: 400px;
-    height: 380px; 
+    height: 310px; 
     margin-top: 20px;
     border-radius: 20px;
     padding-left: 20px;
     padding: 20px; 
+}
+
+#relations-styles{
+    background-color: #1c2431;
+    width: 400px;
+    height: 310px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 20px;   
+}
+
+#logical-operators{
+    background-color: #1c2431;
+    width: 400px;
+    height: 200px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 20px;  
+}
+
+#note-styles{
+    background-color: #2B6E6233;
+    width: 440px;
+    height: 440px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 20px;
+}
+
+#note-h2{
+    color: #44AC99;
+}
+
+#icon-book{
+    color: #44AC99;
+    filter: drop-shadow(2px 2px 5px  #44AC99);
+    margin-left: 5px;
+}
+
+li{
+    list-style: decimal;
 }

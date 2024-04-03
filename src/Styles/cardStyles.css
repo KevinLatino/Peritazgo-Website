@@ -1,7 +1,7 @@
 .card {
     background-color: #161b22; 
     border: 3px solid #444d5c;
-    border-radius: 10px; 
+    border-radius: 17px; 
     width: 270px; 
     height: 270px; 
     padding: 20px;
@@ -11,7 +11,12 @@
     vertical-align: top; 
     margin-top: 30px;
     margin-left: 110px;
+    cursor: pointer;
   }
+
+.card:hover {
+  border: 3px solid #ffdfb6;
+}
   
 .card-header {
     color: #ffdfb6; 
@@ -24,6 +29,7 @@
     margin: 10px 0;
     border: none;
 }
+
   
 .card-content {
     color: white;

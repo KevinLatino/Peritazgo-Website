@@ -31,7 +31,7 @@ h1, h3, p{
 
 #allowed{
     background-color: #2B6E6233;
-    width: 360px;
+    width: 370px;
     height: 330px;
     border-radius: 20px;
     padding-left: 20px;
@@ -41,4 +41,23 @@ h1, h3, p{
 
 #allowed-h3{
     color: #44AC99;
+}
+
+#not-allowed{
+    background-color: rgb(69, 50, 49);
+    width: 370px;
+    height: 330px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#not-allowed-h3{
+    color: rgb(208 125 119)
+}
+
+#ban-icon{
+    color: rgb(208 125 119);
+    filter: drop-shadow(2px 2px 5px  #D07D77);
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Styles/cardStyles.css';
-import { CircleArrowRight } from 'lucide-react';
 
 
 
@@ -12,7 +11,6 @@ const CardComponent = (props) => {
       <section className="card-content">
         <p>{props.description}</p>
       </section>
-      <CircleArrowRight className='icon-book'/>
     </article>
   );
 }
