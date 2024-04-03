@@ -44,7 +44,26 @@ const ControlStructure = () => {
       <p>
         Son elementos fundamentales en la programación que permiten ejecutar
         ciertas instrucciones o bloques de código basándose en condiciones específicas.
-        Estas condiciones suelen evaluarse como verdaderas o falsas.
+        Estas condiciones suelen evaluarse como verdaderas o falsas. Tipos de estructuras condicionales:
+      </p>
+      <h2>● Condicionales Simples</h2>
+      <p>
+        Esta estructura condicional es la más simple, esta simplemente hace algo si
+        la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
+      </p>
+      <h2>● Condicionales Dobles</h2>
+      <p>
+        Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
+        el condicional va a hacer algo aunque el resultado sea falso o verdadero
+      </p>
+      <h2>● Condicionales Anidados</h2>
+      <p>
+        Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
+        de control implementa otra condicional dentro de una condicional
+      </p>
+      <h2>● Condicionales Múltiples</h2>
+      <p>
+        Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch
       </p>
     </>
   )
