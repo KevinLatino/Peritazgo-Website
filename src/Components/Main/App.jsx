@@ -1,8 +1,9 @@
 import React from 'react'
-import { MainTitle } from './Components/MainTitle';
-import { CardComponent } from './Components/CardComponent';
-import { SearchBar } from './Components/SearchBar';
+import { MainTitle } from  '../MainTitle/MainTitle';
+import { CardComponent } from '../CardComponent/CardComponent';;
+import { SearchBar } from '../SearchBar/SearchBar';
 import './App.css'
+
 
 
 
@@ -12,19 +13,19 @@ function App() {
     {
       title: 'Entiende las bases',
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, diagramas de flujo.',
-      route: '/BasicKnowledgeScreen'
+      route: '/Aprendiendo'
     },
 
     {
       title: 'Expresiones',
       description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
-      route: '/ExpressionScreen'
+      route: '/Expresiones'
     },
 
     {
       title: 'Estructuras de control',
       description: 'Es un conjunto de normas que dan flujo a nuestro código.',
-      route: '/ControlStructure'
+      route: '/Estructuras-de-control'
     },
     
 

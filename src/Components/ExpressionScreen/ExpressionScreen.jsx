@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/ExpressionScreen.css'
+import './ExpressionScreen.css'
 import { NotebookText } from 'lucide-react';
 
 const ExpressionScreen = () => {

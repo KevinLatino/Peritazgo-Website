@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/ControlStructures.css'
+import './ControlStructures.css'
 
 
 const ControlStructure = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Search-Bar.css';
+import './Search-Bar.css';
 import { Search } from 'lucide-react';
 
 const SearchBar = ({ search, setSearch }) => {

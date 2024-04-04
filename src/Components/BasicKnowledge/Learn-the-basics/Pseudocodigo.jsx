@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Pseudocodigo.css'
+import './Styles/Pseudocodigo.css'
 
 
 const Pseudocodigo = () => {

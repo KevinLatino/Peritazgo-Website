@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/Algorithm.css'
+import './Styles/Algorithm.css'
 
 const Algorithm = () => {
   return (

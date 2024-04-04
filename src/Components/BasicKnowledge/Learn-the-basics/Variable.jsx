@@ -1,7 +1,7 @@
 import React from 'react';
 import { MoveLeft, Equal, CircleCheckBig } from 'lucide-react';
 import { Ban } from 'lucide-react';
-import '../../Styles/VariableScreen.css'
+import './Styles/VariableScreen.css'
 
 
 const Variable = () => {

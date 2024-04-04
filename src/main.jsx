@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { BasicKnowledgeScreen } from './Components/BasicKnowledgeScreen.jsx'
-import { ExpressionScreen } from './Components/ExpressionScreen.jsx'
-import { ControlStructure } from './Components/ControlStructure.jsx'
+import App from './Components/Main/App'
+import './Components/Main/index.css'
+import { BasicKnowledgeScreen } from '../src/Components/BasicKnowledge/BasicKnowledge.jsx'
+import { ExpressionScreen } from '../src/Components/ExpressionScreen/ExpressionScreen.jsx'
+import { ControlStructure } from '../src/Components/ControlStructure/ControlStructure.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -13,15 +13,15 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: '/BasicKnowledgeScreen',
+    path: '/Aprendiendo',
     element: <BasicKnowledgeScreen />
   },
   {
-    path: '/ExpressionScreen',
+    path: '/Expresiones',
     element: <ExpressionScreen />
   },
   {
-    path: '/ControlStructure',
+    path: '/Estructuras-de-control',
     element: <ControlStructure />
   },
 ]);

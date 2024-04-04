@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/FlowChart.css'
+import './Styles/FlowChart.css'
 
 const FlowChart = () => {
   return (

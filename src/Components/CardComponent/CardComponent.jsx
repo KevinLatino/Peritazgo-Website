@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Styles/cardStyles.css';
-
+import './cardStyles.css'
 
 
 const CardComponent = (props) => {
