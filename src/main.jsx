@@ -6,6 +6,7 @@ import { BasicKnowledgeScreen } from '../src/Components/BasicKnowledge/BasicKnow
 import { ExpressionScreen } from '../src/Components/ExpressionScreen/ExpressionScreen.jsx'
 import { ControlStructure } from '../src/Components/ControlStructure/ControlStructure.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { DataStructure } from './Components/DataStructure/DataStructure.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/Estructuras-de-control',
     element: <ControlStructure />
+  },
+  {
+    path: '/Estructuras-de-datos',
+    element: <DataStructure />
   },
 ]);
 

@@ -1,17 +1,17 @@
 .search-container {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .search-input {
-    border-radius: 20px;
-    padding: 8px 12px;
+    border-radius: 20px;;
     border: 3px solid #444d5c;
     background-color: #161b22;
     outline: none;
-    width: 300px; 
+    width: 310px;
+    height: 28px;
+    padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,5 @@
     font-size: 15px;
 }
 
-.search-icon {
-    position: absolute;
-    right: 440px;
-    color: #C8AD7F
-}
 
 

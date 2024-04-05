@@ -7,14 +7,14 @@ const CardComponent = (props) => {
 
   return (
     <>
-      <Link to={props.route} className='card'>
-        <article>
-          <header className="card-header">{props.title}</header>
-          <hr className="card-divider" />
-          <section className="card-content">
-            <p>{props.description}</p>
-          </section>
-        </article>
+      <Link to={props.route}>
+          <article className='card'>
+            <header className="card-header">{props.title}</header>
+            <hr className="card-divider" />
+            <section className="card-content">
+              <p>{props.description}</p>
+            </section>
+          </article>
       </Link>
     </>
 

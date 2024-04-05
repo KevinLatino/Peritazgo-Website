@@ -1,17 +1,17 @@
 .card {
-    background-color: #161b22; 
-    border: 3px solid #444d5c;
-    border-radius: 17px; 
-    width: 270px; 
-    height: 270px; 
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 10px; 
-    display: inline-block; 
-    vertical-align: top; 
-    margin-top: 30px;
-    margin-left: 110px;
-    cursor: pointer;
+  background-color: #161b22; 
+  border: 3px solid #444d5c;
+  border-radius: 17px; 
+  width: 270px; 
+  height: 270px; 
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 40px; 
+  display: inline-block; 
+  vertical-align: top; 
+  margin-top: 30px;
+  margin-left: 94px;
+  cursor: pointer;
   }
 
 .card:hover {

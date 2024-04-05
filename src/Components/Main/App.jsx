@@ -1,10 +1,8 @@
 import React from 'react'
-import { MainTitle } from  '../MainTitle/MainTitle';
+import { MainTitle } from '../MainTitle/MainTitle';
 import { CardComponent } from '../CardComponent/CardComponent';;
 import { SearchBar } from '../SearchBar/SearchBar';
 import './App.css'
-
-
 
 
 function App() {
@@ -27,7 +25,24 @@ function App() {
       description: 'Es un conjunto de normas que dan flujo a nuestro código.',
       route: '/Estructuras-de-control'
     },
+
+    {
+      title: 'Estrcturas de datos',
+      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
+      route: 'Estructuras-de-datos'
+    },
+
+    {
+      title: 'Estrcturas de datos',
+      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
+      route: 'Estructuras-de-datos'
+    },
     
+    {
+      title: 'Estrcturas de datos',
+      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
+      route: 'Estructuras-de-datos'
+    },
 
   ]
 
@@ -45,7 +60,7 @@ function App() {
     <>
       <MainTitle />
       <SearchBar search={search} setSearch={setSearch} />
-      {searchTopics.map(topic => (<CardComponent key={topic.title} title={topic.title} description={topic.description} route={topic.route}/>))}
+      {searchTopics.map(topic => (<CardComponent key={topic.title} title={topic.title} description={topic.description} route={topic.route} />))}
     </>
 
 
