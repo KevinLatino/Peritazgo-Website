@@ -1,5 +1,6 @@
 import React from 'react'
-import './MainTitle.css';
+import './MainTitle.css'
+import 'animate.css';
 
 const MainTitle = () => {
   return (

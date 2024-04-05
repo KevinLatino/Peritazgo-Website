@@ -27,7 +27,7 @@ function App() {
     },
 
     {
-      title: 'Estrcturas de datos',
+      title: 'Estructuras de datos',
       description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
       route: 'Estructuras-de-datos'
     },
