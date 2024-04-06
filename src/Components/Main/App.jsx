@@ -33,26 +33,26 @@ function App() {
     },
 
     {
-      title: 'Estrcturas de datos',
-      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
-      route: 'Estructuras-de-datos'
-    },
-    
-    {
-      title: 'Estrcturas de datos',
+      title: 'Algo asi',
       description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
       route: 'Estructuras-de-datos'
     },
 
-  ]
+    {
+      title: 'Pruebas',
+      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
+      route: 'Estructuras-de-datos'
+    },
+
+  ];
+
+  const [topic, setTopic] = React.useState(arrayTopics);
 
   const [search, setSearch] = React.useState('');
 
-  const [topic, setTopic] = React.useState(arrayTopics)
-
-  const searchTopics = topic.filter(topic =>
-  (topic.title.toLowerCase().includes(search.toLowerCase()) ||
-    topic.description.toLowerCase().includes(search.toLowerCase())
+  const searchTopic = topic.filter(topicFilter =>
+  (topicFilter.title.toLowerCase().includes(search.toLowerCase()) ||
+    topicFilter.description.toLowerCase().includes(search.toLocaleLowerCase())
   ))
 
 
@@ -60,7 +60,12 @@ function App() {
     <>
       <MainTitle />
       <SearchBar search={search} setSearch={setSearch} />
-      {searchTopics.map(topic => (<CardComponent key={topic.title} title={topic.title} description={topic.description} route={topic.route} />))}
+      {searchTopic.map(renderTopic => (<CardComponent
+        key={renderTopic.title}
+        title={renderTopic.title}
+        description={renderTopic.description}
+        route={renderTopic.route}
+      />))}
     </>
 
 
