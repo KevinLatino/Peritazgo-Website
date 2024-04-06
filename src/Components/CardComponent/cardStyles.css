@@ -1,6 +1,6 @@
 .card {
-  background-color: #202127; 
-  border: 2px solid #444d5c;
+  background-color: #161b22; 
+  border: 3px solid #444d5c;
   border-radius: 17px; 
   width: 270px; 
   height: 270px; 
@@ -15,17 +15,17 @@
   }
 
 .card:hover {
-  border: 2px solid #f67373;
+  border: 2px solid #ffdfb6;
 }
   
 .card-header {
-    color: white; 
+    color: #ffdfb6; 
     font-weight: bold;
 }
   
 .card-divider {
     height: 1px;
-    background-color: #f67373; 
+    background-color: #444d5c; 
     margin: 10px 0;
     border: none;
 }

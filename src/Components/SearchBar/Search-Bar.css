@@ -1,21 +1,21 @@
 .search-container {
     display: flex;
-    margin-left: 720px;
 }
 
 .search-input {
     border-radius: 15px;
     border: 3px solid #444d5c;
-    background-color: #1c1e21;
+    background-color: #161b22;
     outline: none;
-    width: 369px;
+    width: 311px;
     height: 30px;
     padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: -74px;
+    margin-left: 467px;
+    position: absolute;
 }
 
 .search-input::placeholder {
@@ -27,7 +27,7 @@
 .search-icon {
     display: flex;
     margin-left: -40px;
-    margin-top: -68px;
-    color: white;
+    margin-top: 5px;
+    color: #ffdfb6;
 }
 

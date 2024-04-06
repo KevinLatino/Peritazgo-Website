@@ -2,7 +2,6 @@ import React from 'react'
 import { MainTitle } from '../MainTitle/MainTitle';
 import { CardComponent } from '../CardComponent/CardComponent';;
 import { SearchBar } from '../SearchBar/SearchBar';
-import { MagicMotion } from "react-magic-motion";
 import './App.css'
 
 
