@@ -29,6 +29,7 @@ const router = createBrowserRouter([
     path: '/Estructuras-de-datos',
     element: <DataStructure />
   },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -60,7 +60,6 @@ function App() {
   return (
     <>
       <MainTitle />
-      <MagicMotion>
       <SearchBar search={search} setSearch={setSearch} />
       {searchTopic.map(renderTopic => (<CardComponent
         key={renderTopic.title}
@@ -68,7 +67,6 @@ function App() {
         description={renderTopic.description}
         route={renderTopic.route}
       />))}
-      </MagicMotion>
     </>
 
 
