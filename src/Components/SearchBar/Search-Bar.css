@@ -1,21 +1,21 @@
 .search-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-input {
-    border-radius: 15px;
+    border-radius: 20px;;
     border: 3px solid #444d5c;
     background-color: #161b22;
     outline: none;
-    width: 311px;
-    height: 30px;
+    width: 310px;
+    height: 28px;
     padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    margin-left: 467px;
-    position: absolute;
 }
 
 .search-input::placeholder {
@@ -23,11 +23,3 @@
     font-family: sans-serif;
     font-size: 15px;
 }
-
-.search-icon {
-    display: flex;
-    margin-left: -40px;
-    margin-top: 5px;
-    color: #ffdfb6;
-}
-

@@ -17,7 +17,7 @@ const SearchBar = ({ search, setSearch }) => {
                     className='search-input'
                     placeholder='Busca un tema... '
                 />
-                <Search className='search-icon' />
+
             </div>
 
         </>
