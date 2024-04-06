@@ -1,21 +1,21 @@
 .search-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 720px;
 }
 
 .search-input {
-    border-radius: 20px;;
+    border-radius: 15px;
     border: 3px solid #444d5c;
-    background-color: #161b22;
+    background-color: #1c1e21;
     outline: none;
-    width: 310px;
-    height: 28px;
+    width: 369px;
+    height: 30px;
     padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: -74px;
 }
 
 .search-input::placeholder {
@@ -24,5 +24,10 @@
     font-size: 15px;
 }
 
-
+.search-icon {
+    display: flex;
+    margin-left: -40px;
+    margin-top: -68px;
+    color: white;
+}
 

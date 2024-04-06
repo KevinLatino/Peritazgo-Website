@@ -8,18 +8,22 @@ const SearchBar = ({ search, setSearch }) => {
     }
 
     return (
-        <div className='search-container'>
-            <input
-                type="text"
-                value={search}
-                onChange={handleSearch}
-                className='search-input'
-                placeholder='Busca un tema... '
-            />
-            <Search className='search-icon' />
-        </div>
+        <>
+            <div className='search-container'>
+                <input
+                    type="text"
+                    value={search}
+                    onChange={handleSearch}
+                    className='search-input'
+                    placeholder='Busca un tema... '
+                />
+                <Search className='search-icon' />
+            </div>
+
+        </>
     );
-}
+
+};
 
 export { SearchBar }
 

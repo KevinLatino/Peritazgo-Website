@@ -5,7 +5,7 @@ import './Styles/Pseudocodigo.css'
 const Pseudocodigo = () => {
   return (
     <>
-     <h1>Pseudocódigos</h1>
+     <h1 className='All-title'>Pseudocódigos</h1>
      <p>Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.</p> 
      <section className='Pseudocodigo-Examples'>
         <p>Inicio</p>

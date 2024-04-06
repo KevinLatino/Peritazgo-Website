@@ -5,7 +5,8 @@ import 'animate.css';
 const MainTitle = () => {
   return (
     <>
-      <h1 className='title'>Temas de estudio para Peritazgo 2024</h1>
+      <h1 className='title'>Temas de estudio</h1>
+      <h1 className='subtitle'>para peritazgo 2024</h1>
     </>
   )
 }

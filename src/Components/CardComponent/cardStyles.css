@@ -1,5 +1,5 @@
 .card {
-  background-color: #161b22; 
+  background-color: #1c1e21; 
   border: 3px solid #444d5c;
   border-radius: 17px; 
   width: 270px; 
@@ -15,24 +15,24 @@
   }
 
 .card:hover {
-  border: 3px solid #ffdfb6;
+  border: 2px solid #f67373;
 }
   
 .card-header {
-    color: #ffdfb6; 
+    color: white; 
     font-weight: bold;
 }
   
 .card-divider {
     height: 1px;
-    background-color: #444d5c; 
+    background-color: #f67373; 
     margin: 10px 0;
     border: none;
 }
 
   
 .card-content {
-    color: white;
+    color: rgb(235 235 245 / 60%);
 }
   
 .card-container {

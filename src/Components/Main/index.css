@@ -1,9 +1,9 @@
 h1,
 h2,
 h3,
-p,
 header,
 li,
+p,
 ul {
     color: white;
     font-family: sans-serif;
@@ -22,8 +22,11 @@ a:hover {
 body {
     margin: 0;
     display: flex;
-    place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background-color: #010710;
+    background-color: #1b1b1d;
+}
+
+.All-title {
+ font-size: 45px;
 }

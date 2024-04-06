@@ -1,8 +1,16 @@
-.title{
+.title {
+    color: #f67373;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.subtitle {
     color: #e6edf3;
     font-family: sans-serif;
     display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
+    font-size: 50px;
 }

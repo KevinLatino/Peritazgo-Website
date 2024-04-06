@@ -7,7 +7,7 @@ import './Styles/VariableScreen.css'
 const Variable = () => {
   return (
     <>
-      <h1>Las variables</h1>
+      <h1 className='All-title'>Las variables</h1>
 
       <p>
         Una variable es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.
