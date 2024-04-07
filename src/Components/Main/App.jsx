@@ -1,7 +1,8 @@
 import React from 'react'
 import { MainTitle } from '../MainTitle/MainTitle';
-import { CardComponent } from '../CardComponent/CardComponent';;
+import { CardComponent } from '../CardComponent/CardComponent';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { useState } from 'react';
 import './App.css'
 
 
@@ -46,9 +47,9 @@ function App() {
 
   ];
 
-  const [topic, setTopic] = React.useState(arrayTopics);
+  const [topic, setTopic] = useState(arrayTopics);
 
-  const [search, setSearch] = React.useState('');
+  const [search, setSearch] = useState('');
 
   const searchTopic = topic.filter(topicFilter =>
   (topicFilter.title.toLowerCase().includes(search.toLowerCase()) ||
@@ -60,12 +61,12 @@ function App() {
     <>
       <MainTitle />
       <SearchBar search={search} setSearch={setSearch} />
-      {searchTopic.map(renderTopic => (<CardComponent
-        key={renderTopic.title}
-        title={renderTopic.title}
-        description={renderTopic.description}
-        route={renderTopic.route}
-      />))}
+        {searchTopic.map(renderTopic => (<CardComponent
+          key={renderTopic.title}
+          title={renderTopic.title}
+          description={renderTopic.description}
+          route={renderTopic.route}
+        />))}
     </>
 
 

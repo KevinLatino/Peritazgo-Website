@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { MoveLeft, Equal, CircleCheckBig } from 'lucide-react';
 import { Ban } from 'lucide-react';
 import './Styles/VariableScreen.css'

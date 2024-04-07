@@ -13,10 +13,6 @@
   margin-left: 94px;
   cursor: pointer;
   }
-
-.card:hover {
-  border: 2px solid #ffdfb6;
-}
   
 .card-header {
     color: #ffdfb6; 
