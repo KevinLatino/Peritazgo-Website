@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 6px;
-    background: rgb(57, 143, 164);
+    height: 8px;
+    background-color: rgb(43, 70, 106);
     transform-origin: 0%;
     z-index: 9999;
 }

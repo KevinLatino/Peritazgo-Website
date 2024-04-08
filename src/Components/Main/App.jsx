@@ -3,6 +3,7 @@ import { MainTitle } from '../MainTitle/MainTitle';
 import { CardComponent } from '../CardComponent/CardComponent';
 import { SearchBar } from '../SearchBar/SearchBar';
 import { useState } from 'react';
+import 'animate.css';
 import './App.css'
 
 
@@ -59,14 +60,16 @@ function App() {
 
   return (
     <>
-      <MainTitle />
-      <SearchBar search={search} setSearch={setSearch} />
+      <div className='animate__animated animate__fadeInDown'>
+        <MainTitle />
+        <SearchBar search={search} setSearch={setSearch} />
         {searchTopic.map(renderTopic => (<CardComponent
           key={renderTopic.title}
           title={renderTopic.title}
           description={renderTopic.description}
           route={renderTopic.route}
         />))}
+      </div>
     </>
 
 
