@@ -1,6 +1,7 @@
 import React from 'react';
 import './Search-Bar.css';
 import { Search } from 'lucide-react';
+import {motion} from 'framer-motion'
 
 const SearchBar = ({ search, setSearch }) => {
     const handleSearch = (event) => {
@@ -9,7 +10,11 @@ const SearchBar = ({ search, setSearch }) => {
 
     return (
         <>
-            <div className='search-container'>
+            <motion.div 
+            whileHover={{
+                scale:1.1,
+            }}
+            className='search-container'>
                 <input
                     type="text"
                     value={search}
@@ -18,7 +23,7 @@ const SearchBar = ({ search, setSearch }) => {
                     placeholder='Busca un tema... '
                 />
                 <Search className='icon-search' />
-            </div>
+            </motion.div>
 
         </>
     );
