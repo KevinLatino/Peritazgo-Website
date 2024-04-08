@@ -1,0 +1,12 @@
+.container-icon{
+    position: fixed;
+    top: 88dvh;
+    left: 88.5%;
+    background-color: #1d2f4c;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}

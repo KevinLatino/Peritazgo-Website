@@ -1,10 +1,14 @@
 import React from 'react'
+import { ProcessBar } from '../Process-Bar/ProcessBar'
 import './ControlStructures.css'
 
 
+
 const ControlStructure = () => {
+
   return (
     <>
+    <ProcessBar />
       <h1>Estructuras de Control</h1>
       <p>
         Las estructuras de control en desarrollo web son herramientas que permiten controlar el flujo de ejecución
