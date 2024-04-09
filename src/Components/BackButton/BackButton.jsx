@@ -8,10 +8,8 @@ const BackButton = () => {
     return (
         <>
             <Link to={'/'}>
-                <motion.div
-                whileHover={{
-                    scale: 1.2
-                }}
+                <motion.div 
+                whileHover={{scale:1.2}}
                 className='container-icon'>
                     <Undo2 size={38} color='white'/>
                 </motion.div>
