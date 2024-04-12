@@ -12,7 +12,7 @@ const CardComponent = (props) => {
       <MagicMotion>
         <Link to={props.route}>
           <motion.article
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.1}}
             className='card'
           >
             <header className="card-header">{props.title}</header>
