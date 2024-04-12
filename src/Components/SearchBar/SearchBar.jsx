@@ -1,6 +1,6 @@
 import React from 'react';
 import './Search-Bar.css';
-import { Search } from 'lucide-react';
+import { Search } from 'lucide-react'
 import {motion} from 'framer-motion'
 
 const SearchBar = ({ search, setSearch }) => {

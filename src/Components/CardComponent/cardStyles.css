@@ -15,7 +15,7 @@
   }
   
 .card-header {
-    color: #ffdfb6; 
+    color: #f7dcbb; 
     font-weight: bold;
 }
   
@@ -38,6 +38,14 @@
 .icon-book{
   cursor: pointer;
   color: #ffdfb6
+}
+
+.icon-box{
+  display: flex;
+  background-color: #1d2028;
+  border-radius: 15px;
+  width: 120px;
+  justify-content: center;
 }
 
 p{

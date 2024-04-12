@@ -19,6 +19,11 @@ const CardComponent = (props) => {
             <hr className="card-divider" />
             <section className="card-content">
               <p>{props.description}</p>
+              <div className='icon-box'>
+                {props.icon}
+                {props.icon2}
+                {props.icon3}
+              </div>
             </section>
           </motion.article>
         </Link>

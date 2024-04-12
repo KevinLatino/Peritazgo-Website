@@ -1,7 +1,8 @@
 import React from 'react'
 import { NotebookText } from 'lucide-react';
-import { BackButton } from '../BackButton/BackButton'
-import { ProcessBar } from '../Process-Bar/ProcessBar'
+import { Asterisk } from 'lucide-react';
+import {ProcessBar} from '../Process-Bar/ProcessBar'
+import {BackButton} from '../BackButton/BackButton'
 import './ExpressionScreen.css'
 
 const ExpressionScreen = () => {
@@ -32,12 +33,12 @@ const ExpressionScreen = () => {
           valores numéricos.
         </p>
         <section id='operations-style'>
-          <p>● Suma +: Utilizado para sumar dos valores.</p>
-          <p>● Resta -: Utilizado para restar un valor de otro.</p>
-          <p>● Multiplicación *: Utilizado para multiplicar dos valores.</p>
-          <p>● División /: Utilizado para dividir un valor entre otro.</p>
-          <p>● Módulo %: Devuelve el residuo de la división de un valor entre otro.</p>
-          <p>● Potenciación ** o ^: Utilizado para elevar un valor a una potencia.</p>
+          <p>● Suma + Utilizado para sumar dos valores.</p>
+          <p>● Resta - Utilizado para restar un valor de otro.</p>
+          <p>● Multiplicación <Asterisk size={15}/>  Utilizado para multiplicar dos valores.</p>
+          <p>● División / Utilizado para dividir un valor entre otro.</p>
+          <p>● Mod %  Devuelve el residuo de la división de un valor entre otro.</p>
+          <p>● Potenciación <Asterisk size={15} /><Asterisk size={15}/> o ^: Utilizado para elevar un valor a una potencia.</p>
         </section>
 
 
