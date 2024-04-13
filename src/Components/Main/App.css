@@ -10,3 +10,21 @@
     margin: 4px;
     padding: 2px;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 8rem;
+    row-gap: 4rem;
+    padding: 2rem;
+}

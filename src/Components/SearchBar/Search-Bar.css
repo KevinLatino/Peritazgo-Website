@@ -1,22 +1,26 @@
 .search-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.search-input {
-    border-radius: 20px;;
+    justify-content: space-between;
+    border-radius: 20px;
     border: 3px solid #444d5c;
     background-color: #161b22;
     outline: none;
-    width: 310px;
-    height: 28px;
+    width: 20rem;
     padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-input {
+    background-color: #161b22;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    margin-left: -40px;
 }
 
 .search-input::placeholder {
@@ -25,7 +29,6 @@
     font-size: 15px;
 }
 
-.icon-search{
+.icon-search {
     color: #ffdfb6;
-    margin-left: -34px;
 }

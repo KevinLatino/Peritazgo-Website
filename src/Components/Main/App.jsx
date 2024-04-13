@@ -30,9 +30,9 @@ function App() {
       title: 'Entiende las bases',
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, diagramas de flujo.',
       route: '/Aprendiendo',
-      icon: <Blocks size={21} className='icon-card'/>,
-      icon2: <Puzzle  size={21} className='icon-card'/>,
-      icon3: <BookText  size={21} className='icon-card'/>,
+      icon: <Blocks size={21} className='icon-card' />,
+      icon2: <Puzzle size={21} className='icon-card' />,
+      icon3: <BookText size={21} className='icon-card' />,
 
     },
 
@@ -60,7 +60,7 @@ function App() {
       route: 'Estructuras-de-datos',
       icon: <FileText size={21} className='icon-card' />,
       icon2: <Route size={21} className='icon-card' />,
-      icon3: <Binary  size={21} className='icon-card' />
+      icon3: <Binary size={21} className='icon-card' />
     },
 
     {
@@ -89,18 +89,20 @@ function App() {
 
   return (
     <>
-      <div className='animate__animated animate__fadeInDown'>
+      <div className='container animate__animated animate__fadeInDown'>
         <MainTitle />
         <SearchBar search={search} setSearch={setSearch} />
-        {searchTopic.map(renderTopic => (<CardComponent
-          key={renderTopic.title}
-          title={renderTopic.title}
-          description={renderTopic.description}
-          icon={renderTopic.icon}
-          icon2={renderTopic.icon2}
-          icon3={renderTopic.icon3}
-          route={renderTopic.route}
-        />))}
+        <div className='cards-container'>
+          {searchTopic.map(renderTopic => (<CardComponent
+            key={renderTopic.title}
+            title={renderTopic.title}
+            description={renderTopic.description}
+            icon={renderTopic.icon}
+            icon2={renderTopic.icon2}
+            icon3={renderTopic.icon3}
+            route={renderTopic.route}
+          />))}
+        </div>
       </div>
     </>
 
