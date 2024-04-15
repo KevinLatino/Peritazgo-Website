@@ -19,10 +19,14 @@
 
 .figures-container{
     background-color: #1b2129;
-    width: 50%;
+    width: 40%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
+.chevron-styles{
+    padding-left: 14rem;
+}

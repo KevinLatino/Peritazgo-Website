@@ -18,24 +18,25 @@ const FlowChart = () => {
       <br />
 
 
-        <MagicMotion
-          transition={{ type: "spring", stiffness: 180, damping: 20, mass: 1.1 }}
-        >
-          <motion.div 
-          whileHover={{scale:1.1}}
+      <MagicMotion
+        transition={{ type: "spring", stiffness: 180, damping: 20, mass: 1.1 }}
+      >
+        <motion.div
+          whileHover={{ scale: 1.1 }}
           className='figures-container'
+        >
+          <button
+            className='styles-button'
+            onClick={() => setOpen(!open)}
           >
-            <button
-              className='styles-button'
-              onClick={() => setOpen(!open)}
-            >
-              Has click para ver las figuras
-            </button>
-            {open && (
-              <img src={FlowCharts} width={500} />
-            )}
-          </motion.div>
-        </MagicMotion>
+            Has click para ver las figuras
+            <ChevronDown className='chevron-styles' size={32} />
+          </button>
+          {open && (
+            <img src={FlowCharts} width={500} />
+          )}
+        </motion.div>
+      </MagicMotion>
     </>
   )
 }
