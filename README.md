@@ -2,4 +2,4 @@
 
 Página enfocada en estudiantes de colegios técnicos de la especialidad de Desarrollo Web en Costa Rica, los cuales deseen estudiar para el examen de Peritazgo 2024.
 
-# Página creada con React + Vite 
+# Página web creada con React + Vite 
