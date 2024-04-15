@@ -5,7 +5,7 @@ import { Pseudocodigo } from './Learn-the-basics/Pseudocodigo'
 import { FlowChart } from './Learn-the-basics/FlowChart'
 import { ProcessBar } from '../Process-Bar/ProcessBar'
 import { BackButton } from '../BackButton/BackButton'
-import "animate.css"
+import "animate.css";
 
 
 const BasicKnowledgeScreen = () => {

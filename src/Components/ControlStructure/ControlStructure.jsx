@@ -1,5 +1,7 @@
 import React from 'react'
 import { ProcessBar } from '../Process-Bar/ProcessBar'
+import { BackButton } from '../BackButton/BackButton'
+import 'animate.css';
 import './ControlStructures.css'
 
 
@@ -9,6 +11,7 @@ const ControlStructure = () => {
   return (
     <>
     <ProcessBar />
+    <div className='animate__animated animate__fadeInLeft'>
       <h1>Estructuras de Control</h1>
       <p>
         Las estructuras de control en desarrollo web son herramientas que permiten controlar el flujo de ejecución
@@ -46,7 +49,7 @@ const ControlStructure = () => {
       </section>
       <h1>Estructuras de control condicionales o selectivas</h1>
       <p>
-        Son elementos fundamentales en la programación que permiten ejecutar
+        Permiten ejecutar
         ciertas instrucciones o bloques de código basándose en condiciones específicas.
         Estas condiciones suelen evaluarse como verdaderas o falsas. Tipos de estructuras condicionales:
       </p>
@@ -69,6 +72,8 @@ const ControlStructure = () => {
       <p>
         Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch
       </p>
+      </div>
+      <BackButton />
     </>
   )
 }
