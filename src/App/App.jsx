@@ -1,7 +1,7 @@
 import React from 'react'
-import { MainTitle } from '../MainTitle/MainTitle';
-import { CardComponent } from '../CardComponent/CardComponent';
-import { SearchBar } from '../SearchBar/SearchBar';
+import { MainTitle } from '../Components/MainTitle/MainTitle';
+import { CardComponent } from '../Components/CardComponent/CardComponent';
+import { SearchBar } from '../Components/SearchBar/SearchBar';
 import { useState } from 'react';
 import {
   BookText,
@@ -17,7 +17,8 @@ import {
   RefreshCcw,
   FileText,
   Database,
-  Server
+  Server,
+  icons
 } from 'lucide-react';
 import 'animate.css';
 import './App.css'
@@ -30,37 +31,44 @@ function App() {
       title: 'Entiende las bases',
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, diagramas de flujo.',
       route: '/Aprendiendo',
-      icon: <Blocks size={21} className='icon-card' />,
-      icon2: <Puzzle size={21} className='icon-card' />,
-      icon3: <BookText size={21} className='icon-card' />,
-
+      icons: [
+        <Blocks size={21} className='icon-card' />,
+        <Puzzle size={21} className='icon-card' />,
+        <BookText size={21} className='icon-card' />,
+      ],
     },
 
     {
       title: 'Expresiones',
       description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
       route: '/Expresiones',
-      icon: <Ampersands size={21} className='icon-card' />,
-      icon2: <Divide size={21} className='icon-card' />,
-      icon3: <BrainCircuit size={21} className='icon-card' />
+      icons: [
+        <Ampersands size={21} className='icon-card' />,
+        <Divide size={21} className='icon-card' />,
+        <BrainCircuit size={21} className='icon-card' />
+      ],
     },
 
     {
       title: 'Estructuras de control',
       description: 'Componentes de la programación que permiten controlar el flujo de ejecución de un programa',
       route: '/Estructuras-de-control',
-      icon: <Split size={21} className='icon-card' />,
-      icon2: <Workflow size={21} className='icon-card' />,
-      icon3: <RefreshCcw size={21} className='icon-card' />
+      icons: [
+        <Split size={21} className='icon-card' />,
+        <Workflow size={21} className='icon-card' />,
+        <RefreshCcw size={21} className='icon-card' />
+      ],
     },
 
     {
       title: 'Estructuras de datos',
       description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
       route: 'Estructuras-de-datos',
-      icon: <FileText size={21} className='icon-card' />,
-      icon2: <Route size={21} className='icon-card' />,
-      icon3: <Binary size={21} className='icon-card' />
+      icons: [
+        <FileText size={21} className='icon-card' />,
+        <Route size={21} className='icon-card' />,
+        <Binary size={21} className='icon-card' />
+      ],
     },
 
     {
@@ -97,10 +105,7 @@ function App() {
             key={renderTopic.title}
             title={renderTopic.title}
             description={renderTopic.description}
-            icon={renderTopic.icon}
-            icon2={renderTopic.icon2}
-            icon3={renderTopic.icon3}
-            route={renderTopic.route}
+            icons={renderTopic.icons}
           />))}
         </div>
       </div>

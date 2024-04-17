@@ -20,9 +20,7 @@ const CardComponent = (props) => {
             <section className="card-content">
               <p>{props.description}</p>
               <div className='icon-box'>
-                {props.icon}
-                {props.icon2}
-                {props.icon3}
+                {props.icons}
               </div>
             </section>
           </motion.article>
