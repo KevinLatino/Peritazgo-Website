@@ -33,8 +33,8 @@ const ExpressionScreen = () => {
           valores numéricos.
         </p>
         <section id='operations-style'>
-          <p>● Suma + Utilizado para sumar dos valores.</p>
-          <p>● Resta - Utilizado para restar un valor de otro.</p>
+          <p>● Suma + Es utilizado para realizar la suma de dos valores.</p>
+          <p>● Resta - Es utilizado para realizar una restar de dos valores.</p>
           <p>● Multiplicación <Asterisk size={15}/>  Utilizado para multiplicar dos valores.</p>
           <p>● División / Utilizado para dividir un valor entre otro.</p>
           <p>● Mod %  Devuelve el residuo de la división de un valor entre otro.</p>
@@ -49,12 +49,12 @@ const ExpressionScreen = () => {
           valor de verdadero o falso según el resultado de la comparación.
         </p>
         <section id='relations-styles'>
-          <p>● num1 == num2: num1 y num2 tienen el mismo valor</p>
-          <p>● num1 != num2 o num1  num2: num1 y num2 tienen distinto valor </p>
-          <p>● num1 &lt; num2: num1 es menor que num2 </p>
-          <p>● num1 &lt;= num2: num1 es menor o igual que num2</p>
-          <p>● num1 &gt; num2: num1 es mayor que num2</p>
-          <p>● num1 &gt;= num2: num1 es mayor o igual que num2</p>
+          <p>● Num1 == Num2: Quiere dicir que Num1 y Num2 tienen el mismo valor</p>
+          <p>● Num1 != Num2 o Num1  Num2: Num1 y Num2 tienen distinto valor </p>
+          <p>● Num1 &lt; Num2: Quiere decir que Num1 es menor que Num2 </p>
+          <p>● Num1 &lt;= Num2: Num1 es menor o igual que Num2</p>
+          <p>● Num1 &gt; Num2: Quiere decir que Num1 es mayor que Num2</p>
+          <p>● Num1 &gt;= Num2: Num1 es mayor o igual que Num2</p>
         </section>
 
         <h1 className='All-title'>Operadores Lógicos</h1>

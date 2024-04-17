@@ -5,22 +5,22 @@ import { MagicMotion } from "react-magic-motion";
 import './cardStyles.css'
 
 
-const CardComponent = (props) => {
+const CardComponent = ({title, route, description, icons}) => {
 
   return (
     <>
       <MagicMotion>
-        <Link to={props.route}>
+        <Link to={route}>
           <motion.article
             whileHover={{ scale: 1.1}}
             className='card'
           >
-            <header className="card-header">{props.title}</header>
+            <header className="card-header">{title}</header>
             <hr className="card-divider" />
             <section className="card-content">
-              <p>{props.description}</p>
+              <p>{description}</p>
               <div className='icon-box'>
-                {props.icons}
+                {icons}
               </div>
             </section>
           </motion.article>

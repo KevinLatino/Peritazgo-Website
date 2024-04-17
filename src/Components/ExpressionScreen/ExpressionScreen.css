@@ -1,5 +1,5 @@
 #background-styles{
-    background-color: #1c2431;
+    background-color: #2B6E6233;
     width: 300px;
     height: 280px; 
     margin-top: 20px;
@@ -10,41 +10,53 @@
 
 #operations-style{
     background-color: #1c2431;
-    width: 400px;
-    height: 340px; 
-    margin-top: 20px;
+    width: 26rem;
+    height: 29rem; 
     border-radius: 20px;
-    padding-left: 20px;
     padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 #relations-styles{
     background-color: #1c2431;
-    width: 400px;
-    height: 310px; 
-    margin-top: 20px;
+    width: 26rem;
+    height: 29rem;
     border-radius: 20px;
-    padding-left: 20px;
-    padding: 20px;   
+    padding: 20px;  
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 #logical-operators{
     background-color: #1c2431;
-    width: 400px;
-    height: 200px; 
-    margin-top: 20px;
+    width: 20rem;
+    height: 19rem; 
     border-radius: 20px;
-    padding-left: 20px;
     padding: 20px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
 }
 
 #note-styles{
     background-color: #2B6E6233;
-    width: 440px;
-    height: 400px;
+    width: 27rem;
+    height: 28rem;
     border-radius: 20px;
-    padding-left: 20px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 #note-h2{
@@ -54,7 +66,6 @@
 #icon-book{
     color: #44AC99;
     filter: drop-shadow(2px 2px 5px  #44AC99);
-    margin-left: 5px;
 }
 
 li{

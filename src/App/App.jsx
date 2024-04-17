@@ -24,7 +24,8 @@ import 'animate.css';
 import './App.css'
 
 
-function App() {
+const  App = () => {
+  
   const arrayTopics = [
 
     {
@@ -89,10 +90,10 @@ function App() {
 
   const [search, setSearch] = useState('');
 
-  const searchTopic = topic.filter(topicFilter =>
-  (topicFilter.title.toLowerCase().includes(search.toLowerCase()) ||
-    topicFilter.description.toLowerCase().includes(search.toLocaleLowerCase())
-  ))
+  const searchTopic = topic.filter(topic =>
+    (topic.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())) ||
+    (topic.description.toLocaleLowerCase().includes(search.toLocaleLowerCase()))
+  )
 
 
   return (
@@ -103,6 +104,7 @@ function App() {
         <div className='cards-container'>
           {searchTopic.map(renderTopic => (<CardComponent
             key={renderTopic.title}
+            route={renderTopic.route}
             title={renderTopic.title}
             description={renderTopic.description}
             icons={renderTopic.icons}

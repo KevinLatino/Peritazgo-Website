@@ -12,12 +12,12 @@ const ControlStructure = () => {
     <>
     <ProcessBar />
     <div className='animate__animated animate__fadeInLeft'>
-      <h1>Estructuras de Control</h1>
+      <h1 className='All-title'>Estructuras de Control</h1>
       <p>
         Las estructuras de control en desarrollo web son herramientas que permiten controlar el flujo de ejecución
         de un programa o aplicación web.
       </p>
-      <h1>Estructuras de Control Secuenciales</h1>
+      <h1 className='All-title'>Estructuras de Control Secuenciales</h1>
       <p>
         Las estructuras de control secuenciales en programación simplemente se refieren a ejecutar una instrucción
         después de otra en orden. Es como seguir los pasos de una receta de cocina uno tras otro, sin saltarse ninguno.
@@ -47,7 +47,7 @@ const ControlStructure = () => {
           Fin
         </p>
       </section>
-      <h1>Estructuras de control condicionales o selectivas</h1>
+      <h1 className='All-title'>Estructuras de control condicionales o selectivas</h1>
       <p>
         Permiten ejecutar
         ciertas instrucciones o bloques de código basándose en condiciones específicas.
