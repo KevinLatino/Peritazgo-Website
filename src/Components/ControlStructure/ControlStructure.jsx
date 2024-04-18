@@ -56,25 +56,25 @@ const ControlStructure = () => {
           ciertas instrucciones o bloques de código basándose en condiciones específicas.
           Estas condiciones suelen evaluarse como verdaderas o falsas. Tipos de estructuras condicionales:
         </p>
-        <h2>● Condicionales Simples</h2>
+        <h2 className='subtitle'>Condicionales Simples</h2>
           <p>
             Esta estructura condicional es la más simple, esta simplemente hace algo si
             la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
           </p>
-          <img className='img-styles'src={SimpleIf} width={320} />
-        <h2>● Condicionales Dobles</h2>
+          <img className='img-styles'src={SimpleIf} width={300} />
+        <h2 className='subtitle'>Condicionales Dobles</h2>
         <p>
           Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
           el condicional va a hacer algo aunque el resultado sea falso o verdadero
         </p>
-        <img className='img-styles'src={DobleIf} width={350} />
-        <h2>● Condicionales Anidados</h2>
+        <img className='img-styles'src={DobleIf} width={375} />
+        <h2 className='subtitle'>Condicionales Anidados</h2>
         <p>
           Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
           de control implementa otra condicional dentro de una condicional
         </p>
-        <img className='img-styles'src={MultipleIf} width={350} />
-        <h2>● Condicionales Múltiples</h2>
+        <img className='img-styles'src={MultipleIf} width={375} />
+        <h2 className='subtitle'>Condicionales Múltiples</h2>
         <p>
           Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch
         </p>
