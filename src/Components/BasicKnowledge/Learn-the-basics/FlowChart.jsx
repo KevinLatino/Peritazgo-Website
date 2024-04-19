@@ -16,8 +16,6 @@ const FlowChart = () => {
         Los diagramas de flujo están compuestos por un conjunto estandarizado de figuras.
       </p>
       <br />
-
-
       <MagicMotion
         transition={{ type: "spring", stiffness: 180, damping: 20, mass: 1.1 }}
       >
