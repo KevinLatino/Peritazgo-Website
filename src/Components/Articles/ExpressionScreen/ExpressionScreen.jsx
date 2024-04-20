@@ -1,8 +1,8 @@
 import React from 'react'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
-import {ProcessBar} from '../Process-Bar/ProcessBar'
-import {BackButton} from '../BackButton/BackButton'
+import {ProcessBar} from '../../Process-Bar/ProcessBar'
+import {BackButton} from '../../BackButton/BackButton'
 import './ExpressionScreen.css'
 
 const ExpressionScreen = () => {

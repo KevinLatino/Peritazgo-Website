@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App/App.jsx'
 import './App/index.css'
-import { BasicKnowledgeScreen } from '../src/Components/BasicKnowledge/BasicKnowledge.jsx'
-import { ExpressionScreen } from '../src/Components/ExpressionScreen/ExpressionScreen.jsx'
-import { ControlStructure } from '../src/Components/ControlStructure/ControlStructure.jsx'
+import { BasicKnowledgeScreen } from '../src/Components/Articles/BasicKnowledge/BasicKnowledge.jsx'
+import { ExpressionScreen } from '../src/Components/Articles/ExpressionScreen/ExpressionScreen.jsx'
+import { ControlStructure } from '../src/Components/Articles/ControlStructure/ControlStructure.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { DataStructure } from './Components/DataStructure/DataStructure.jsx'
+import { DataStructure } from './Components/Articles/DataStructure/DataStructure.jsx'
 
 const router = createBrowserRouter([
   {

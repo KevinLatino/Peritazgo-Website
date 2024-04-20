@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { MagicMotion } from "react-magic-motion";
+import React from 'react';
 import './Styles/Algorithm.css';
 
 const Algorithm = () => {

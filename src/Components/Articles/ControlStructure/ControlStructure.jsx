@@ -1,16 +1,17 @@
 import React from 'react'
+import simpleIf from '../../../Images/Simple-If.jpg'
+import dobleIf from '../../../Images/Doble-if.png'
+import multipleIf from '../../../Images/Multiple-if.png'
 import { useState } from 'react'
-import { ProcessBar } from '../Process-Bar/ProcessBar'
-import { BackButton } from '../BackButton/BackButton'
+import { ProcessBar } from '../../Process-Bar/ProcessBar'
+import { BackButton } from '../../BackButton/BackButton'
 import { MagicMotion } from 'react-magic-motion'
 import { ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
-import SimpleIf from '../../Images/Simple-If.jpg'
-import DobleIf from '../../Images/Doble-if.jpg'
-import MultipleIf from '../../Images/Multiple-if.png'
-import '../../App/index.css'
+import '../../../App/index.css'
 import './ControlStructures.css'
 import 'animate.css';
+import '../../Articles/BasicKnowledge/BasicKnowledge'
 
 
 
@@ -84,19 +85,19 @@ const ControlStructure = () => {
                   Esta estructura condicional es la más simple, esta simplemente hace algo si
                   la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
                 </p>
-                <img className='img-styles' src={SimpleIf} width={300} />
+                <img className='img-styles' src={simpleIf} width={300} />
                 <h2 className='subtitle'>Condicionales Dobles</h2>
                 <p>
                   Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
                   el condicional va a hacer algo aunque el resultado sea falso o verdadero
                 </p>
-                <img className='img-styles' src={DobleIf} width={375} />
+                <img className='img-styles' src={dobleIf} width={375} />
                 <h2 className='subtitle'>Condicionales Anidados</h2>
                 <p>
                   Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
                   de control implementa otra condicional dentro de una condicional
                 </p>
-                <img className='img-styles' src={MultipleIf} width={385} />
+                <img className='img-styles' src={multipleIf} width={385} />
                 <h2 className='subtitle'>Condicionales Múltiples</h2>
                 <p>
                   Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch

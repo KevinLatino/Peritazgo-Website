@@ -1,8 +1,8 @@
 import React from 'react'
+import FlowCharts from '../../../../Images/FlowChart.png'
 import { useState } from 'react'
 import { MagicMotion } from 'react-magic-motion'
 import { ChevronDown } from 'lucide-react'
-import FlowCharts from '../../../Images/FlowChart.png'
 import { motion } from 'framer-motion'
 import './Styles/FlowChart.css'
 

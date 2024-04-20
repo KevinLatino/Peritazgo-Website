@@ -24,7 +24,7 @@ const Variable = () => {
       </section>
 
       <section id='allowed'>
-        <h3 id='allowed-h3'>Buenas prácticas al utilizar variables <CircleCheckBig id='icon-check'/></h3>
+        <h3 id='allowed-h3'>Buenas prácticas al utilizar variables <CircleCheckBig id='icon-check' /></h3>
         <p>● Nombres descriptivos: que reflejen el propósito de la variable.</p>
         <p>● Utilizar camelCase:  para mantener la consistencia en el código</p>
         <p>● Usar nombres en inglés: debido a que es el idioma universal</p>

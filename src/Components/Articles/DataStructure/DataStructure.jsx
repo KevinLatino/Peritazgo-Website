@@ -1,6 +1,6 @@
 import React from 'react'
-import { BackButton } from '../BackButton/BackButton'
-import { ProcessBar } from '../Process-Bar/ProcessBar'
+import { BackButton } from '../../BackButton/BackButton'
+import { ProcessBar } from '../../Process-Bar/ProcessBar'
 import "animate.css"
 
 const DataStructure = () => {
