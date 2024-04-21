@@ -2,22 +2,36 @@ import React from 'react'
 import simpleIf from '../../../Images/Simple-If.jpg'
 import dobleIf from '../../../Images/Doble-if.png'
 import multipleIf from '../../../Images/Multiple-if.png'
+import For from '../.././../Images/For.png'
+import While from '../../../Images/While.png'
+import doWhile from '../../../Images/DoWhile.png'
 import { useState } from 'react'
 import { ProcessBar } from '../../Process-Bar/ProcessBar'
 import { BackButton } from '../../BackButton/BackButton'
 import { MagicMotion } from 'react-magic-motion'
 import { ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
-import '../../../App/index.css'
-import './ControlStructures.css'
 import 'animate.css';
 import '../../Articles/BasicKnowledge/BasicKnowledge'
-
-
+import '../../../App/index.css'
+import './ControlStructures.css'
 
 
 const ControlStructure = () => {
-  const [open, setOpen] = useState(false);
+
+  //Lógica para el botón de tipos de condicionales
+  const [openCondionals, setOpenCondionals] = useState(false);
+
+  const handleOpenCondionals = () => {
+    setOpenCondionals(!openCondionals)
+  }
+
+  //Lógica para el botón de tipos de ciclos
+  const [openCycles, setOpenCycles] = useState(false);
+
+  const handleOpenCycles = () => {
+    setOpenCycles(!openCycles)
+  }
 
   return (
     <>
@@ -25,14 +39,18 @@ const ControlStructure = () => {
       <div className='animate__animated animate__fadeInLeft'>
         <h1 className='All-title'>Estructuras de Control</h1>
         <p>
-          Las estructuras de control en desarrollo web son herramientas que permiten controlar el flujo de ejecución
+          Las estructuras de control en desarrollo web son herramientas que
+          permiten controlar el flujo de ejecución
           de un programa o aplicación web.
         </p>
+
+
         <h1 className='All-title'>Estructuras de Control Secuenciales</h1>
         <p>
           Las estructuras de control secuenciales en programación simplemente se refieren a ejecutar una instrucción
           después de otra en orden. Es como seguir los pasos de una receta de cocina uno tras otro, sin saltarse ninguno.
         </p>
+
         <section id='background-code'>
           <p>
             Inicio
@@ -53,32 +71,32 @@ const ControlStructure = () => {
           <p>
             Escribir "El área del rectángulo es: ", area
           </p>
-
           <p>
             Fin
           </p>
+
+
         </section>
         <h1 className='All-title'>Estructuras de control condicionales o selectivas</h1>
         <p>
           Permiten ejecutar
           ciertas instrucciones o bloques de código basándose en condiciones específicas.
-          Estas condiciones suelen evaluarse como verdaderas o falsas. Tipos de estructuras condicionales:
+          Estas condiciones suelen evaluarse como verdaderas o falsas.
         </p>
+
         <MagicMotion
           transition={{ type: "spring", stiffness: 180, damping: 20, mass: 1.1 }}
         >
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className='conditional-types'
-          >
+          <h2 className='subtitle'>Tipos:</h2>
+          <div className="conditional-types">
             <button
-              className='styles-button'
-              onClick={() => setOpen(!open)}
+              className='button-styles'
+              onClick={handleOpenCondionals}
             >
-              Has click para ver las figuras
-              <ChevronDown className='chevron-styles' size={32} />
+              Has click par ver más
+              <ChevronDown className='ChevronDown' size={29} />
             </button>
-            {open && (
+            {openCondionals && (
               <>
                 <h2 className='subtitle'>Condicionales Simples</h2>
                 <p>
@@ -104,30 +122,53 @@ const ControlStructure = () => {
                 </p>
               </>
             )}
-          </motion.div>
-
+          </div>
         </MagicMotion>
+
+
         <h1 className="All-title">Estructuras de Control Repetitivas</h1>
         <p>
           Las estructuras de control repetitivas repiten la ejecución de estructuras de control específicas mientras se cumpla una condición lógica dada. Existen tres tipos de
           estructuras de control repetitivas: los ciclos para, los ciclos mientras y los ciclos hacer-mientras.
         </p>
-        <h2>Tipos:</h2>
-        <h2 className="subtitle">Ciclos Para (For)</h2>
-        <p>
-          Los ciclos para son estructuras de control repetitivas que contienen la inicialización de la variable con el valor inicial, la condición lógica
-          y la instrucción de incremento o decremento, todo en una única y misma cláusula.
-        </p>
-        <h2 className="subtitle">Ciclos Mientras (While)</h2>
-        <p>
-          Los ciclos mientras son estructuras de control repetitivas que tienen la inicialización de la variable con el valor inicial, la condición lógica y
-          la instrucción de incremento o decremento en distintas cláusulas.
-        </p>
-        <h2 className='subtitle'>Ciclos Hacer-Mientras (Do While)</h2>
-        <p>
-          Los ciclos hacer-mientras son estructuras de control repetitivas que al igual que los ciclos mientras, tienen sus elementos en distintas cláusulas. Sin embargo, a diferencia de los ciclos mientras,
-          los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
-        </p>
+
+
+        <h2 className='subtitle'>Tipos:</h2>
+        <div className='cycles'>
+          <button
+            className='button-styles'
+            onClick={handleOpenCycles}
+          >
+            Has click para ver más
+            <ChevronDown className='ChevronDown' size={29} />
+          </button>
+          {openCycles && (
+            <>
+              <h2 className="subtitle">Ciclos Para (For)</h2>
+              <p>
+                Los ciclos para son estructuras de control repetitivas que contienen la inicialización de la variable con el valor inicial, la condición lógica
+                y la instrucción de incremento o decremento, todo en una única y misma cláusula.
+              </p>
+              <img src={For} width={190} />
+
+
+              <h2 className="subtitle">Ciclos Mientras (While)</h2>
+              <p>
+                Los ciclos mientras son estructuras de control repetitivas que tienen la inicialización de la variable con el valor inicial, la condición lógica y
+                la instrucción de incremento o decremento en distintas cláusulas.
+              </p>
+              <img src={While} width={210} />
+
+
+              <h2 className='subtitle'>Ciclos Hacer-Mientras (Do While)</h2>
+              <p>
+                Los ciclos hacer-mientras son estructuras de control repetitivas que al igual que los ciclos mientras, tienen sus elementos en distintas cláusulas. Sin embargo, a diferencia de los ciclos mientras,
+                los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
+              </p>
+              <img src={doWhile} width={210} />
+            </>
+          )}
+        </div>
       </div>
       <BackButton />
     </>
