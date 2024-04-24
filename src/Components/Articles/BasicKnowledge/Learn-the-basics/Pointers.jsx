@@ -27,7 +27,7 @@ const Pointers = () => {
                 La aritmética de punteros es el conjunto de operaciones propias de los punteros y las variables puntero.
             </p>
             <section className='pointers-note'>
-                <h2 id='note-h2'>Nota  <NotebookText id='icon-book' /></h2>
+                <h2 className='note'>Nota  <NotebookText className='icon' /></h2>
                 <p>● &x: La dirección en memoria de la variable x</p>
                 <p>● *p: El valor de la variable a la que apunta la variable puntero p</p>
                 <p>● *p = y: Se almacena el valor y en la dirección en memoria que almacena la variable puntero p</p>
