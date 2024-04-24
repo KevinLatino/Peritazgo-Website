@@ -126,49 +126,50 @@ const ControlStructure = () => {
         </MagicMotion>
 
 
-        <h1 className="All-title">Estructuras de Control Repetitivas</h1>
+        <h1 className="All-title">Estructuras de Control Repetitivas o cíclicas</h1>
         <p>
           Las estructuras de control repetitivas repiten la ejecución de estructuras de control específicas mientras se cumpla una condición lógica dada. Existen tres tipos de
           estructuras de control repetitivas: los ciclos para, los ciclos mientras y los ciclos hacer-mientras.
         </p>
 
-
-        <h2 className='subtitle'>Tipos:</h2>
-        <div className='cycles'>
-          <button
-            className='button-styles'
-            onClick={handleOpenCycles}
-          >
-            Has click para ver más
-            <ChevronDown className='ChevronDown' size={29} />
-          </button>
-          {openCycles && (
-            <>
-              <h2 className="subtitle">Ciclos Para (For)</h2>
-              <p>
-                Los ciclos para son estructuras de control repetitivas que contienen la inicialización de la variable con el valor inicial, la condición lógica
-                y la instrucción de incremento o decremento, todo en una única y misma cláusula.
-              </p>
-              <img src={For} width={190} />
-
-
-              <h2 className="subtitle">Ciclos Mientras (While)</h2>
-              <p>
-                Los ciclos mientras son estructuras de control repetitivas que tienen la inicialización de la variable con el valor inicial, la condición lógica y
-                la instrucción de incremento o decremento en distintas cláusulas.
-              </p>
-              <img src={While} width={210} />
+        <MagicMotion>
+          <h2 className='subtitle'>Tipos:</h2>
+          <div className='cycles'>
+            <button
+              className='button-styles'
+              onClick={handleOpenCycles}
+            >
+              Has click para ver más
+              <ChevronDown className='ChevronDown' size={29} />
+            </button>
+            {openCycles && (
+              <>
+                <h2 className="subtitle">Ciclos Para (For)</h2>
+                <p>
+                  Los ciclos para son estructuras de control repetitivas que contienen la inicialización de la variable con el valor inicial, la condición lógica
+                  y la instrucción de incremento o decremento, todo en una única y misma cláusula.
+                </p>
+                <img src={For} width={190} />
 
 
-              <h2 className='subtitle'>Ciclos Hacer-Mientras (Do While)</h2>
-              <p>
-                Los ciclos hacer-mientras son estructuras de control repetitivas que al igual que los ciclos mientras, tienen sus elementos en distintas cláusulas. Sin embargo, a diferencia de los ciclos mientras,
-                los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
-              </p>
-              <img src={doWhile} width={210} />
-            </>
-          )}
-        </div>
+                <h2 className="subtitle">Ciclos Mientras (While)</h2>
+                <p>
+                  Los ciclos mientras son estructuras de control repetitivas que tienen la inicialización de la variable con el valor inicial, la condición lógica y
+                  la instrucción de incremento o decremento en distintas cláusulas.
+                </p>
+                <img src={While} width={210} />
+
+
+                <h2 className='subtitle'>Ciclos Hacer-Mientras (Do While)</h2>
+                <p>
+                  Los ciclos hacer-mientras son estructuras de control repetitivas que al igual que los ciclos mientras, tienen sus elementos en distintas cláusulas. Sin embargo, a diferencia de los ciclos mientras,
+                  los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
+                </p>
+                <img src={doWhile} width={210} />
+              </>
+            )}
+          </div>
+        </MagicMotion>
       </div>
       <BackButton />
     </>
