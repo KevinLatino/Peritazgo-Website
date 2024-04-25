@@ -1,5 +1,6 @@
 import React from 'react'
 import FlowCharts from '../../../../Images/FlowChart.png'
+import { Title } from '../../../TitleText/Title'
 import { Accordion } from '../../../AccordionComponent/Accordion'
 import './Styles/FlowChart.css'
 
@@ -8,7 +9,9 @@ const FlowChart = () => {
   return (
     <>
 
-      <h1 className='All-title'>Diagramas de flujo</h1>
+      <Title>
+        Diagramas de flujo
+      </Title>
       <p>
         Un diagrama de flujo es una representación gráfica de un pseudocódigo.
         Los diagramas de flujo están compuestos por un conjunto estandarizado de figuras.

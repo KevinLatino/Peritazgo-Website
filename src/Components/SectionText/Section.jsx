@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Children } from 'react'
 import './Section.css'
 
-export const SectionBlue = ({ children }) => {
+export const BlueSection = ({ children }) => {
     return (
         <>
             <div className='blue-note'>
@@ -11,7 +11,8 @@ export const SectionBlue = ({ children }) => {
     )
 }
 
-export const SectionGreen = ({ children }) => {
+
+export const GreenSection = ({ children }) => {
     return (
         <div className="green-note">
             {children}
@@ -19,7 +20,7 @@ export const SectionGreen = ({ children }) => {
     )
 }
 
-export const SectionRed = ({ children }) => {
+export const RedSection = ({ children }) => {
     return (
         <div className="red-note">
             {children}
