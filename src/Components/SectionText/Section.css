@@ -1,0 +1,30 @@
+.blue-note{
+    margin-top: 30px;
+    background-color: #1c2431;
+    width: 240px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 1px;
+    padding-left: 20px;
+}
+
+
+.green-note{
+    background-color: #2B6E6233;
+    width: 370px;
+    height: 330px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.red-note{
+    background-color: rgb(69, 50, 49);
+    width: 370px;
+    height: 330px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}

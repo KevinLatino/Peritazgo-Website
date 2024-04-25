@@ -9,42 +9,8 @@
     margin-left: 10px;
 }
 
-#example-styles{
-    margin-top: 30px;
-    background-color: #1c2431;
-    width: 240px;
-    height: 170px;
-    border-radius: 15px;
-    padding: 1px;
-    padding-left: 20px;
-}
-
-#example-styles p:first-child {
-  margin-top: 20px; 
-}
-
-#allowed{
-    background-color: #2B6E6233;
-    width: 370px;
-    height: 330px;
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-top: 30px;
-    padding: 20px;
-}
-
 #allowed-h3{
     color: #44AC99;
-}
-
-#not-allowed{
-    background-color: rgb(69, 50, 49);
-    width: 370px;
-    height: 330px;
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-top: 30px;
-    padding: 20px;
 }
 
 #not-allowed-h3{
