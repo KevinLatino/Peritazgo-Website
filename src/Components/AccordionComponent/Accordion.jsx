@@ -17,18 +17,19 @@ const Accordion = ({ title, children }) => {
         <>
             <MagicMotion>
                 <div className='accordion-container'>
-
                     <button
                         className='accordion-button'
                         onClick={handleOpen}
                     >
                         {title}
-                        <ChevronDown size={32} className='chevron-styles'/>
+                        <ChevronDown size={32} className='chevron-styles' />
                     </button>
-                    
+
                     {open && (
                         <>
-                            {children}
+                            <div className='content-container'>
+                                {children}
+                            </div>
                         </>
                     )}
                 </div>
