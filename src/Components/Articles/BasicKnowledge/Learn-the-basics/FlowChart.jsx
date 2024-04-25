@@ -1,43 +1,22 @@
 import React from 'react'
 import FlowCharts from '../../../../Images/FlowChart.png'
-import { useState } from 'react'
-import { MagicMotion } from 'react-magic-motion'
-import { ChevronDown } from 'lucide-react'
+import { Accordion } from '../../../AccordionComponent/Accordion'
 import './Styles/FlowChart.css'
 
 const FlowChart = () => {
 
-  const [open, setOpen] = useState(false);
-
-  const handleClosed = () => [
-    setOpen(!open)
-  ]
-
   return (
     <>
-      <MagicMotion
-        transition={{stiffness: 180, damping: 20, mass: 1.1 }}
-      >
-        <h1 className='All-title'>Diagramas de flujo</h1>
-        <p>
-          Un diagrama de flujo es una representación gráfica de un pseudocódigo.
-          Los diagramas de flujo están compuestos por un conjunto estandarizado de figuras.
-        </p>
-        <div
-          className='figures-container'
-        >
-          <button
-            className='styles-button'
-            onClick={handleClosed}
-          >
-            Has click para ver más
-            <ChevronDown size={32} className='chevron-styles' />
-          </button>
-          {open && (
-            <img src={FlowCharts} width={500} />
-          )}
-        </div>
-      </MagicMotion>
+
+      <h1 className='All-title'>Diagramas de flujo</h1>
+      <p>
+        Un diagrama de flujo es una representación gráfica de un pseudocódigo.
+        Los diagramas de flujo están compuestos por un conjunto estandarizado de figuras.
+      </p>
+
+      <Accordion title='Has click para ver más'>
+        <img src={FlowCharts} width={480} />
+      </Accordion>
     </>
   )
 }

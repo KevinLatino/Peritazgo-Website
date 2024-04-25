@@ -2,33 +2,3 @@
     font-size:  150px;
     color: rgb(54, 143, 210);    
 }
-
-.styles-button{
-    border: none;
-    cursor: pointer;
-    background: fixed;
-    width: 100%;
-    text-align: left;
-    display: flex;
-    align-items:center;
-    color: #ffdfb6;
-    font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-size: 18px;
-    padding: 20px;
-}
-
-.figures-container{
-    background-color: #1b2129;
-    width: 40%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-
-.chevron-styles {
-    padding-left: 16rem;
-}

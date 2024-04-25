@@ -24,13 +24,13 @@ import 'animate.css';
 import './App.css'
 
 
-const  App = () => {
-  
+const App = () => {
+
   const arrayTopics = [
 
     {
       title: 'Entiende las bases',
-      description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, diagramas de flujo.',
+      description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, punteros, diagramas de flujo.',
       route: '/Aprendiendo',
       icons: [
         <Blocks size={21} className='icon-card' />,
@@ -85,6 +85,7 @@ const  App = () => {
     },
 
   ];
+
 
   const [topic, setTopic] = useState(arrayTopics);
 
