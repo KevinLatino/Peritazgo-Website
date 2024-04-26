@@ -4,13 +4,6 @@
     padding: 2rem;
 }
 
-.icon-card{
-    color: #5cafad;
-    filter: drop-shadow(2px 2px 8px  #5cafad99);
-    margin: 4px;
-    padding: 2px;
-}
-
 .container{
     display: flex;
     align-items: center;

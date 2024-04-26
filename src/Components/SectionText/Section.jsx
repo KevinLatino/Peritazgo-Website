@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React, { children } from 'react'
 import './Section.css'
 
 export const BlueSection = ({ children }) => {

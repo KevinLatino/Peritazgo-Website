@@ -32,6 +32,7 @@ const Variable = () => {
         <p>num = 0</p>
       </BlueSection>
       <br />
+
       <GreenSection>
         <h3 id='allowed-h3'>Buenas prácticas al utilizar variables <CircleCheckBig id='icon-check' /></h3>
         <p>● Nombres descriptivos: que reflejen el propósito de la variable.</p>
@@ -40,6 +41,7 @@ const Variable = () => {
         <p>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos</p>
       </GreenSection>
       <br />
+      
       <RedSection>
         <h3 id='not-allowed-h3'>Malas prácticas al utilizar variables <Ban id='ban-icon' /></h3>
         <p>● Nombres descriptivos: que reflejen el propósito de la variable.</p>

@@ -28,13 +28,11 @@
     color: rgb(235 235 245 / 60%);
 }
   
-.card-container {
-    text-align: center; 
-}
-
-.icon-book{
-  cursor: pointer;
-  color: #ffdfb6
+.icon-card{
+  color: #5cafad;
+  filter: drop-shadow(2px 2px 8px  #5cafad99);
+  margin: 4px;
+  padding: 2px;
 }
 
 .icon-box{
@@ -43,8 +41,4 @@
   border-radius: 15px;
   width: 120px;
   justify-content: center;
-}
-
-p{
-  font-family: sans-serif;
 }
