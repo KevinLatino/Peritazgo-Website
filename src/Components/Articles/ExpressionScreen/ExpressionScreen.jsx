@@ -4,7 +4,7 @@ import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { ProcessBar } from '../../Process-Bar/ProcessBar'
 import { BackButton } from '../../BackButton/BackButton'
-import { Title } from '../../TitleText/Title'
+import { Title } from '../../PageTexts/PageText';
 import './ExpressionScreen.css'
 
 const ExpressionScreen = () => {

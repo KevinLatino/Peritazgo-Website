@@ -2,7 +2,7 @@ import React from 'react'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
 import { ProcessBar } from '../../Process-Bar/ProcessBar'
-import { Title } from '../../TitleText/Title'
+import { Title } from '../../PageTexts/PageText';
 import StructureData from '../../../Images/Estructura-de-datos.png'
 import Array from '../../../Images/Array.png'
 import { BlueSection } from '../../SectionText/Section'
@@ -33,7 +33,7 @@ const DataStructure = () => {
                 <h2 className="subtitle">Organización:</h2>
 
                 <Accordion title='Has click para ver más'>
-                    <img src={StructureData} width={650} />
+                    <img src={StructureData} width={700} />
                 </Accordion>
 
                 <Title>

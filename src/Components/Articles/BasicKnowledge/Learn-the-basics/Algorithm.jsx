@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title } from '../../../TitleText/Title';
+import { Title, Paragraph } from '../../../PageTexts/PageText';
 import { BlueSection } from '../../../SectionText/Section';
 
 const Algorithm = () => {

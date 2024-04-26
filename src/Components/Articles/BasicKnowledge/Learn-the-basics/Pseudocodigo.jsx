@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title } from '../../../TitleText/Title'
+import { Title, Paragraph } from '../../../PageTexts/PageText';
 import { BlueSection } from '../../../SectionText/Section'
 import './Styles/Pseudocodigo.css'
 
@@ -10,7 +10,9 @@ const Pseudocodigo = () => {
       <Title>
         Pseudocódigos
       </Title>
-      <p>Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.</p>
+      <Paragraph>
+        Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.
+      </Paragraph>
 
       <BlueSection>
         <p>Inicio</p>

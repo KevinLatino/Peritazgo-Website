@@ -1,11 +1,10 @@
-h1,
 h2,
 h3,
 header,
 li,
 p,
 ul {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MoveLeft, Equal, CircleCheckBig } from 'lucide-react';
 import { Ban } from 'lucide-react';
-import { Title } from '../../../TitleText/Title'
+import { Title, Paragraph } from '../../../PageTexts/PageText';
 import {
   BlueSection,
   GreenSection,
@@ -18,13 +18,13 @@ const Variable = () => {
         Las variables
       </Title>
 
-      <p>
+      <Paragraph>
         Una variable es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         A una variable se le puede asignar un valor mediante el operador de asignación. El operador de asignación se puede representar con el símbolo <MoveLeft className='icon-styles' /> o bien con el símbolo <Equal className='icon-styles' />, de la siguiente manera.
-      </p>
+      </Paragraph>
 
       <BlueSection>
         <p>Ejemplos de como asignar un valor:</p>
