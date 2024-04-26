@@ -1,7 +1,7 @@
 import React from 'react'
-import { MainTitle } from '../Components/MainTitle/MainTitle';
-import { CardComponent } from '../Components/CardComponent/CardComponent';
-import { SearchBar } from '../Components/SearchBar/SearchBar';
+import { MainTitle } from '../src/Components/MainTitle/MainTitle';
+import { CardComponent } from '../src/Components/CardComponent/CardComponent';
+import { SearchBar } from '../src/Components/SearchBar/SearchBar';
 import { useState } from 'react';
 import {
   BookText,
@@ -16,9 +16,6 @@ import {
   Binary,
   RefreshCcw,
   FileText,
-  Database,
-  Server,
-  icons
 } from 'lucide-react';
 import 'animate.css';
 import './App.css'

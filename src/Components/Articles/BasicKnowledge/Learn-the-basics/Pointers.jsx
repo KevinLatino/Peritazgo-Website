@@ -2,7 +2,6 @@ import React from 'react'
 import { NotebookText } from 'lucide-react'
 import { Title, Paragraph } from '../../../PageTexts/PageText';
 import {  GreenSection } from '../../../SectionText/Section'
-import '../../../../App/index.css'
 import '../Learn-the-basics/Styles/Pointers.css'
 
 const Pointers = () => {
