@@ -1,26 +1,14 @@
-h2,
-h3,
-header,
-li,
-p,
-ul {
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-}
-
-li,
-p,
-ul{
-    font-size: 17px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-body {
-    margin: 0;
-    display: flex;
-    min-width: 320px;
-    min-height: 100vh;
+html, body {
     background-color: #080b10;
 }
 
+#root {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
+}

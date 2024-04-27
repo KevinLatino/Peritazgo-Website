@@ -18,7 +18,7 @@ import {
   FileText,
 } from 'lucide-react';
 import 'animate.css';
-import './App.css'
+import './index.css'
 
 
 const App = () => {
@@ -96,10 +96,10 @@ const App = () => {
 
   return (
     <>
-      <div className='container animate__animated animate__fadeInDown'>
+      <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
         <MainTitle />
         <SearchBar search={search} setSearch={setSearch} />
-        <div className='cards-container'>
+        <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
           {searchTopic.map(renderTopic => (<CardComponent
             key={renderTopic.title}
             route={renderTopic.route}
