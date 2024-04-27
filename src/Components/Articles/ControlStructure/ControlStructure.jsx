@@ -5,10 +5,9 @@ import multipleIf from '../../../Images/Multiple-if.png'
 import For from '../.././../Images/For.png'
 import While from '../../../Images/While.png'
 import doWhile from '../../../Images/DoWhile.png'
-import { ProcessBar } from '../../Process-Bar/ProcessBar'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title } from  '../../PageTexts/PageText';
+import { Title, Paragraph } from '../../PageTexts/PageText';
 import { BlueSection } from '../../SectionText/Section'
 import 'animate.css';
 
@@ -17,24 +16,24 @@ const ControlStructure = () => {
 
   return (
     <>
-      <ProcessBar />
+
       <div className='animate__animated animate__fadeInLeft'>
         <Title>
           Estructuras de Control
         </Title>
-        <p>
+        <Paragraph>
           Las estructuras de control en desarrollo web son herramientas que
           permiten controlar el flujo de ejecución
           de un programa o aplicación web.
-        </p>
+        </Paragraph>
 
         <Title>
           Estructuras de Control Secuenciales
         </Title>
-        <p>
+        <Paragraph>
           Las estructuras de control secuenciales en programación simplemente se refieren a ejecutar una instrucción
           después de otra en orden. Es como seguir los pasos de una receta de cocina uno tras otro, sin saltarse ninguno.
-        </p>
+        </Paragraph>
 
         <BlueSection>
           <p>
@@ -65,11 +64,11 @@ const ControlStructure = () => {
         <Title>
           Estructuras de control condicionales o selectivas
         </Title>
-        <p>
+        <Paragraph>
           Permiten ejecutar
           ciertas instrucciones o bloques de código basándose en condiciones específicas.
           Estas condiciones suelen evaluarse como verdaderas o falsas.
-        </p>
+        </Paragraph>
         <h2>Tipos:</h2>
 
         <Accordion title='Has click para ver más'>
@@ -101,10 +100,10 @@ const ControlStructure = () => {
         <Title>
           Estructuras de Control Repetitivas o cíclicas
         </Title>
-        <p>
+        <Paragraph>
           Las estructuras de control repetitivas repiten la ejecución de estructuras de control específicas mientras se cumpla una condición lógica dada. Existen tres tipos de
           estructuras de control repetitivas: los ciclos para, los ciclos mientras y los ciclos hacer-mientras.
-        </p>
+        </Paragraph>
 
         <Accordion title='Has click para ver más'>
           <h2 className="subtitle">Ciclos Para (For)</h2>

@@ -10,8 +10,12 @@ const Algorithm = () => {
         Los algoritmos
       </Title>
 
-      <p>Un algoritmo es una secuencia de acciones lógicas necesarias para realizar una tarea en específico.</p>
-      <p>Caracteristicas de los algotimos:</p>
+      <Paragraph>
+        Un algoritmo es una secuencia de acciones lógicas necesarias para realizar una tarea en específico.
+      </Paragraph>
+      <Paragraph>
+        Caracteristicas de los algotimos:
+      </Paragraph>
 
       <BlueSection>
         <p>● Finito: tiene un inicio y un fin.</p>

@@ -1,6 +1,6 @@
 .blue-note {
-    background-color: #1c2431;
-    width: 30%;
+    background-color: #1c2430b0;
+    width: 33%;
     padding: 1.1rem;
     border-radius: 20px;
     display: flex;
@@ -11,7 +11,7 @@
 
 .green-note {
     background-color: #2B6E6233;
-    width: 30%;
+    width: 32%;
     padding: 1.1rem;
     border-radius: 20px;
     display: flex;
@@ -21,7 +21,7 @@
 
 .red-note {
     background-color: rgb(69, 50, 49);
-    width: 30%;
+    width: 32%;
     padding: 1.1rem;
     border-radius: 20px;
     display: flex;

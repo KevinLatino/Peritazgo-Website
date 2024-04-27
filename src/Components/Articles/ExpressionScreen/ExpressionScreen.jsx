@@ -2,7 +2,6 @@ import React from 'react'
 import { BlueSection, GreenSection } from '../../SectionText/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
-import { ProcessBar } from '../../Process-Bar/ProcessBar'
 import { BackButton } from '../../BackButton/BackButton'
 import { Title } from '../../PageTexts/PageText';
 import './ExpressionScreen.css'
@@ -10,7 +9,6 @@ import './ExpressionScreen.css'
 const ExpressionScreen = () => {
   return (
     <>
-      <ProcessBar />
       <div className='animate__animated animate__fadeInLeft'>
 
         <Title>

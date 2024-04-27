@@ -21,3 +21,8 @@
     color: rgb(208 125 119);
     filter: drop-shadow(2px 2px 5px  #D07D77);
 }
+
+.container-section{
+    display: flex;
+    justify-content: space-around;
+}

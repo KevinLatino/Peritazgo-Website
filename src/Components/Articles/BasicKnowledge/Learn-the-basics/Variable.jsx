@@ -7,7 +7,7 @@ import {
   GreenSection,
   RedSection
 } from '../../../SectionText/Section';
-import './Styles/VariableScreen.css';
+import './Styles/Variable.css';
 
 
 const Variable = () => {
@@ -31,6 +31,7 @@ const Variable = () => {
         <p>num ← 0</p>
         <p>num = 0</p>
       </BlueSection>
+
       <br />
 
       <GreenSection>
@@ -40,8 +41,9 @@ const Variable = () => {
         <p>● Usar nombres en inglés: debido a que es el idioma universal</p>
         <p>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos</p>
       </GreenSection>
+
       <br />
-      
+
       <RedSection>
         <h3 id='not-allowed-h3'>Malas prácticas al utilizar variables <Ban id='ban-icon' /></h3>
         <p>● Nombres descriptivos: que reflejen el propósito de la variable.</p>

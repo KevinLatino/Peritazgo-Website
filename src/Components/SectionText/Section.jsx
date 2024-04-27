@@ -11,7 +11,6 @@ export const BlueSection = ({ children }) => {
     )
 }
 
-
 export const GreenSection = ({ children }) => {
     return (
         <div className="green-note">
@@ -28,4 +27,12 @@ export const RedSection = ({ children }) => {
     )
 }
 
-
+export const BlueSpecial = ({ children }) => {
+    return (
+        <>
+            <div className="special-note">
+                {children}
+            </div>
+        </>
+    )
+}
