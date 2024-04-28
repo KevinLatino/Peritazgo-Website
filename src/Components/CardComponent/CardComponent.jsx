@@ -13,13 +13,13 @@ const CardComponent = ({title, route, description, icons}) => {
         <Link to={route}>
           <motion.article
             whileHover={{ scale: 1.1}}
-            className='card'
+            className='bg-[#161b22] border-[#444d5c] border border-1 rounded-2xl w-72 h-72 p-4 '
           >
-            <header className="card-header">{title}</header>
-            <hr className="card-divider" />
-            <section className="card-content">
+            <header className='text-[#f7dcbb] font-bold'>{title}</header>
+            <hr className='h-px bg-[#444d5c] my-2.5 border-none' />
+            <section className='text-[#ffffff] text-lg font-sans'>
               <p>{description}</p>
-              <div className='icon-box'>
+              <div className='flex justify-center bg-[#1d2028] rounded-xl w-40 '>
                 {icons}
               </div>
             </section>

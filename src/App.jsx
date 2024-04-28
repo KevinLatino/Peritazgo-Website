@@ -30,9 +30,9 @@ const App = () => {
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, punteros, diagramas de flujo.',
       route: '/Aprendiendo',
       icons: [
-        <Blocks size={21} className='icon-card' />,
-        <Puzzle size={21} className='icon-card' />,
-        <BookText size={21} className='icon-card' />,
+        <Blocks size={27} className='text-[#5cafad] p-0.5 m-1 ' />,
+        <Puzzle size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <BookText size={27} className='text-[#5cafad] p-0.5 m-1' />,
       ],
     },
 
@@ -41,9 +41,9 @@ const App = () => {
       description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
       route: '/Expresiones',
       icons: [
-        <Ampersands size={21} className='icon-card' />,
-        <Divide size={21} className='icon-card' />,
-        <BrainCircuit size={21} className='icon-card' />
+        <Ampersands size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <Divide size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <BrainCircuit size={27} className='text-[#5cafad] p-0.5 m-1' />
       ],
     },
 
@@ -52,9 +52,9 @@ const App = () => {
       description: 'Componentes de la programación que permiten controlar el flujo de ejecución de un programa',
       route: '/Estructuras-de-control',
       icons: [
-        <Split size={21} className='icon-card' />,
-        <Workflow size={21} className='icon-card' />,
-        <RefreshCcw size={21} className='icon-card' />
+        <Split size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <Workflow size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <RefreshCcw size={27} className='text-[#5cafad] p-0.5 m-1' />
       ],
     },
 
@@ -63,9 +63,9 @@ const App = () => {
       description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
       route: 'Estructuras-de-datos',
       icons: [
-        <FileText size={21} className='icon-card' />,
-        <Route size={21} className='icon-card' />,
-        <Binary size={21} className='icon-card' />
+        <FileText size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <Route size={27} className='text-[#5cafad] p-0.5 m-1' />,
+        <Binary size={27} className='text-[#5cafad] p-0.5 m-1' />
       ],
     },
 
