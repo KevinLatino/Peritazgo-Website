@@ -1,12 +1,12 @@
 import React from 'react';
-import { MoveLeft, Equal, CircleCheckBig } from 'lucide-react';
+import { CircleCheckBig } from 'lucide-react';
 import { Ban } from 'lucide-react';
-import { Title, Paragraph } from '../../../PageTexts/PageText';
+import { Title, Paragraph, Space } from '../../../PageTexts/PageText';
 import {
   BlueSection,
   GreenSection,
   RedSection
-} from '../../../SectionText/Section';
+} from '../../../Sections/Section';
 import './Styles/Variable.css';
 
 
@@ -21,15 +21,18 @@ const Variable = () => {
       <Paragraph>
         Una variable es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.
       </Paragraph>
-
+      
       <Paragraph>
-        A una variable se le puede asignar un valor mediante el operador de asignación. El operador de asignación se puede representar con el símbolo <MoveLeft className='icon-styles' /> o bien con el símbolo <Equal className='icon-styles' />, de la siguiente manera.
+        A una variable se le puede asignar un valor mediante el operador de asignación.
+        El operador de asignación se puede representar con el símbolo o bien con el símbolo, de la siguiente manera.
       </Paragraph>
 
+      <Space />
+
       <BlueSection>
-        <p>Ejemplos de como asignar un valor:</p>
-        <p>num ← 0</p>
-        <p>num = 0</p>
+        <Paragraph>Ejemplos de como asignar un valor:</Paragraph>
+        <Paragraph>num ← 0</Paragraph>
+        <Paragraph>num = 0</Paragraph>
       </BlueSection>
 
       <br />

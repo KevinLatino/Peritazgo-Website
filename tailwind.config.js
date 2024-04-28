@@ -8,8 +8,10 @@ export default {
     extend: {
       colors: {
         "title_color": '#ffffff',
-        "section_blue": ''
-      }
+        "blue_section": '#1C2430b0',
+        "green_section": "#2B6E6233",
+        "red_section": "#453231",
+      },
     },
   },
   plugins: [],

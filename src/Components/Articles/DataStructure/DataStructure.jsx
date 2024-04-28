@@ -4,7 +4,7 @@ import { Accordion } from '../../AccordionComponent/Accordion'
 import { Title, Paragraph } from '../../PageTexts/PageText';
 import StructureData from '../../../Images/Estructura-de-datos.png'
 import Array from '../../../Images/Array.png'
-import { BlueSection } from '../../SectionText/Section'
+import { BlueSection } from '../../Sections/Section'
 import "animate.css"
 
 const DataStructure = () => {

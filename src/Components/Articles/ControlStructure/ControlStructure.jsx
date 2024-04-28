@@ -8,7 +8,7 @@ import doWhile from '../../../Images/DoWhile.png'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
 import { Title, Paragraph } from '../../PageTexts/PageText';
-import { BlueSection } from '../../SectionText/Section'
+import { BlueSection } from '../../Sections/Section'
 import 'animate.css';
 
 

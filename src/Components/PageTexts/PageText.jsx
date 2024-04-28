@@ -1,3 +1,4 @@
+import { space } from 'postcss/lib/list'
 import React from 'react'
 
 
@@ -13,7 +14,7 @@ export const Title = ({ children }) => {
 
 export const Subtitle = ({ children }) => {
     return (
-        <h2 className='Subtitle-text'>
+        <h2 className=''>
             {children}
         </h2>
     )
@@ -21,8 +22,16 @@ export const Subtitle = ({ children }) => {
 
 export const Paragraph = ({ children }) => {
     return (
-        <p className='Paragraph-text'>
+        <p className='text-white text-[17px] font-sans'>
             {children}
         </p>
+    )
+}
+
+export const Space = () => {
+    return (
+        <span>
+            &nbsp;
+        </span>
     )
 }

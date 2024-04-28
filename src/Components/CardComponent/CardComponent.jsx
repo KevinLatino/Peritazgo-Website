@@ -19,7 +19,7 @@ const CardComponent = ({title, route, description, icons}) => {
             <hr className='h-px bg-[#444d5c] my-2.5 border-none' />
             <section className='text-[#ffffff] text-lg font-sans'>
               <p>{description}</p>
-              <div className='flex justify-center bg-[#1d2028] rounded-xl w-40 '>
+              <div className='flex justify-center bg-[#23262f] rounded-xl w-28 '>
                 {icons}
               </div>
             </section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueSection, GreenSection } from '../../SectionText/Section'
+import { BlueSection, GreenSection } from '../../Sections/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'

@@ -1,10 +1,9 @@
 import React, { children } from 'react'
-import './Section.css'
 
 export const BlueSection = ({ children }) => {
     return (
         <>
-            <div className='blue-note'>
+            <div className='flex items-start flex-col flex-wrap bg-blue_section w-fit p-5 rounded-2xl'>
                 {children}
             </div>
         </>
@@ -13,7 +12,7 @@ export const BlueSection = ({ children }) => {
 
 export const GreenSection = ({ children }) => {
     return (
-        <div className="green-note">
+        <div className="flex items-start flex-col flex-wrap bg-green_section w-fit p-5 rounded-2xl">
             {children}
         </div>
     )
@@ -21,7 +20,7 @@ export const GreenSection = ({ children }) => {
 
 export const RedSection = ({ children }) => {
     return (
-        <div className="red-note">
+        <div className="flex items-start flex-col flex-wrap bg-red_section w-fit p-5 rounded-2xl">
             {children}
         </div>
     )
@@ -30,7 +29,7 @@ export const RedSection = ({ children }) => {
 export const BlueSpecial = ({ children }) => {
     return (
         <>
-            <div className="special-note">
+            <div className="">
                 {children}
             </div>
         </>
