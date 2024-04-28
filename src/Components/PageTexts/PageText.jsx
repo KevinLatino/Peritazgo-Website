@@ -1,10 +1,10 @@
 import React from 'react'
-import './PageTexts.css'
+
 
 export const Title = ({ children }) => {
     return (
         <>
-            <h1 className='Title-Text'>
+            <h1 className='text-[36px] text-title_color font-sans font-bold '>
                 {children}
             </h1>
         </>
