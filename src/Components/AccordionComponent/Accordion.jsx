@@ -16,13 +16,13 @@ const Accordion = ({ title, children }) => {
     return (
         <>
             <MagicMotion>
-                <div className='accordion-container'>
+                <div className=' p-5 flex items-start flex-wrap w-2/5 bg-blue_section rounded-3xl '>
                     <button
-                        className='accordion-button'
+                        className='flex justify-between items-center  rounded-3xl bg-fixed text-accordition_color w-full text-[18px]'
                         onClick={handleOpen}
                     >
                         {title}
-                        <ChevronDown size={32} className='chevron-styles' />
+                        <ChevronDown size={32} className=' ' />
                     </button>
 
                     {open && (

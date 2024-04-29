@@ -11,6 +11,10 @@ export default {
         "blue_section": '#1C2430b0',
         "green_section": "#2B6E6233",
         "red_section": "#453231",
+        "back_button": "#5cafad58",
+        "accordition_color": "#ffdfb6",
+        "green_text": "#44AC99",
+        "red_text": "#d07d77"
       },
     },
   },
