@@ -48,23 +48,17 @@ const Variable = () => {
 
           <Space />
           <Element>● Nombres descriptivos: que reflejen el propósito de la variable.</Element>
-          <Space />
           <Element>● Utilizar camelCase:  para mantener la consistencia en el código.</Element>
-          <Space />
           <Element>● Usar nombres en inglés: debido a que es el idioma universal.</Element>
-          <Space />
           <Element>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos.</Element>
+          
         </GreenSection>
 
         <RedSection>
           <RedTitle>Malas prácticas al utilizar variables <Ban /></RedTitle>
-          <Space />
           <Element>● Nombres descriptivos: que reflejen el propósito de la variable.</Element>
-          <Space />
           <Element>● Utilizar camelCase:  para mantener la consistencia en el código.</Element>
-          <Space />
           <Element>● Usar nombres en inglés: debido a que es el idioma universal.</Element>
-          <Space />
           <Element>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos.</Element>
         </RedSection>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Paragraph } from '../../../PageTexts/PageText';
+import { Title, Paragraph, Element, Space } from '../../../PageTexts/PageText';
 import { BlueSection } from '../../../Sections/Section';
 
 const Algorithm = () => {
@@ -17,11 +17,14 @@ const Algorithm = () => {
         Caracteristicas de los algotimos:
       </Paragraph>
 
+      <Space />
+      
       <BlueSection>
-        <p>● Finito: tiene un inicio y un fin.</p>
-        <p>● Preciso: sus acciones son lógicas, por ende, no tienen ambigüedad</p>
-        <p>● Definido: siempre produce el mismo resultado</p>
+        <Element>● Finito: tiene un inicio y un fin.</Element>
+        <Element>● Preciso: sus acciones son lógicas, por ende, no tienen ambigüedad.</Element>
+        <Element>● Definido: siempre produce el mismo resultado.</Element>
       </BlueSection>
+      <Space />
     </>
   );
 }

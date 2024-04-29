@@ -20,7 +20,7 @@ export const Paragraph = ({ children }) => {
 
 export const GreenTitle = ({ children }) => {
     return (
-        <h2 className='flex text-green_text gap-3'>
+        <h2 className='flex text-green_text gap-3 font-sans text-[18px] font-bold '>
             {children}
         </h2>
     )
@@ -28,7 +28,7 @@ export const GreenTitle = ({ children }) => {
 
 export const RedTitle = ({ children }) => {
     return (
-        <h2 className='flex text-red_text gap-3'>
+        <h2 className='flex text-red_text gap-3 text-[18px] font-bold '>
             {children}
         </h2>
     )
@@ -36,7 +36,7 @@ export const RedTitle = ({ children }) => {
 
 export const Element = ({ children }) => {
     return (
-        <p className='text-white text-[17px]'>
+        <p className='text-white text-[17px] p-3'>
             {children}
         </p>
     )
