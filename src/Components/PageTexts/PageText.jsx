@@ -36,7 +36,7 @@ export const BlueTitle = ({ children }) => {
 
 export const PurpleTitle = ({ children }) => {
     return (
-        <h2 className='flex text-[#c296fd] gap-3 text-[18px] font-bold '>
+        <h2 className='flex text-purple_text gap-3 text-[18px] font-bold '>
             {children}
         </h2>
     )

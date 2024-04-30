@@ -28,7 +28,15 @@ export const RedSection = ({ children }) => {
 
 export const PurpleSection = ({ children }) => {
     return (
-        <div className='flex items-start flex-col flex-wrap bg-[#46197665] w-fit p-5 rounded-2xl'>
+        <div className='flex items-start flex-col flex-wrap bg-purple_section w-fit p-5 rounded-2xl'>
+            {children}
+        </div>
+    )
+}
+
+export const PurpleWordSection = ({ children }) => {
+    return (
+        <div className='flex items-start flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-2xl'>
             {children}
         </div>
     )
@@ -36,7 +44,7 @@ export const PurpleSection = ({ children }) => {
 
 export const WordSection = ({ children }) => {
     return (
-        <div className=' flex bg-word_section rounded-md px-1 '>
+        <div className=' flex justify-center bg-word_section rounded-md px-1 '>
             {children}
         </div>
     )

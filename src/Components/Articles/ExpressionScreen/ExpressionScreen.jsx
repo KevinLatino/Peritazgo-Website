@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueSection, GreenSection, PurpleSection, WordSection } from '../../Sections/Section'
+import { BlueSection, GreenSection, PurpleSection, WordSection, PurpleWordSection } from '../../Sections/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'
@@ -34,15 +34,15 @@ const ExpressionScreen = () => {
 
         <div className='flex gap-10'>
           <BlueSection>
-            <BlueTitle>Tipos de valores</BlueTitle>
-            <Element>● Literales: son simplemente números o cadenas.</Element>
-            <Element>● Variables: Estos se referencian simplemente por la representación textual de su valor.</Element>
+            <BlueTitle>Tipos de valores:</BlueTitle>
+            <Element><WordSection>● Literales</WordSection>: son simplemente números o cadenas.</Element>
+            <Element><WordSection>● Variables</WordSection>: Se referencian simplemente por la representación textual de su valor.</Element>
           </BlueSection>
 
           <PurpleSection>
-            <PurpleTitle>Ejemplos</PurpleTitle>
-            <Element>● Literales: El número 10 o una cadena de "caracteres".</Element>
-            <Element>● Variables: Asignación de una variable como: numero = 10.</Element>
+            <PurpleTitle>Ejemplos:</PurpleTitle>
+            <Element><PurpleWordSection>● Literales</PurpleWordSection>: El número 10 o una cadena de "caracteres".</Element>
+            <Element><PurpleWordSection>● Variables</PurpleWordSection>:Asignación de una variable como: numero = 10.</Element>
           </PurpleSection>
         </div>
 
@@ -149,7 +149,6 @@ const ExpressionScreen = () => {
 
         <div className='flex gap-3'>
 
-
           <BlueSection>
 
             <BlueTitle>
@@ -170,21 +169,21 @@ const ExpressionScreen = () => {
 
           </BlueSection>
 
-          <BlueSection>
+          <PurpleSection>
 
-            <BlueTitle>
+            <PurpleTitle>
               Expresiones Aritméticas
-            </BlueTitle>
+            </PurpleTitle>
 
             <Element>
               Es cuando una expresión tiene exclusivamente operadores aritméticos.
             </Element>
 
-            <BlueTitle>Ejemplo:</BlueTitle>
+            <PurpleTitle>Ejemplo:</PurpleTitle>
 
-            <Element><WordSection>(5 + 3) * 2 - 4</WordSection></Element>
+            <Element><PurpleWordSection>(5 + 3) * 2 - 4</PurpleWordSection></Element>
 
-          </BlueSection>
+          </PurpleSection>
 
         </div>
 
@@ -252,13 +251,13 @@ const ExpressionScreen = () => {
               Se evalúan los operadores lógicos, con la siguiente precedencia:
             </Element>
             <Element>
-              1. Negaciones
+              <WordSection>1. Negaciones</WordSection>
             </Element>
             <Element>
-              2. Conjunciones
+              <WordSection>2. Conjunciones</WordSection>
             </Element>
             <Element>
-              3. Disyunciones
+              <WordSection>3. Disyunciones</WordSection>
             </Element>
           </BlueSection>
 

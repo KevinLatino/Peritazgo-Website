@@ -14,7 +14,8 @@ import {
 import {
   BlueSection,
   GreenSection,
-  RedSection
+  RedSection,
+  WordSection
 } from '../../../Sections/Section';
 
 
@@ -34,8 +35,8 @@ const Variable = () => {
 
       <BlueSection>
         <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
-        <Element>num ← 0</Element>
-        <Element>num = 0</Element>
+        <Element>num <WordSection>←</WordSection> 0</Element>
+        <Element>num <WordSection>=</WordSection> 0</Element>
       </BlueSection>
 
       <br />
