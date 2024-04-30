@@ -25,3 +25,11 @@ export const RedSection = ({ children }) => {
         </div>
     )
 }
+
+export const WordSection = ({ children }) => {
+    return (
+        <div className=' flex bg-word_section rounded-md px-1 '>
+            {children}
+        </div>
+    )
+}

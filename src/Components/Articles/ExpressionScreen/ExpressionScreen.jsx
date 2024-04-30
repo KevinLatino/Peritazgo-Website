@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueSection, GreenSection } from '../../Sections/Section'
+import { BlueSection, GreenSection, WordSection } from '../../Sections/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'
@@ -35,16 +35,14 @@ const ExpressionScreen = () => {
         <div className='flex gap-10'>
           <BlueSection>
             <BlueTitle>Tipos de valores</BlueTitle>
-            <Element>● Números: Representan valores numéricos, existen enteros o flotantes</Element>
-            <Element>● Texto: Representa secuencias de caracteres.</Element>
-            <Element>● Booleanos: Representan verdadero o falso.</Element>
+            <Element>● Literales: son simplemente números o cadenas.</Element>
+            <Element>● Variables: Estos se referencian simplemente por la representación textual de su valor.</Element>
           </BlueSection>
 
           <BlueSection>
             <BlueTitle>Ejemplos</BlueTitle>
-            <Element>● Modificar después</Element>
-            <Element>● Hola como vas.</Element>
-            <Element>● Booleanos: Representan verdadero o falso.</Element>
+            <Element>● Literales: El número 10 o una cadena de "caracteres".</Element>
+            <Element>● Variables: Asignación de una variable como: numero = 10.</Element>
           </BlueSection>
         </div>
 
@@ -62,12 +60,24 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
-          <Element>● Suma + Es utilizado para realizar la suma de dos valores.</Element>
-          <Element>● Resta - Es utilizado para realizar una restar de dos valores.</Element>
-          <Element>● Multiplicación <Asterisk size={15} />  Utilizado para multiplicar dos valores.</Element>
-          <Element>● División / Utilizado para dividir un valor entre otro.</Element>
-          <Element>● Mod %  Devuelve el residuo de la división de un valor entre otro.</Element>
-          <Element>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^: Utilizado para elevar un valor a una potencia.</Element>
+          <Element>
+            <WordSection>● Suma +</WordSection>: es utilizado para realizar la suma de dos valores.
+          </Element>
+          <Element>
+            <WordSection>● Resta -</WordSection>: es utilizado para realizar una restar de dos valores.
+          </Element>
+          <Element>
+            <WordSection>● Multiplicación<Asterisk size={15} /></WordSection>:  utilizado para multiplicar dos valores.
+          </Element>
+          <Element>
+            <WordSection>● División /</WordSection>: utilizado para dividir un valor entre otro.
+          </Element>
+          <Element>
+            <WordSection>● Mod % </WordSection>: devuelve el residuo de la división de un valor entre otro.
+          </Element>
+          <Element>
+            <WordSection>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^</WordSection>: utilizado para elevar un valor a una potencia.
+          </Element>
         </BlueSection>
 
         <Space />
@@ -84,12 +94,24 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
-          <Element>● Num1 == Num2: Quiere dicir que Num1 y Num2 tienen el mismo valor</Element>
-          <Element>● Num1 != Num2 o Num1  Num2: Num1 y Num2 tienen distinto valor </Element>
-          <Element>● Num1 &lt; Num2: Quiere decir que Num1 es menor que Num2 </Element>
-          <Element>● Num1 &lt;= Num2: Num1 es menor o igual que Num2</Element>
-          <Element>● Num1 &gt; Num2: Quiere decir que Num1 es mayor que Num2</Element>
-          <Element>● Num1 &gt;= Num2: Num1 es mayor o igual que Num2</Element>
+          <Element>
+            <WordSection>● Num1 == Num2</WordSection>: Quiere dicir que Num1 y Num2 tienen el mismo valor
+          </Element>
+          <Element>
+            <WordSection>● Num1 != Num2 o Num1 &lt;&gt;</WordSection>: Num2 Num1 y Num2 tienen distinto valor
+          </Element>
+          <Element>
+            <WordSection>● Num1 &lt; Num2</WordSection>: Quiere decir que Num1 es menor que Num2
+          </Element>
+          <Element>
+            <WordSection>● Num1 &lt;= Num2</WordSection>: Num1 es menor o igual que Num2
+          </Element>
+          <Element>
+            <WordSection>● Num1 &gt; Num2</WordSection>: Quiere decir que Num1 es mayor que Num2
+          </Element>
+          <Element>
+            <WordSection>● Num1 &gt;= Num2</WordSection>: Num1 es mayor o igual que Num2
+          </Element>
         </BlueSection>
 
         <Space />
@@ -106,9 +128,15 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
-          <Element>A && B o A ∧ B: La conjunción de A y B, verdadero si ambos A y B son verdaderos</Element>
-          <Element>A || B o A ∨  B: La disyunción de A y B, verdadero si al menos uno de A o B es verdadero</Element>
-          <Element>!A o ¬A: La negación de A, verdadero si A es falso, falso si A es verdadero</Element>
+          <Element>
+            <WordSection>A && B o A ∧ B</WordSection>: La conjunción de A y B, verdadero si ambos A y B son verdaderos
+          </Element>
+          <Element>
+            <WordSection>A || B o A ∨  B</WordSection>: La disyunción de A y B, verdadero si al menos uno de A o B es verdadero
+          </Element>
+          <Element>
+            <WordSection>!A o ¬A</WordSection>: La negación de A, verdadero si A es falso, falso si A es verdadero
+          </Element>
         </BlueSection>
 
         <Space />
@@ -145,7 +173,7 @@ const ExpressionScreen = () => {
         </Paragraph>
 
         <Space />
-        
+
         <Title>
           Evaluación
         </Title>
