@@ -10,14 +10,6 @@ export const Title = ({ children }) => {
     )
 }
 
-export const Paragraph = ({ children }) => {
-    return (
-        <p className='text-white text-[17px]'>
-            {children}
-        </p>
-    )
-}
-
 export const GreenTitle = ({ children }) => {
     return (
         <h2 className='flex text-green_text gap-3 font-sans text-[18px] font-bold '>
@@ -34,9 +26,27 @@ export const RedTitle = ({ children }) => {
     )
 }
 
+export const BlueTitle = ({ children }) => {
+    return (
+        <h2 className='flex text-blue_text gap-3 text-[18px] font-bold '>
+            {children}
+        </h2>
+    )
+}
+
+
+export const Paragraph = ({ children }) => {
+    return (
+        <p className='text-white text-[17px]'>
+            {children}
+        </p>
+    )
+}
+
+
 export const Element = ({ children }) => {
     return (
-        <p className='text-white text-[17px] p-3'>
+        <p className='flex text-white text-[17px] p-3'>
             {children}
         </p>
     )

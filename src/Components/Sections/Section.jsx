@@ -25,13 +25,3 @@ export const RedSection = ({ children }) => {
         </div>
     )
 }
-
-export const BlueSpecial = ({ children }) => {
-    return (
-        <>
-            <div className="">
-                {children}
-            </div>
-        </>
-    )
-}

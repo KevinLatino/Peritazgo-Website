@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, Paragraph, Element, Space } from '../../../PageTexts/PageText';
+import { Title, Paragraph, Element, Space, BlueTitle } from '../../../PageTexts/PageText';
 import { BlueSection } from '../../../Sections/Section'
 import './Styles/Pseudocodigo.css'
 
@@ -17,13 +17,13 @@ const Pseudocodigo = () => {
       <Space />
       
       <BlueSection>
-        <Element>Inicio</Element>
+        <BlueTitle>Inicio</BlueTitle>
         <Element>Definir num1, num2, suma como Entero;</Element>
         <Element>Leer num1;</Element>
         <Element>Leer num2;</Element>
         <Element>suma = num1 + num2;</Element>
         <Element>Mostras suma;</Element>
-        <Element>Fin</Element>
+        <BlueTitle>Fin</BlueTitle>
       </BlueSection>
 
       <Space />

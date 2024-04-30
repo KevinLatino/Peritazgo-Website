@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import { MagicMotion } from 'react-magic-motion';
 import { ChevronDown } from 'lucide-react';
-import './Accordion.css'
 
 const Accordion = ({ title, children }) => {
 

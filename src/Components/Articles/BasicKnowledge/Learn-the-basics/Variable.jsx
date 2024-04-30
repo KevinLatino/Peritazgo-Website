@@ -7,7 +7,8 @@ import {
   Space,
   Element,
   GreenTitle,
-  RedTitle
+  RedTitle,
+  BlueTitle
 } from '../../../PageTexts/PageText';
 
 import {
@@ -32,7 +33,7 @@ const Variable = () => {
       <Space />
 
       <BlueSection>
-        <Element>Ejemplos de como asignar un valor:</Element>
+        <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
         <Element>num ← 0</Element>
         <Element>num = 0</Element>
       </BlueSection>
@@ -40,12 +41,11 @@ const Variable = () => {
       <br />
 
 
-      <div className='flex gap-3'>
+      <div className='flex gap-16'>
 
         <GreenSection>
 
           <GreenTitle >Buenas prácticas al utilizar variables <CircleCheckBig color='#44AC99' /></GreenTitle>
-
           <Space />
           <Element>● Nombres descriptivos: que reflejen el propósito de la variable.</Element>
           <Element>● Utilizar camelCase:  para mantener la consistencia en el código.</Element>
