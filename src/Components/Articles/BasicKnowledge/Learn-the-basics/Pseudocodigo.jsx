@@ -1,7 +1,6 @@
 import React from 'react'
 import { Title, Paragraph, Element, Space, BlueTitle } from '../../../PageTexts/PageText';
 import { BlueSection } from '../../../Sections/Section'
-import './Styles/Pseudocodigo.css'
 
 
 const Pseudocodigo = () => {
