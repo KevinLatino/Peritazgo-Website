@@ -7,7 +7,7 @@ import While from '../../../Images/While.png'
 import doWhile from '../../../Images/DoWhile.png'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title, Paragraph } from '../../PageTexts/PageText';
+import { Title, Paragraph, BlueTitle, Element, Space } from '../../PageTexts/PageText';
 import { BlueSection } from '../../Sections/Section'
 import 'animate.css';
 
@@ -21,11 +21,14 @@ const ControlStructure = () => {
         <Title>
           Estructuras de Control
         </Title>
+
         <Paragraph>
           Las estructuras de control en desarrollo web son herramientas que
           permiten controlar el flujo de ejecución
           de un programa o aplicación web.
         </Paragraph>
+
+        <Space />
 
         <Title>
           Estructuras de Control Secuenciales
@@ -35,31 +38,34 @@ const ControlStructure = () => {
           después de otra en orden. Es como seguir los pasos de una receta de cocina uno tras otro, sin saltarse ninguno.
         </Paragraph>
 
+        <Space />
+
         <BlueSection>
-          <p>
+          <BlueTitle>
             Inicio
-          </p>
+          </BlueTitle>
 
-          <p>
+          <Element>
             base = 5
-          </p>
+          </Element>
 
-          <p>
+          <Element>
             altura = 3
-          </p>
+          </Element>
 
-          <p>
+          <Element>
             area = base * altura
-          </p>
+          </Element>
 
-          <p>
+          <Element>
             Escribir "El área del rectángulo es: ", area
-          </p>
-          <p>
+          </Element>
+          <BlueTitle>
             Fin
-          </p>
+          </BlueTitle>
         </BlueSection>
 
+        <Space />
 
         <Title>
           Estructuras de control condicionales o selectivas
@@ -72,30 +78,41 @@ const ControlStructure = () => {
         <h2>Tipos:</h2>
 
         <Accordion title='Has click para ver más'>
-          <h2 className='subtitle'>Condicionales Simples</h2>
-          <p>
+          <BlueTitle>Condicionales Simples</BlueTitle>
+          <Paragraph>
             Esta estructura condicional es la más simple, esta simplemente hace algo si
             la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
-          </p>
-          <img className='img-styles' src={simpleIf} width={300} />
-          <h2 className='subtitle'>Condicionales Dobles</h2>
-          <p>
+          </Paragraph>
+
+          <Space />
+
+          <img src={simpleIf} width={300} />
+
+          <Space />
+
+          <BlueTitle >Condicionales Dobles</BlueTitle>
+          <Paragraph>
             Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
             el condicional va a hacer algo aunque el resultado sea falso o verdadero
-          </p>
-          <img className='img-styles' src={dobleIf} width={375} />
-          <h2 className='subtitle'>Condicionales Anidados</h2>
-          <p>
+          </Paragraph>
+
+          <img src={dobleIf} width={375} />
+
+          <Space />
+          <BlueTitle >Condicionales Anidados</BlueTitle>
+          <Paragraph>
             Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
             de control implementa otra condicional dentro de una condicional
-          </p>
-          <img className='img-styles' src={multipleIf} width={385} />
-          <h2 className='subtitle'>Condicionales Múltiples</h2>
-          <p>
+          </Paragraph>
+
+          <img src={multipleIf} width={385} />
+          <BlueTitle>Condicionales Múltiples</BlueTitle>
+          <Paragraph>
             Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch
-          </p>
+          </Paragraph>
         </Accordion>
 
+        <Space />
 
         <Title>
           Estructuras de Control Repetitivas o cíclicas

@@ -1,9 +1,9 @@
 import React from 'react'
-import { BlueSection, GreenSection, WordSection } from '../../Sections/Section'
+import { BlueSection, GreenSection, PurpleSection, WordSection } from '../../Sections/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'
-import { Title, Paragraph, Space, BlueTitle, Element, GreenTitle } from '../../PageTexts/PageText';
+import { Title, Paragraph, Space, BlueTitle, Element, GreenTitle, PurpleTitle } from '../../PageTexts/PageText';
 
 const ExpressionScreen = () => {
   return (
@@ -39,11 +39,11 @@ const ExpressionScreen = () => {
             <Element>● Variables: Estos se referencian simplemente por la representación textual de su valor.</Element>
           </BlueSection>
 
-          <BlueSection>
-            <BlueTitle>Ejemplos</BlueTitle>
+          <PurpleSection>
+            <PurpleTitle>Ejemplos</PurpleTitle>
             <Element>● Literales: El número 10 o una cadena de "caracteres".</Element>
             <Element>● Variables: Asignación de una variable como: numero = 10.</Element>
-          </BlueSection>
+          </PurpleSection>
         </div>
 
         <Space />
@@ -142,30 +142,60 @@ const ExpressionScreen = () => {
         <Space />
 
         <Title>
-          Expresiones Aritméticas
+          Tipos de expresiones:
         </Title>
-        <Paragraph>
-          Si una expresión contiene exclusivamente operadores aritméticos, se dice que es
-          una expresión aritmética. Por ende, este tipo de expresiones producen exclusivamente números.
-        </Paragraph>
 
         <Space />
 
-        <Title>
-          Expresiones Lógicas
-        </Title>
-        <Paragraph>
-          Si una expresión contiene por lo menos un operador relacional,
-          se dice que es una expresión lógica. Por ende, este tipo de
-          expresiones producen exclusivamente verdadero o falso. Además, cabe
-          la posibilidad de que se usen operadores lógicos.
-        </Paragraph>
+        <div className='flex gap-3'>
+
+
+          <BlueSection>
+
+            <BlueTitle>
+              Expresiones lógicas
+            </BlueTitle>
+            <Element>
+              Si una expresión contiene por lo menos un operador relacional,
+              se dice que es una expresión lógica.
+            </Element>
+
+            <Element>
+              Hay posibilidad de que se usen operadores lógicos.
+            </Element>
+
+            <Element>
+              <WordSection>Producen exclusivamente verdadero o falso</WordSection>
+            </Element>
+
+          </BlueSection>
+
+          <BlueSection>
+
+            <BlueTitle>
+              Expresiones Aritméticas
+            </BlueTitle>
+
+            <Element>
+              Es cuando una expresión tiene exclusivamente operadores aritméticos.
+            </Element>
+
+            <BlueTitle>Ejemplo:</BlueTitle>
+
+            <Element><WordSection>(5 + 3) * 2 - 4</WordSection></Element>
+
+          </BlueSection>
+
+        </div>
 
         <Space />
 
         <Title>
           Condiciones Lógicas
         </Title>
+
+        <Space />
+
         <Paragraph>
           Si una expresión lógica se usa en el contexto de una estructura de control condicional, se dice
           que es una condición lógica. Es decir, una expresión lógica se convierte en una condición
