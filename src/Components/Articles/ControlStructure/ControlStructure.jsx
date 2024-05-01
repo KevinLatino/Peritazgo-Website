@@ -7,8 +7,8 @@ import While from '../../../Images/While.png'
 import doWhile from '../../../Images/DoWhile.png'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title, Paragraph, BlueTitle, Element, Space, PurpleTitle, GreenTitle } from '../../PageTexts/PageText';
-import { BlueSection, GreenSection, PurpleSection } from '../../Sections/Section';
+import { Title, Paragraph, BlueTitle, Element, Space, PurpleTitle, GreenTitle, RedTitle } from '../../PageTexts/PageText';
+import { BlueSection, GreenSection, PurpleSection, RedSection } from '../../Sections/Section';
 import 'animate.css';
 
 
@@ -77,42 +77,56 @@ const ControlStructure = () => {
         </Paragraph>
         <h2>Tipos:</h2>
 
-        <Accordion title='Has click para ver más'>
-          <BlueTitle>Condicionales Simples</BlueTitle>
-          <Paragraph>
-            Esta estructura condicional es la más simple, esta simplemente hace algo si
-            la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
-          </Paragraph>
 
-          <Space />
+        <div className='flex gap-16'>
+          <BlueSection>
+            <BlueTitle>Condicionales Simples</BlueTitle>
 
-          <img src={simpleIf} width={300} />
+            <Paragraph>
+              Esta estructura condicional es la más simple, esta simplemente hace algo si
+              la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
+            </Paragraph>
 
-          <Space />
+            <img src={simpleIf} width={300} />
+          </BlueSection>
 
-          <BlueTitle >Condicionales Dobles</BlueTitle>
-          <Paragraph>
-            Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
-            el condicional va a hacer algo aunque el resultado sea falso o verdadero
-          </Paragraph>
+          <PurpleSection>
+            <PurpleTitle>Condicionales Dobles</PurpleTitle>
 
-          <img src={dobleIf} width={375} />
+            <Paragraph>
+              Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
+              el condicional va a hacer algo aunque el resultado sea falso o verdadero
+            </Paragraph>
 
-          <Space />
-          <BlueTitle >Condicionales Anidados</BlueTitle>
-          <Paragraph>
-            Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
-            de control implementa otra condicional dentro de una condicional
-          </Paragraph>
-
-          <img src={multipleIf} width={385} />
-          <BlueTitle>Condicionales Múltiples</BlueTitle>
-          <Paragraph>
-            Es muy parecido a las otras atenteriores, solamente que se ultiliza el switch
-          </Paragraph>
-        </Accordion>
+            <img src={dobleIf} width={375} />
+          </PurpleSection>
+        </div>
 
         <Space />
+
+        <div className='flex gap-16'>
+          <GreenSection>
+            <GreenTitle >Condicionales Anidados</GreenTitle>
+
+            <Paragraph>
+              Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
+              de control implementa un condicional dentro de un condicional
+            </Paragraph>
+
+            <img src={multipleIf} width={385} />
+          </GreenSection>
+
+          <RedSection>
+            <RedTitle>Condicionales Múltiples</RedTitle>
+
+            <Paragraph>
+              Es muy parecido a las otras ateriores, solamente que se ultiliza el switch. Dirige el flujo del programa hacia diferentes bloques de código según el valor de una expresión
+            </Paragraph>
+          </RedSection>
+        </div>
+
+        <Space />
+
 
         <Title>
           Estructuras de Control Repetitivas o cíclicas
@@ -129,7 +143,7 @@ const ControlStructure = () => {
             <BlueTitle>Ciclos Para (For)</BlueTitle>
             <Paragraph>
               Los ciclos para (for) contienen la inicialización de la variable con el valor inicial, la condición lógica
-             y el incremento o decremento, todo en la misma sentencia.
+              y el incremento o decremento, todo en la misma sentencia.
             </Paragraph>
             <Space />
             <img src={For} width={180} />
@@ -146,13 +160,13 @@ const ControlStructure = () => {
           </PurpleSection>
 
           <GreenSection>
-          <GreenTitle>Ciclos Hacer-Mientras (Do While)</GreenTitle>
-          <Paragraph>
-            los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
-          </Paragraph>
-          <Space />
-          <img src={doWhile} width={220} />
-        </GreenSection>
+            <GreenTitle>Ciclos Hacer-Mientras (Do While)</GreenTitle>
+            <Paragraph>
+              los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
+            </Paragraph>
+            <Space />
+            <img src={doWhile} width={220} />
+          </GreenSection>
 
         </div>
 

@@ -38,7 +38,7 @@ const Variable = () => {
       <br />
 
 
-      <div className='flex gap-14'>
+      <div className='flex gap-16'>
 
       <BlueSection>
         <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
@@ -50,7 +50,7 @@ const Variable = () => {
         </Element>
 
         <Element>
-          O también puede ser expresado con caracteres:
+          <BlueTitle>Y para asignar caracteres a una variable tenemos este ejemplo:</BlueTitle>
         </Element>
 
         <Element>

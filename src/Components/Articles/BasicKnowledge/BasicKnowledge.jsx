@@ -19,7 +19,6 @@ const BasicKnowledgeScreen = () => {
         <Pointers />
         <Pseudocodigo />
         <FlowChart />
-
       </div>
       <BackButton />
     </>
