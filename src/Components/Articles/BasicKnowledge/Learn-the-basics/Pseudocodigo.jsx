@@ -1,29 +1,36 @@
 import React from 'react'
-import { Title, Paragraph, Element, Space, BlueTitle } from '../../../PageTexts/PageText';
-import { BlueSection } from '../../../Sections/Section'
+import { Title, Paragraph, Element, Space, BlueTitle, PurpleTitle } from '../../../PageTexts/PageText';
+import { BlueSection, PurpleWordSection, PurpleSection } from '../../../Sections/Section'
 
 
 const Pseudocodigo = () => {
   return (
     <>
-      <Title>
-        Pseudocódigos
-      </Title>
-      <Paragraph>
-        Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.
-      </Paragraph>
+      <PurpleSection>
+        <PurpleTitle>
+          Pseudocódigos
+        </PurpleTitle>
+        <Paragraph>
+          Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.
+        </Paragraph>
 
-      <Space />
-      
-      <BlueSection>
-        <BlueTitle>Inicio</BlueTitle>
-        <Element>Definir num1, num2, suma como Entero;</Element>
-        <Element>Leer num1;</Element>
-        <Element>Leer num2;</Element>
-        <Element>suma = num1 + num2;</Element>
-        <Element>Mostras suma;</Element>
-        <BlueTitle>Fin</BlueTitle>
-      </BlueSection>
+        <Space />
+
+        <PurpleWordSection>
+
+          <Space />
+          <PurpleTitle>Inicio</PurpleTitle>
+          <Element>Definir num1, num2, suma como Entero;</Element>
+          <Element>Leer num1;</Element>
+          <Element>Leer num2;</Element>
+          <Element>suma = num1 + num2;</Element>
+          <Element>Mostras suma;</Element>
+          <PurpleTitle>Fin</PurpleTitle>
+
+          <Space />
+        </PurpleWordSection >
+      </PurpleSection>
+
 
       <Space />
     </>

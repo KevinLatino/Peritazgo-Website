@@ -11,12 +11,13 @@ const Algorithm = () => {
       </Title>
 
       <Paragraph>
-        Un algoritmo es una secuencia de acciones lógicas necesarias para realizar una tarea en específico.
+        Es un método para resolver un problema mediante una secuencia de pasos
+        bien definidos, ordenados y finitos
       </Paragraph>
 
       <Space />
 
-      <div className='flex justify-between'>
+      <div className='flex gap-16'>
         <BlueSection>
 
           <BlueTitle>Caracteristicas de los algotimos:</BlueTitle>
@@ -36,20 +37,31 @@ const Algorithm = () => {
 
         <PurpleSection>
 
-          <PurpleTitle>Ejemplo a modificar después:</PurpleTitle>
+          <PurpleTitle>En un algoritmo se distinguen las siguientes acciones:
+          </PurpleTitle>
           <Element>
-            <PurpleWordSection>● Finito</PurpleWordSection>: tiene un inicio y un fin.
+            <PurpleWordSection>● Entrada</PurpleWordSection>: es la información de partida que necesita el algoritmo.
           </Element>
           <Element>
-            <PurpleWordSection>● Preciso</PurpleWordSection>: sus acciones son lógicas, por ende, no tienen ambigüedad.
+            <PurpleWordSection>● Proceso</PurpleWordSection>: es el conjunto de todas las operaciones a realizar.
           </Element>
           <Element>
-            <PurpleWordSection>● Definido</PurpleWordSection>: siempre produce el mismo resultado.
+            <PurpleWordSection>● Salida</PurpleWordSection>: son los resultados obtenidos
           </Element>
 
         </PurpleSection>
 
       </div>
+
+      <Space />
+
+      <Title>
+        Representación de los algoritmos
+      </Title>
+
+      <Paragraph>
+        Las dos herramientas más utilizadas comúnmente para describir algoritmos son:
+      </Paragraph>
 
       <Space />
     </>

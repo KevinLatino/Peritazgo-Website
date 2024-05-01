@@ -1,29 +1,27 @@
 import React from 'react'
 import FlowCharts from '../../../../Images/FlowChart.png'
-import { Title, Paragraph, Space } from '../../../PageTexts/PageText';
-import { Accordion } from '../../../AccordionComponent/Accordion'
+import { Paragraph, Space, BlueTitle } from '../../../PageTexts/PageText';
+import { BlueSection } from '../../../Sections/Section';
 
 const FlowChart = () => {
 
   return (
     <>
 
-      <Title>
-        Diagramas de flujo
-      </Title>
+      <BlueSection>
+        <BlueTitle>
+          Diagramas de flujo
+        </BlueTitle>
 
-      <Space />
-      
-      <Paragraph>
-        Un diagrama de flujo es una representación gráfica de un pseudocódigo.
-        Los diagramas de flujo están compuestos por un conjunto estandarizado de figuras.
-      </Paragraph>
+        <Paragraph>
+        Son representaciones gráficas de secuencias de pasos a realizar. Estas figuras son estándares globales por la (ANSI - American National Standars Institute)
+        </Paragraph>
 
-      <Space />
+        <Space />
 
-      <Accordion title='Has click para ver más'>
-        <img src={FlowCharts} width={480} />
-      </Accordion>
+        <img src={FlowCharts} width={300} />
+
+      </BlueSection>
     </>
   )
 }
