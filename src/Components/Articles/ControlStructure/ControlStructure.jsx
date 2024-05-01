@@ -1,31 +1,98 @@
 import React from 'react'
-import simpleIf from '../../../Images/Simple-If.jpg'
-import dobleIf from '../../../Images/Doble-if.png'
-import multipleIf from '../../../Images/Multiple-if.png'
-import For from '../.././../Images/For.png'
-import While from '../../../Images/While.png'
-import doWhile from '../../../Images/DoWhile.png'
 import { BackButton } from '../../BackButton/BackButton'
-import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title, Paragraph, BlueTitle, Element, Space, PurpleTitle, GreenTitle, RedTitle } from '../../PageTexts/PageText';
-import { BlueSection, GreenSection, PurpleSection, RedSection } from '../../Sections/Section';
+import { CodeComponent } from '../../CodeComponent/CodeComponent'
+import {
+  Title,
+  Paragraph,
+  BlueTitle,
+  Element,
+  Space,
+  PurpleTitle,
+  GreenTitle,
+  RedTitle
+} from '../../PageTexts/PageText';
+import {
+  BlueSection,
+  GreenSection,
+  PurpleSection,
+  RedSection
+} from '../../Sections/Section';
 import 'animate.css';
 
 
 const ControlStructure = () => {
 
+  const stringIf =
+    ` let age = 18;
+  if (age >= 18){
+    console.log('Eres mayor de edad');
+  };`
+
+  const stringDobleIf =
+    `let age = 18;
+  if (age >= 18){
+    console.log('Eres mayor de edad');
+  } else {
+    console.log('Eres menor de edad')
+  };`
+
+  const stringMultipleIf =
+    `let age = 18;
+   if (age >= 18){
+    console.log('Eres mayor de edad');
+  } else if (age > 13 && < 18 ){
+    console.log('Eres un adolescente')
+  } else if (age < 13) {
+    console.log('Eres un niño')
+  };`
+
+  const stringSwitch =
+    `let age = 15;
+  switch (true) {
+    case age < 18:
+      console.log('Eres menor de edad');
+      break;
+    case age >= 18:
+      console.log('Eres mayor de edad');
+      break;
+  };`
+
+  const stringFor =
+    `for (i=0; i<4; i++){
+    console.log(i)
+  };
+  //En consola: 0, 1, 2, 3`
+
+  const stringWhile =
+    `let i = 0;
+  while (i < 4){
+    i++
+    console.log(i)
+  };
+  //En consola: 0, 1, 2, 3`
+
+  const stringDoWhile =
+    `let i = 0;
+  do {
+    console.log(i)
+    i++
+  } while(i < 4);
+  //En consola: 0, 1, 2, 3`
+
   return (
     <>
 
       <div className='animate__animated animate__fadeInLeft'>
+
         <Title>
           Estructuras de Control
         </Title>
-
         <Paragraph>
           Las estructuras de control en desarrollo web son herramientas que
           permiten controlar el flujo de ejecución
           de un programa o aplicación web.
+          Sin ellas, las instrucciones de un programa solo
+          podrían ejecutarse en el orden en que están escritas (orden secuencial).
         </Paragraph>
 
         <Space />
@@ -58,7 +125,7 @@ const ControlStructure = () => {
           </Element>
 
           <Element>
-            Escribir "El área del rectángulo es: ", area
+            Escribir 'El área del rectángulo es: ', area
           </Element>
           <BlueTitle>
             Fin
@@ -75,58 +142,62 @@ const ControlStructure = () => {
           ciertas instrucciones o bloques de código basándose en condiciones específicas.
           Estas condiciones suelen evaluarse como verdaderas o falsas.
         </Paragraph>
-        <h2>Tipos:</h2>
 
+        <Title>
+          Tipos:
+        </Title>
+        <Space />
 
-        <div className='flex gap-16'>
+        <div className='flex gap-12'>
+
           <BlueSection>
-            <BlueTitle>Condicionales Simples</BlueTitle>
-
+            <BlueTitle>
+              Condicionales Simples
+            </BlueTitle>
             <Paragraph>
               Esta estructura condicional es la más simple, esta simplemente hace algo si
-              la condición lógica es cierta, y si no, no hace nada, Entrada-Proceso-Salida (E-P-S)
+              la condición lógica es cierta, y si no, no hace nada.
             </Paragraph>
-
-            <img src={simpleIf} width={300} />
+            <Space />
+            <CodeComponent codeString={stringIf} />
           </BlueSection>
 
           <PurpleSection>
-            <PurpleTitle>Condicionales Dobles</PurpleTitle>
-
+            <PurpleTitle>
+              Condicionales Dobles
+            </PurpleTitle>
             <Paragraph>
-              Estas condición es muy parecida a la anterior, la única diferencia es que al comparar la condición lógica,
-              el condicional va a hacer algo aunque el resultado sea falso o verdadero
+              Tiene 2 acciones alternativas, si la sentencia se cumple hace una, y si no se cumple hace la otra.
             </Paragraph>
-
-            <img src={dobleIf} width={375} />
+            <Space />
+            <CodeComponent codeString={stringDobleIf} />
           </PurpleSection>
         </div>
 
         <Space />
 
-        <div className='flex gap-16'>
+        <div className='flex gap-12'>
           <GreenSection>
             <GreenTitle >Condicionales Anidados</GreenTitle>
-
             <Paragraph>
-              Esta condición al igual que las anteriores es bastante parecida, la diferencia con las otras es que esta estructura
-              de control implementa un condicional dentro de un condicional
+              permite implementar condicionales
+              más complicados, en los que se “encadenan” condiciones. Es un condional, dentro de otro....
             </Paragraph>
-
-            <img src={multipleIf} width={385} />
+            <Space />
+            <CodeComponent codeString={stringMultipleIf} />
           </GreenSection>
 
           <RedSection>
             <RedTitle>Condicionales Múltiples</RedTitle>
-
             <Paragraph>
-              Es muy parecido a las otras ateriores, solamente que se ultiliza el switch. Dirige el flujo del programa hacia diferentes bloques de código según el valor de una expresión
+              Dirige el flujo del programa hacia diferentes bloques de código según el valor de una expresión.
             </Paragraph>
+            <Space />
+            <CodeComponent codeString={stringSwitch} />
           </RedSection>
         </div>
 
         <Space />
-
 
         <Title>
           Estructuras de Control Repetitivas o cíclicas
@@ -138,42 +209,45 @@ const ControlStructure = () => {
 
         <Space />
 
-        <div className="flex gap-12">
+        <div className='flex gap-12'>
           <BlueSection>
-            <BlueTitle>Ciclos Para (For)</BlueTitle>
+            <BlueTitle>
+              Ciclos Para (For)
+            </BlueTitle>
             <Paragraph>
-              Los ciclos para (for) contienen la inicialización de la variable con el valor inicial, la condición lógica
+              Contienen la inicialización de la variable con el valor inicial, la condición lógica
               y el incremento o decremento, todo en la misma sentencia.
             </Paragraph>
             <Space />
-            <img src={For} width={180} />
+            <CodeComponent codeString={stringFor} />
           </BlueSection>
 
           <PurpleSection>
-            <PurpleTitle>Ciclos Mientras (While)</PurpleTitle>
+            <PurpleTitle>
+              Ciclos Mientras (While)
+            </PurpleTitle>
             <Paragraph>
-              Los ciclos mientras tienen la inicialización de la variable con el valor inicial, la condición lógica y
+              Tienen la inicialización de la variable con el valor inicial, la condición lógica y
               la instrucción de incremento o decremento en distintas sentencias.
             </Paragraph>
             <Space />
-            <img src={While} width={220} />
+            <CodeComponent codeString={stringWhile} />
           </PurpleSection>
 
           <GreenSection>
-            <GreenTitle>Ciclos Hacer-Mientras (Do While)</GreenTitle>
+            <GreenTitle>
+              Ciclos Hacer-Mientras (Do While)
+            </GreenTitle>
             <Paragraph>
-              los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
+              Garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
             </Paragraph>
             <Space />
-            <img src={doWhile} width={220} />
+            <CodeComponent codeString={stringDoWhile} />
           </GreenSection>
 
         </div>
-
-
       </div>
-
-
+      
       <BackButton />
     </>
   )

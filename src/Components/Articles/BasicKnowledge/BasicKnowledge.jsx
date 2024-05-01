@@ -16,7 +16,7 @@ const BasicKnowledgeScreen = () => {
 
         <Variable />
         <Algorithm />
-        <div className='flex gap-5'>
+        <div className='flex gap-10'>
           <FlowChart />
           <Pseudocodigo />
         </div>

@@ -19,7 +19,7 @@ const FlowChart = () => {
 
         <Space />
 
-        <img src={FlowCharts} width={300} />
+        <img src={FlowCharts} width={340} />
 
       </BlueSection>
     </>
