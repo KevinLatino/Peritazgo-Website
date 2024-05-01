@@ -7,8 +7,8 @@ import While from '../../../Images/While.png'
 import doWhile from '../../../Images/DoWhile.png'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title, Paragraph, BlueTitle, Element, Space } from '../../PageTexts/PageText';
-import { BlueSection } from '../../Sections/Section'
+import { Title, Paragraph, BlueTitle, Element, Space, PurpleTitle, GreenTitle } from '../../PageTexts/PageText';
+import { BlueSection, GreenSection, PurpleSection } from '../../Sections/Section';
 import 'animate.css';
 
 
@@ -122,30 +122,40 @@ const ControlStructure = () => {
           estructuras de control repetitivas: los ciclos para, los ciclos mientras y los ciclos hacer-mientras.
         </Paragraph>
 
-        <Accordion title='Has click para ver más'>
-          <h2 className="subtitle">Ciclos Para (For)</h2>
-          <p>
-            Los ciclos para son estructuras de control repetitivas que contienen la inicialización de la variable con el valor inicial, la condición lógica
-            y la instrucción de incremento o decremento, todo en una única y misma cláusula.
-          </p>
-          <img src={For} width={190} />
+        <Space />
 
+        <div className="flex gap-12">
+          <BlueSection>
+            <BlueTitle>Ciclos Para (For)</BlueTitle>
+            <Paragraph>
+              Los ciclos para (for) contienen la inicialización de la variable con el valor inicial, la condición lógica
+             y el incremento o decremento, todo en la misma sentencia.
+            </Paragraph>
+            <Space />
+            <img src={For} width={180} />
+          </BlueSection>
 
-          <h2 className="subtitle">Ciclos Mientras (While)</h2>
-          <p>
-            Los ciclos mientras son estructuras de control repetitivas que tienen la inicialización de la variable con el valor inicial, la condición lógica y
-            la instrucción de incremento o decremento en distintas cláusulas.
-          </p>
-          <img src={While} width={210} />
+          <PurpleSection>
+            <PurpleTitle>Ciclos Mientras (While)</PurpleTitle>
+            <Paragraph>
+              Los ciclos mientras tienen la inicialización de la variable con el valor inicial, la condición lógica y
+              la instrucción de incremento o decremento en distintas sentencias.
+            </Paragraph>
+            <Space />
+            <img src={While} width={220} />
+          </PurpleSection>
 
-
-          <h2 className='subtitle'>Ciclos Hacer-Mientras (Do While)</h2>
-          <p>
-            Los ciclos hacer-mientras son estructuras de control repetitivas que al igual que los ciclos mientras, tienen sus elementos en distintas cláusulas. Sin embargo, a diferencia de los ciclos mientras,
+          <GreenSection>
+          <GreenTitle>Ciclos Hacer-Mientras (Do While)</GreenTitle>
+          <Paragraph>
             los ciclos hacer-mientras garantizan al menos una ejecución de las estructuras de control a ejecutar independientemente del valor inicial o la condición lógica.
-          </p>
-          <img src={doWhile} width={210} />
-        </Accordion>
+          </Paragraph>
+          <Space />
+          <img src={doWhile} width={220} />
+        </GreenSection>
+
+        </div>
+
 
       </div>
 

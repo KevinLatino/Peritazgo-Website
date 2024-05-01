@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlueSection, GreenSection, PurpleSection, WordSection, PurpleWordSection } from '../../Sections/Section'
+import { BlueSection, GreenSection, PurpleSection, BlueWordSection, PurpleWordSection, GreenWordSection } from '../../Sections/Section'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'
@@ -35,14 +35,26 @@ const ExpressionScreen = () => {
         <div className='flex gap-10'>
           <BlueSection>
             <BlueTitle>Tipos de valores:</BlueTitle>
-            <Element><WordSection>● Literales</WordSection>: son simplemente números o cadenas.</Element>
-            <Element><WordSection>● Variables</WordSection>: Se referencian simplemente por la representación textual de su valor.</Element>
+            <Element>
+              <BlueWordSection>● Literales</BlueWordSection>: son simplemente números o cadenas.
+            </Element>
+
+            <Element>
+              <BlueWordSection>● Variables</BlueWordSection>: Se referencian simplemente por la representación textual de su valor.
+            </Element>
+
           </BlueSection>
 
           <PurpleSection>
             <PurpleTitle>Ejemplos:</PurpleTitle>
-            <Element><PurpleWordSection>● Literales</PurpleWordSection>: El número 10 o una cadena de "caracteres".</Element>
-            <Element><PurpleWordSection>● Variables</PurpleWordSection>:Asignación de una variable como: numero = 10.</Element>
+
+            <Element>
+              <PurpleWordSection>● Literales</PurpleWordSection>: El número 10 o una cadena de "caracteres".
+            </Element>
+
+            <Element>
+              <PurpleWordSection>● Variables</PurpleWordSection>:Asignación de una variable como: numero = 10.
+            </Element>
           </PurpleSection>
         </div>
 
@@ -60,23 +72,29 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
+          <BlueTitle>Ejemplos:</BlueTitle>
           <Element>
-            <WordSection>● Suma +</WordSection>: es utilizado para realizar la suma de dos valores.
+            <BlueWordSection>● Suma +</BlueWordSection>: es utilizado para realizar la suma de dos valores.
           </Element>
+
           <Element>
-            <WordSection>● Resta -</WordSection>: es utilizado para realizar una restar de dos valores.
+            <BlueWordSection>● Resta -</BlueWordSection>: es utilizado para realizar una restar de dos valores.
           </Element>
+
           <Element>
-            <WordSection>● Multiplicación<Asterisk size={15} /></WordSection>:  utilizado para multiplicar dos valores.
+            <BlueWordSection>● Multiplicación<Asterisk size={15} /></BlueWordSection>:  utilizado para multiplicar dos valores.
           </Element>
+
           <Element>
-            <WordSection>● División /</WordSection>: utilizado para dividir un valor entre otro.
+            <BlueWordSection>● División /</BlueWordSection>: utilizado para dividir un valor entre otro.
           </Element>
+
           <Element>
-            <WordSection>● Mod % </WordSection>: devuelve el residuo de la división de un valor entre otro.
+            <BlueWordSection>● Mod % </BlueWordSection>: devuelve el residuo de la división de un valor entre otro.
           </Element>
+
           <Element>
-            <WordSection>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^</WordSection>: utilizado para elevar un valor a una potencia.
+            <BlueWordSection>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^</BlueWordSection>: utilizado para elevar un valor a una potencia.
           </Element>
         </BlueSection>
 
@@ -94,23 +112,29 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
+          <BlueTitle>Ejemplos:</BlueTitle>
           <Element>
-            <WordSection>● Num1 == Num2</WordSection>: Quiere dicir que Num1 y Num2 tienen el mismo valor
+            <BlueWordSection>● Num1 == Num2</BlueWordSection>: Quiere dicir que Num1 y Num2 tienen el mismo valor
           </Element>
+
           <Element>
-            <WordSection>● Num1 != Num2 o Num1 &lt;&gt;</WordSection>: Num2 Num1 y Num2 tienen distinto valor
+            <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>: Num1 y Num2 tienen distinto valor
           </Element>
+
           <Element>
-            <WordSection>● Num1 &lt; Num2</WordSection>: Quiere decir que Num1 es menor que Num2
+            <BlueWordSection>● Num1 &lt; Num2</BlueWordSection>: Quiere decir que Num1 es menor que Num2
           </Element>
+
           <Element>
-            <WordSection>● Num1 &lt;= Num2</WordSection>: Num1 es menor o igual que Num2
+            <BlueWordSection>● Num1 &lt;= Num2</BlueWordSection>: Num1 es menor o igual que Num2
           </Element>
+
           <Element>
-            <WordSection>● Num1 &gt; Num2</WordSection>: Quiere decir que Num1 es mayor que Num2
+            <BlueWordSection>● Num1 &gt; Num2</BlueWordSection>: Quiere decir que Num1 es mayor que Num2
           </Element>
+
           <Element>
-            <WordSection>● Num1 &gt;= Num2</WordSection>: Num1 es mayor o igual que Num2
+            <BlueWordSection>● Num1 &gt;= Num2</BlueWordSection>: Num1 es mayor o igual que Num2
           </Element>
         </BlueSection>
 
@@ -128,14 +152,15 @@ const ExpressionScreen = () => {
         <Space />
 
         <BlueSection>
+          <BlueTitle>Ejemplos:</BlueTitle>
           <Element>
-            <WordSection>A && B o A ∧ B</WordSection>: La conjunción de A y B, verdadero si ambos A y B son verdaderos
+            <BlueWordSection>A && B o A ∧ B</BlueWordSection>: La conjunción de A y B, verdadero si ambos A y B son verdaderos
           </Element>
           <Element>
-            <WordSection>A || B o A ∨  B</WordSection>: La disyunción de A y B, verdadero si al menos uno de A o B es verdadero
+            <BlueWordSection>A || B o A ∨  B</BlueWordSection>: La disyunción de A y B, verdadero si al menos uno de A o B es verdadero
           </Element>
           <Element>
-            <WordSection>!A o ¬A</WordSection>: La negación de A, verdadero si A es falso, falso si A es verdadero
+            <BlueWordSection>!A o ¬A</BlueWordSection>: La negación de A, verdadero si A es falso, falso si A es verdadero
           </Element>
         </BlueSection>
 
@@ -164,7 +189,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <WordSection>Producen exclusivamente verdadero o falso</WordSection>
+              <BlueWordSection>Producen exclusivamente verdadero o falso</BlueWordSection>
             </Element>
 
           </BlueSection>
@@ -226,22 +251,27 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              1. Potencias y raíces.
+              <GreenWordSection>
+                1. Potencias y raíces.
+              </GreenWordSection>
             </Element>
 
             <Element>
-              2. Negatividades.
+              <GreenWordSection>
+                2. Negatividades.
+              </GreenWordSection>
             </Element>
 
             <Element>
-              3. Multiplicaciones, divisiones, residuos.
+              <GreenWordSection>3. Multiplicaciones, divisiones, residuos.</GreenWordSection>
             </Element>
 
             <Element>
-              4. Sumas y restas.
+              <GreenWordSection>4. Sumas y restas.</GreenWordSection>
             </Element>
+
             <Element>
-              Se evalúan los operadores relacionales, con precedencia de izquierda a derecha
+              <GreenWordSection>Se evalúan los operadores relacionales, con precedencia de izquierda a derecha</GreenWordSection>
             </Element>
           </GreenSection>
 
@@ -251,13 +281,13 @@ const ExpressionScreen = () => {
               Se evalúan los operadores lógicos, con la siguiente precedencia:
             </Element>
             <Element>
-              <WordSection>1. Negaciones</WordSection>
+              <BlueWordSection>1. Negaciones</BlueWordSection>
             </Element>
             <Element>
-              <WordSection>2. Conjunciones</WordSection>
+              <BlueWordSection>2. Conjunciones</BlueWordSection>
             </Element>
             <Element>
-              <WordSection>3. Disyunciones</WordSection>
+              <BlueWordSection>3. Disyunciones</BlueWordSection>
             </Element>
           </BlueSection>
 

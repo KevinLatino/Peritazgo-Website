@@ -1,7 +1,0 @@
-.container-condionals{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    column-gap: 3rem;
-    row-gap: 3rem;
-}

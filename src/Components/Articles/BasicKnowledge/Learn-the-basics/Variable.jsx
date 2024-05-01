@@ -15,7 +15,9 @@ import {
   BlueSection,
   GreenSection,
   RedSection,
-  WordSection
+  BlueWordSection,
+  GreenWordSection,
+  RedWordSection
 } from '../../../Sections/Section';
 
 
@@ -33,35 +35,58 @@ const Variable = () => {
 
       <Space />
 
-      <BlueSection>
-        <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
-        <Element>num <WordSection>←</WordSection> 0</Element>
-        <Element>num <WordSection>=</WordSection> 0</Element>
-      </BlueSection>
-
       <br />
 
 
-      <div className='flex gap-16'>
+      <div className='flex gap-14'>
+
+      <BlueSection>
+        <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
+        <Element>
+          numero <BlueWordSection>←</BlueWordSection> 0
+        </Element>
+        <Element>
+          numero <BlueWordSection>=</BlueWordSection> 0
+        </Element>
+
+        <Element>
+          O también puede ser expresado con caracteres:
+        </Element>
+
+        <Element>
+          nombre <BlueWordSection>←</BlueWordSection> "Juan"
+        </Element>
+        <Element>
+          nombre <BlueWordSection>=</BlueWordSection> "Juan"
+        </Element> 
+      </BlueSection>
+
 
         <GreenSection>
 
-          <GreenTitle >Buenas prácticas al utilizar variables <CircleCheckBig color='#44AC99' /></GreenTitle>
-          <Space />
-          <Element>● Nombres descriptivos: que reflejen el propósito de la variable.</Element>
-          <Element>● Utilizar camelCase:  para mantener la consistencia en el código.</Element>
-          <Element>● Usar nombres en inglés: debido a que es el idioma universal.</Element>
-          <Element>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos.</Element>
-          
-        </GreenSection>
+          <GreenTitle>
+            Buenas prácticas al utilizar variables <CircleCheckBig />
+          </GreenTitle>
 
-        <RedSection>
-          <RedTitle>Malas prácticas al utilizar variables <Ban /></RedTitle>
-          <Element>● Nombres descriptivos: que reflejen el propósito de la variable.</Element>
-          <Element>● Utilizar camelCase:  para mantener la consistencia en el código.</Element>
-          <Element>● Usar nombres en inglés: debido a que es el idioma universal.</Element>
-          <Element>● Evitar nombres demasiado largos: lo mejor es que sean cortos y compactos.</Element>
-        </RedSection>
+          <Space />
+
+          <Element>
+            <GreenWordSection>● Nombres descriptivos</GreenWordSection>: que describa a la variable.
+          </Element>
+
+          <Element>
+            <GreenWordSection>● Utilizar camelCase</GreenWordSection>: ayuda a la consistencia del código.
+          </Element>
+
+          <Element>
+            <GreenWordSection>● Usar nombres en inglés</GreenWordSection>: ya que es el idioma universal.
+          </Element>
+
+          <Element>
+            <GreenWordSection>● Evitar nombres largos</GreenWordSection>: Buscar que cortos y compactos.
+          </Element>
+
+        </GreenSection>
       </div>
       <Space />
     </>
