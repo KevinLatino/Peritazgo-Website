@@ -34,7 +34,7 @@ export const PurpleSection = ({ children }) => {
 
 export const PurpleWordSection = ({ children }) => {
     return (
-        <div className='flex items-start flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-2xl'>
+        <div className='flex items-start flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-md'>
             {children}
         </div>
     )
@@ -42,7 +42,7 @@ export const PurpleWordSection = ({ children }) => {
 
 export const BlueWordSection = ({ children }) => {
     return (
-        <div className=' flex justify-center flex-wrap flex-col bg-blue_word_section rounded-md px-1 '>
+        <div className=' flex items-start flex-col flex-wrap bg-blue_word_section rounded-md px-1 '>
             {children}
         </div>
     )

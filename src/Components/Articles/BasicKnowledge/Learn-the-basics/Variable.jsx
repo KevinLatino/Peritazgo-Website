@@ -1,23 +1,19 @@
 import React from 'react';
 import { CircleCheckBig } from 'lucide-react';
-import { Ban } from 'lucide-react';
 import {
   Title,
   Paragraph,
   Space,
   Element,
   GreenTitle,
-  RedTitle,
   BlueTitle
 } from '../../../PageTexts/PageText';
 
 import {
   BlueSection,
   GreenSection,
-  RedSection,
   BlueWordSection,
   GreenWordSection,
-  RedWordSection
 } from '../../../Sections/Section';
 
 
@@ -43,10 +39,10 @@ const Variable = () => {
       <BlueSection>
         <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
         <Element>
-          numero <BlueWordSection>←</BlueWordSection> 0
+          number <BlueWordSection>←</BlueWordSection> 0
         </Element>
         <Element>
-          numero <BlueWordSection>=</BlueWordSection> 0
+          number <BlueWordSection>=</BlueWordSection> 0
         </Element>
 
         <Element>
@@ -54,10 +50,10 @@ const Variable = () => {
         </Element>
 
         <Element>
-          nombre <BlueWordSection>←</BlueWordSection> "Juan"
+          name <BlueWordSection>←</BlueWordSection> "Juan"
         </Element>
         <Element>
-          nombre <BlueWordSection>=</BlueWordSection> "Juan"
+          name <BlueWordSection>=</BlueWordSection> "Juan"
         </Element> 
       </BlueSection>
 

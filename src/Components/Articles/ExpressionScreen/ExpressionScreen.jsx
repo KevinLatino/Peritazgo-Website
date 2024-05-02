@@ -1,9 +1,27 @@
 import React from 'react'
-import { BlueSection, GreenSection, PurpleSection, BlueWordSection, PurpleWordSection, GreenWordSection } from '../../Sections/Section'
+import {
+  BlueSection,
+  GreenSection,
+  PurpleSection,
+  BlueWordSection,
+  PurpleWordSection,
+  GreenWordSection,
+  RedSection,
+  RedWordSection
+} from '../../Sections/Section'
+import {
+  Title,
+  Paragraph,
+  Space,
+  BlueTitle,
+  Element,
+  GreenTitle,
+  PurpleTitle,
+  RedTitle
+} from '../../PageTexts/PageText';
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
 import { BackButton } from '../../BackButton/BackButton'
-import { Title, Paragraph, Space, BlueTitle, Element, GreenTitle, PurpleTitle } from '../../PageTexts/PageText';
 
 const ExpressionScreen = () => {
   return (
@@ -40,7 +58,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <BlueWordSection>● Variables</BlueWordSection>: Se referencian simplemente por la representación textual de su valor.
+              <BlueWordSection>● Variables</BlueWordSection>: Se referencian por la representación textual de su valor.
             </Element>
 
           </BlueSection>
@@ -71,33 +89,37 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <BlueSection>
-          <BlueTitle>Ejemplos:</BlueTitle>
-          <Element>
-            <BlueWordSection>● Suma +</BlueWordSection>: es utilizado para realizar la suma de dos valores.
-          </Element>
+        <div className='flex gap-14'>
+          <GreenSection>
+            <GreenTitle>Ejemplos:</GreenTitle>
+            <Element>
+              <GreenWordSection>● Suma +</GreenWordSection>: es utilizado para realizar la suma de dos valores.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Resta -</BlueWordSection>: es utilizado para realizar una restar de dos valores.
-          </Element>
+            <Element>
+              <GreenWordSection>● Resta -</GreenWordSection>: es utilizado para realizar una restar de dos valores.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Multiplicación<Asterisk size={15} /></BlueWordSection>:  utilizado para multiplicar dos valores.
-          </Element>
+            <Element>
+              <GreenWordSection>● Multiplicación<Asterisk size={15} /></GreenWordSection>:  utilizado para multiplicar dos valores.
+            </Element>
+          </GreenSection>
 
-          <Element>
-            <BlueWordSection>● División /</BlueWordSection>: utilizado para dividir un valor entre otro.
-          </Element>
+          <RedSection>
+            <RedTitle>Ejemplos:</RedTitle>
+            <Element>
+              <RedWordSection>● División /</RedWordSection>: utilizado para dividir un valor entre otro.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Mod % </BlueWordSection>: devuelve el residuo de la división de un valor entre otro.
-          </Element>
+            <Element>
+              <RedWordSection>● Mod % </RedWordSection>: devuelve el residuo de la división de un valor entre otro.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^</BlueWordSection>: utilizado para elevar un valor a una potencia.
-          </Element>
-        </BlueSection>
-
+            <Element>
+              <RedWordSection>● Potenciación <Asterisk size={15} /><Asterisk size={15} /> o ^</RedWordSection>: utilizado para elevar un valor a una potencia.
+            </Element>
+          </RedSection>
+        </div>
         <Space />
 
         <Title>
@@ -111,32 +133,41 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <BlueSection>
-          <BlueTitle>Ejemplos:</BlueTitle>
-          <Element>
-            <BlueWordSection>● Num1 == Num2</BlueWordSection>: Quiere dicir que Num1 y Num2 tienen el mismo valor
-          </Element>
+        <div className='flex gap-14'>
+          <BlueSection>
+            <BlueTitle>Ejemplos:</BlueTitle>
+            <Element>
+              <BlueWordSection>● Num1 == Num2</BlueWordSection>: Num1 y Num2 tienen el mismo valor.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>: Num1 y Num2 tienen distinto valor
-          </Element>
+            <Element>
+              <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>: Num1 y Num2 son diferentes.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Num1 &lt; Num2</BlueWordSection>: Quiere decir que Num1 es menor que Num2
-          </Element>
+            <Element>
+              <BlueWordSection>● Num1 &lt; Num2</BlueWordSection>: Quiere decir que Num1 es menor que Num2.
+            </Element>
+          </BlueSection>
 
-          <Element>
-            <BlueWordSection>● Num1 &lt;= Num2</BlueWordSection>: Num1 es menor o igual que Num2
-          </Element>
+          <PurpleSection>
+            <PurpleTitle>
+              Ejemplos:
+            </PurpleTitle>
+            <Element>
+              <PurpleWordSection>● Num1 &lt;= Num2</PurpleWordSection>: Num1 es menor o igual que Num2.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Num1 &gt; Num2</BlueWordSection>: Quiere decir que Num1 es mayor que Num2
-          </Element>
+            <Element>
+              <PurpleWordSection>● Num1 &gt; Num2</PurpleWordSection>: Quiere decir que Num1 es mayor que Num2.
+            </Element>
 
-          <Element>
-            <BlueWordSection>● Num1 &gt;= Num2</BlueWordSection>: Num1 es mayor o igual que Num2
-          </Element>
-        </BlueSection>
+            <Element>
+              <PurpleWordSection>● Num1 &gt;= Num2</PurpleWordSection>: Num1 es mayor o igual que Num2.
+            </Element>
+          </PurpleSection>
+        </div>
+
+
 
         <Space />
 

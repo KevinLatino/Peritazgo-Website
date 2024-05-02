@@ -3,7 +3,6 @@ import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
 import { Title, Paragraph } from '../../PageTexts/PageText';
 import StructureData from '../../../Images/Estructura-de-datos.png'
-import Array from '../../../Images/Array.png'
 import { BlueSection } from '../../Sections/Section'
 import "animate.css"
 
@@ -55,10 +54,6 @@ const DataStructure = () => {
                 <Paragraph>
                     Son arreglos unidimensionales. Es decir, para acceder a un elemento en un vector se ocupa un único índice. Ejemplo:
                 </Paragraph>
-
-                <Accordion title='Has click para ver más'>
-                    <img src={Array} width={350} />
-                </Accordion>
 
                 <h2>● Matrices</h2>
                 <p>

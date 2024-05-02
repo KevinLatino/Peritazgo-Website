@@ -1,6 +1,6 @@
 import React from 'react'
-import { Title, Paragraph, Element, Space, BlueTitle, PurpleTitle } from '../../../PageTexts/PageText';
-import { BlueSection, PurpleWordSection, PurpleSection } from '../../../Sections/Section'
+import { Paragraph, Element, Space, BlueTitle, PurpleTitle } from '../../../PageTexts/PageText';
+import { PurpleWordSection, PurpleSection } from '../../../Sections/Section'
 
 
 const Pseudocodigo = () => {
@@ -16,7 +16,7 @@ const Pseudocodigo = () => {
 
         <Space />
         <Space />
-        
+
         <PurpleWordSection>
           
           <Space />
