@@ -36,26 +36,26 @@ const Variable = () => {
 
       <div className='flex gap-16'>
 
-      <BlueSection>
-        <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
-        <Element>
-          number <BlueWordSection>←</BlueWordSection> 0
-        </Element>
-        <Element>
-          number <BlueWordSection>=</BlueWordSection> 0
-        </Element>
+        <BlueSection>
+          <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
+          <Element>
+            number <BlueWordSection>←</BlueWordSection> 0
+          </Element>
+          <Element>
+            number <BlueWordSection>=</BlueWordSection> 0
+          </Element>
 
-        <Element>
-          <BlueTitle>Y para asignar caracteres a una variable tenemos este ejemplo:</BlueTitle>
-        </Element>
+          <Element>
+            <BlueTitle>Y para asignar caracteres a una variable tenemos este ejemplo:</BlueTitle>
+          </Element>
 
-        <Element>
-          name <BlueWordSection>←</BlueWordSection> "Juan"
-        </Element>
-        <Element>
-          name <BlueWordSection>=</BlueWordSection> "Juan"
-        </Element> 
-      </BlueSection>
+          <Element>
+            name <BlueWordSection>←</BlueWordSection> "Juan"
+          </Element>
+          <Element>
+            name <BlueWordSection>=</BlueWordSection> "Juan"
+          </Element>
+        </BlueSection>
 
 
         <GreenSection>
@@ -63,7 +63,6 @@ const Variable = () => {
           <GreenTitle>
             Buenas prácticas al utilizar variables <CircleCheckBig />
           </GreenTitle>
-
           <Space />
 
           <Element>

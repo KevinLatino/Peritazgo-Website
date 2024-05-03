@@ -1,7 +1,10 @@
 import React from 'react'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { Title, Paragraph } from '../../PageTexts/PageText';
+import { 
+    Title, 
+    Space,
+    Paragraph } from '../../PageTexts/PageText';
 import StructureData from '../../../Images/Estructura-de-datos.png'
 import { BlueSection } from '../../Sections/Section'
 import "animate.css"
@@ -19,18 +22,19 @@ const DataStructure = () => {
                     algún caracter, pero, al interpretar estos, se pueden convertir en información
                     sumamente importante
                 </Paragraph>
-
+                <Space />
 
                 <Title>
                     Estructuras de datos
                 </Title>
                 <Paragraph>
                     Las estructuras de datos son todos aquellos mecanismos que permiten la organización de datos.
+                    Permite hacer de deshacer datos
                 </Paragraph>
-                <h2 className="subtitle">Organización:</h2>
+                <Space />
 
-                <Accordion title='Has click para ver más'>
-                    <img src={StructureData} width={700} />
+                <Accordion title='Has click para ver la clasificación'>
+                    <img src={StructureData} width={850} />
                 </Accordion>
 
                 <Title>

@@ -42,8 +42,6 @@ export const PurpleTitle = ({ children }) => {
     )
 }
 
-
-
 export const Paragraph = ({ children }) => {
     return (
         <p className='text-white text-[17px]'>

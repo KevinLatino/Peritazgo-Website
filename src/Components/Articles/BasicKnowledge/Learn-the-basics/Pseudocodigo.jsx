@@ -13,8 +13,6 @@ const Pseudocodigo = () => {
         <Paragraph>
           Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.
         </Paragraph>
-
-        <Space />
         <Space />
 
         <PurpleWordSection>

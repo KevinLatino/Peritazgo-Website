@@ -33,8 +33,8 @@ const ExpressionScreen = () => {
         </Title>
 
         <Paragraph>
+          | Estos componentes pueden ser simples, como un número o una variable que contiene un valor,
           Es una combinación de valores, variables, operadores y funciones que se evalúa para producir un resultado.
-          Estos componentes pueden ser simples, como un número o una variable que contiene un valor,
           o más complejos, como una fórmula matemática o una llamada a una función.
         </Paragraph>
 
@@ -93,7 +93,7 @@ const ExpressionScreen = () => {
           <GreenSection>
             <GreenTitle>Ejemplos:</GreenTitle>
             <Element>
-              <GreenWordSection>● Suma +</GreenWordSection>: es utilizado para realizar la suma de dos valores.
+              <GreenWordSection>● Suma +</GreenWordSection>: es utilizado para realizar la suma de un valor y otro.
             </Element>
 
             <Element>
@@ -101,7 +101,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <GreenWordSection>● Multiplicación<Asterisk size={15} /></GreenWordSection>:  utilizado para multiplicar dos valores.
+              <GreenWordSection>● Multiplicación<Asterisk size={15} /></GreenWordSection>: es utilizado para la |multiplicación de dos valores.
             </Element>
           </GreenSection>
 
@@ -112,7 +112,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <RedWordSection>● Mod % </RedWordSection>: devuelve el residuo de la división de un valor entre otro.
+              <RedWordSection>● Mod % </RedWordSection>: devuelve el residuo de una división.
             </Element>
 
             <Element>
@@ -141,7 +141,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>: Num1 y Num2 son diferentes.
+              <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>:  Num1 y Num2 son diferentes.
             </Element>
 
             <Element>
