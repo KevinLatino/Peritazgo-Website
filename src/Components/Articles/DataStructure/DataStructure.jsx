@@ -10,6 +10,7 @@ import {
     Subtitle,
     GreenTitle,
     PurpleTitle,
+    BlueTitle,
 } from '../../PageTexts/PageText';
 import {
     BlueSection,
@@ -23,16 +24,20 @@ const DataStructure = () => {
     const stringVect =
         ` let animals = ['Dog', 'Cat', 'Lion', 'Bird'];
  console.log(animals[0]);
- //En consola se mostrará Dog que es el índice 0`
+ //En consola se mostrará Dog que es el índice 0 `
 
     const stringMat =
         ` let animals = [
-  ["Lion", "Feline"],
-  ["Elephant", "Mammal"],
+  ['Lion', 'Dog'],
+  ['Elephant', 'Cat'],
  ];
  console.log(animals[1][0]);
  //En consola se mostrará Lion `
 
+    const stringRec =
+        `const animal = { nombre: "Fido", especie: "Perro", edad: 5 };
+console.log(animal.especie)
+//En consola se mostrará Perro`
 
     return (
         <>
@@ -116,16 +121,29 @@ const DataStructure = () => {
                     </PurpleSection>
                 </div>
 
+                <Space />
 
-
-
-
-                <h2>● Registros</h2>
+                <Title>
+                    Registros
+                </Title>
                 <Paragraph>
                     Son estructuras de datos estáticas que almacenan datos de distintos tipos en un mismo bloque continuo de memoria. Cada dato en un registro tiene asignado un identificador único textual,
                     llamado llave.
                 </Paragraph>
 
+                <Space />
+
+                <BlueSection>
+                    <BlueTitle>
+                        Ejemplo:
+                    </BlueTitle>
+                    <Space />
+
+                    <CodeComponent codeString={stringRec} />
+                </BlueSection>
+
+                <Space />
+                
                 <Title>
                     Estructuras de Datos Dinámicas
                 </Title>
