@@ -16,6 +16,10 @@ import {
   Binary,
   RefreshCcw,
   FileText,
+  Database,
+  Brain,
+  Server,
+  Box
 } from 'lucide-react';
 import 'animate.css';
 import './index.css'
@@ -41,45 +45,56 @@ const App = () => {
       description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
       route: '/Expresiones',
       icons: [
-        <Ampersands size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <Divide size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <BrainCircuit size={27} className='text-[#5cafad] p-0.5 m-1' />
+        <Ampersands size={27} className='text-icon_color p-0.5 m-1' />,
+        <Divide size={27} className='text-icon_color p-0.5 m-1' />,
+        <BrainCircuit size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
 
     {
       title: 'Estructuras de control',
-      description: 'Componentes de la programación que permiten controlar el flujo de ejecución de un programa',
+      description: ' Son componentes de la programación que permiten controlar el flujo de ejecución de un programa',
       route: '/Estructuras-de-control',
       icons: [
-        <Split size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <Workflow size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <RefreshCcw size={27} className='text-[#5cafad] p-0.5 m-1' />
+        <Split size={27} className='text-icon_color p-0.5 m-1' />,
+        <Workflow size={27} className='text-icon_color p-0.5 m-1' />,
+        <RefreshCcw size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
 
     {
       title: 'Estructuras de datos',
-      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
-      route: 'Estructuras-de-datos',
+      description: 'Son las que organizan nuestro proyecto en ejecución, se aborda como se clasifican',
+      route: '/Estructuras-de-datos',
       icons: [
-        <FileText size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <Route size={27} className='text-[#5cafad] p-0.5 m-1' />,
-        <Binary size={27} className='text-[#5cafad] p-0.5 m-1' />
+        <FileText size={27} className='text-icon_color p-0.5 m-1' />,
+        <Route size={27} className='text-icon_color p-0.5 m-1' />,
+        <Binary size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
 
     {
-      title: 'Algo asi',
-      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
-      route: 'Estructuras-de-datos',
+      title: 'Bases de datos',
+      description: 'Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto',
+      route: '/Bases-de-datos',
+      icons: [
+        <Database size={27} className='text-icon_color p-0.5 m-1' />,
+        <Server size={27} className='text-icon_color p-0.5 m-1' />,
+        <Brain className='text-icon_color p-0.5 m-1' />,
+
+      ],
     },
 
     {
-      title: 'Pruebas',
-      description: 'Son las que organizan nuestro proyecto en ejecución, aprende terminos como que es un dato',
+      title: 'POO',
+      description: 'Rellenar en el futuro, cuando veamos programación orientada a objetos',
       route: 'Estructuras-de-datos',
+      icons: [
+        <Box className='text-icon_color p-0.5 m-1' />
+
+      ]
     },
+
 
   ];
 

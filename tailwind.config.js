@@ -32,6 +32,7 @@ export default {
         //colors components 
         "back_button": "#5cafad58",
         "accordition_color": "#ffdfb6",
+        "icon_color": "#5cafad"
       },
     },
   },
