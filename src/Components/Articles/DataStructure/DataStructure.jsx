@@ -1,15 +1,38 @@
 import React from 'react'
+import StructureData from '../../../Images/Estructura-de-datos.png'
+import { CodeComponent } from '../../CodeComponent/CodeComponent'
 import { BackButton } from '../../BackButton/BackButton'
 import { Accordion } from '../../AccordionComponent/Accordion'
-import { 
-    Title, 
+import {
+    Title,
     Space,
-    Paragraph } from '../../PageTexts/PageText';
-import StructureData from '../../../Images/Estructura-de-datos.png'
-import { BlueSection } from '../../Sections/Section'
+    Paragraph,
+    Subtitle,
+    GreenTitle,
+    PurpleTitle,
+} from '../../PageTexts/PageText';
+import {
+    BlueSection,
+    GreenSection,
+    PurpleSection
+} from '../../Sections/Section'
 import "animate.css"
 
 const DataStructure = () => {
+
+    const stringVect =
+        ` let animals = ['Dog', 'Cat', 'Lion', 'Bird'];
+ console.log(animals[0]);
+ //En consola se mostrará Dog que es el índice 0`
+
+    const stringMat =
+        ` let animals = [
+  ["Lion", "Feline"],
+  ["Elephant", "Mammal"],
+ ];
+ console.log(animals[1][0]);
+ //En consola se mostrará Lion `
+
 
     return (
         <>
@@ -34,8 +57,10 @@ const DataStructure = () => {
                 <Space />
 
                 <Accordion title='Has click para ver la clasificación'>
-                    <img src={StructureData} width={850} />
+                    <img src={StructureData} width={900} />
                 </Accordion>
+
+                <Space />
 
                 <Title>
                     Estructuras de Datos Estáticas
@@ -44,26 +69,55 @@ const DataStructure = () => {
                     Una estructura de datos estática es aquella cuyo tamaño no puede cambiar en tiempo de ejecución.
                     Existen dos principales tipos de estructuras de datos estáticas: los arreglos y los registros.
                 </Paragraph>
+                <Space />
 
                 <Title>
                     Arreglos
                 </Title>
                 <Paragraph>
-                    Son estructuras de datos estáticas que almacenan datos del mismo tipo en un mismo
-                    bloque continuo de memoria. Cada dato en un arreglo tiene asignado una posición en cada dimensión, llamada índice, empezando en 0.
-                    Existen dos tipos de arreglos especiales según su cantidad de dimensiones: los vectores y las matrices.
+                    Los arreglos son estructuras de datos estáticas que almacenan datos del mismo tipo.
+                    Cada dato en un arreglo tiene un espacio asigando,
+                    llamado índice, que empieza en 0, este espacio es en pocas palabras su posición.
                 </Paragraph>
 
-                <h2>● Vector</h2>
-                <Paragraph>
-                    Son arreglos unidimensionales. Es decir, para acceder a un elemento en un vector se ocupa un único índice. Ejemplo:
-                </Paragraph>
+                <Space />
 
-                <h2>● Matrices</h2>
-                <p>
-                    Son arreglos bidimensionales. Es decir, para acceder a un elemento en una matriz se ocupan dos índices,
-                    un índice para la fila y otro índice para la columna. Ejemplos:
-                </p>
+                <Subtitle>
+                    Tipos:
+                </Subtitle>
+
+                <Space />
+
+                <div className='flex gap-16'>
+                    <GreenSection>
+                        <GreenTitle>
+                            ● Vector
+                        </GreenTitle>
+                        <Paragraph>
+                            Un vector es una estructura de datos que almacena elementos en orden y se accede a
+                            cada elemento usando un único índice. Es unidimensional
+                        </Paragraph>
+                        <Space />
+
+                        <CodeComponent codeString={stringVect} />
+                    </GreenSection>
+
+                    <PurpleSection>
+                        <PurpleTitle>
+                            ● Matrices
+                        </PurpleTitle>
+                        <Paragraph>
+                            Para acceder a un elemento en una matriz
+                            se ocupan dos índices, un índice para la fila y otro índice para la columna.
+                        </Paragraph>
+                        <Space />
+
+                        <CodeComponent codeString={stringMat} />
+                    </PurpleSection>
+                </div>
+
+
+
 
 
                 <h2>● Registros</h2>

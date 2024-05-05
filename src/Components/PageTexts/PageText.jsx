@@ -67,4 +67,10 @@ export const Space = () => {
     )
 }
 
-
+export const Subtitle = ({children}) => {
+    return (
+        <h2 className='flex text-white gap-3 text-[28px] font-bold'>
+            {children}
+        </h2>
+    )
+}
