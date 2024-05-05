@@ -16,7 +16,7 @@ const Pseudocodigo = () => {
         <Space />
 
         <PurpleWordSection>
-          
+
           <Space />
           <PurpleTitle>Inicio</PurpleTitle>
           <Element>Definir num1, num2, suma como Entero;</Element>
@@ -25,8 +25,8 @@ const Pseudocodigo = () => {
           <Element>suma = num1 + num2;</Element>
           <Element>Mostras suma;</Element>
           <PurpleTitle>Fin</PurpleTitle>
-
           <Space />
+          
         </PurpleWordSection >
       </PurpleSection>
 

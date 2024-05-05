@@ -181,7 +181,7 @@ const ControlStructure = () => {
             <GreenTitle >Condicionales Anidados</GreenTitle>
             <Paragraph>
               permite implementar condicionales
-              más complicados, en los que se “encadenan” condiciones. Es un condional, dentro de otro....
+              más complicados, en los que se “encadenan” condiciones. Es un condional, dentro de otro..
             </Paragraph>
             <Space />
             <CodeComponent codeString={stringMultipleIf} />

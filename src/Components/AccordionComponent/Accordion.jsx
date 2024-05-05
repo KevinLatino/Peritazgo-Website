@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import { MagicMotion } from 'react-magic-motion';
 import { ChevronDown } from 'lucide-react';
 
@@ -20,7 +21,7 @@ const Accordion = ({ title, children }) => {
                         onClick={handleOpen}
                     >
                         {title}
-                        <ChevronDown size={32} className=' ' />
+                        <ChevronDown size={32} className={`transform ${open ? 'rotate-180 transition-transform duration-320 ease-in-out' : 'transition-transform duration-320 ease-in-out'}`}/>
                     </button>
 
                     {open && (

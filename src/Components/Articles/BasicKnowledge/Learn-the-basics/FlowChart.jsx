@@ -14,12 +14,14 @@ const FlowChart = () => {
         </BlueTitle>
 
         <Paragraph>
-        Son representaciones gráficas de secuencias de pasos a realizar. Estas figuras son estándares globales por la (ANSI - American National Standars Institute)
+           Representaciones gráficas de secuencias de pasos a realizar. Son estándares globales por la (ANSI American National Standars Institute)
         </Paragraph>
 
         <Space />
 
-        <img src={FlowCharts} width={315} />
+        <div className='flex justify-center items-center'>
+          <img src={FlowCharts} width={325} />
+        </div>
 
       </BlueSection>
     </>
