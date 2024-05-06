@@ -60,6 +60,12 @@ const DataBase = () => {
                 <Space />
 
                 <Title>
+                    Tablas, campos y registros
+                </Title>
+
+                <Space />
+
+                <Title>
                     Llaves
                 </Title>
 
@@ -88,6 +94,24 @@ const DataBase = () => {
                         <GreenWordSection>● Llave Foránea</GreenWordSection>: un campo que hace referencia a una llave primaria en otra tabla.
                     </Element>
                 </GreenSection>
+
+                <Space />
+
+                <Title>
+                    Diagramas Entidad-Relación
+                </Title>
+                <Paragraph>
+                    Un diagrama entidad-relación es una representación gráfica de una base de datos relacional.
+                </Paragraph>
+
+                <Space />
+
+                <Title>
+                    Cardinalidad
+                </Title>
+                <Paragraph>
+
+                </Paragraph>
 
             </div>
         </>
