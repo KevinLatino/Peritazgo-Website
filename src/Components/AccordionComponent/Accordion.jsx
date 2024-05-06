@@ -17,7 +17,7 @@ const Accordion = ({ title, children }) => {
             <MagicMotion>
                 <div className=' p-5 flex items-start flex-wrap w-2/4 bg-blue_section rounded-3xl '>
                     <button
-                        className='flex justify-between items-center rounded-3xl bg-fixed text-blue_text w-full text-[18px]'
+                        className='flex justify-between items-center rounded-3xl bg-fixed text-purple_text w-full text-[18px]'
                         onClick={handleOpen}
                     >
                         {title}

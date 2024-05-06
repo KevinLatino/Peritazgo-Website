@@ -5,7 +5,7 @@ import './index.css'
 import { BasicKnowledgeScreen } from '../src/Components/Articles/BasicKnowledge/BasicKnowledge.jsx'
 import { ExpressionScreen } from '../src/Components/Articles/ExpressionScreen/ExpressionScreen.jsx'
 import { ControlStructure } from '../src/Components/Articles/ControlStructure/ControlStructure.jsx'
-import { DataBase } from './Components/DataBasesComponent/DataBase.jsx'
+import { DataBase } from './Components/Articles/DataBasesComponent/DataBase.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { DataStructure } from './Components/Articles/DataStructure/DataStructure.jsx'
 
