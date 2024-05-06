@@ -19,7 +19,9 @@ import {
   Database,
   Brain,
   Server,
-  Box
+  Link,
+  NotepadText,
+  FileType
 } from 'lucide-react';
 import 'animate.css';
 import './index.css'
@@ -53,7 +55,7 @@ const App = () => {
 
     {
       title: 'Estructuras de control',
-      description: ' Son componentes de la programación que permiten controlar el flujo de ejecución de un programa',
+      description: ' Son componentes de la programación que permiten controlar el flujo de ejecución de un programa.',
       route: '/Estructuras-de-control',
       icons: [
         <Split size={27} className='text-icon_color p-0.5 m-1' />,
@@ -64,7 +66,7 @@ const App = () => {
 
     {
       title: 'Estructuras de datos',
-      description: 'Son las que organizan nuestro proyecto en ejecución, se aborda como se clasifican',
+      description: 'Son las que organizan nuestro proyecto en ejecución, se aborda como se clasifican.',
       route: '/Estructuras-de-datos',
       icons: [
         <FileText size={27} className='text-icon_color p-0.5 m-1' />,
@@ -75,7 +77,7 @@ const App = () => {
 
     {
       title: 'Bases de datos',
-      description: 'Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto',
+      description: 'Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto.',
       route: '/Bases-de-datos',
       icons: [
         <Database size={27} className='text-icon_color p-0.5 m-1' />,
@@ -86,11 +88,13 @@ const App = () => {
     },
 
     {
-      title: 'POO',
-      description: 'Rellenar en el futuro, cuando veamos programación orientada a objetos',
-      route: 'Estructuras-de-datos',
+      title: 'Prácticas sobre los temas vistos',
+      description: 'Encontrarás links de práticas sobre los temas vistos, incluye las respuestas de dichas práticas.',
+      route: '/pruebas',
       icons: [
-        <Box className='text-icon_color p-0.5 m-1' />
+        <FileType className='text-icon_color p-0.5 m-1' />,
+        <NotepadText className='text-icon_color p-0.5 m-1' />,
+        <Link className='text-icon_color p-0.5 m-1' />
 
       ]
     },

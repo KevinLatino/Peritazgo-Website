@@ -5,6 +5,7 @@ import './index.css'
 import { BasicKnowledgeScreen } from '../src/Components/Articles/BasicKnowledge/BasicKnowledge.jsx'
 import { ExpressionScreen } from '../src/Components/Articles/ExpressionScreen/ExpressionScreen.jsx'
 import { ControlStructure } from '../src/Components/Articles/ControlStructure/ControlStructure.jsx'
+import { ExamComponent } from '../src/Components/Articles/ExamComponent/ExamComponent.jsx'
 import { DataBase } from './Components/Articles/DataBasesComponent/DataBase.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { DataStructure } from './Components/Articles/DataStructure/DataStructure.jsx'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: '/Bases-de-datos',
     element: <DataBase />
+  },
+  {
+    path: '/pruebas',
+    element: <ExamComponent/>
   }
 
 
