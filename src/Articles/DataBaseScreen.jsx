@@ -14,7 +14,7 @@ import {
     PurpleWordSection
 } from '../Components/SectionsComponent'
 import { BackButton } from '../Components/BackButtonComponent'
-import { Key } from 'lucide-react'
+import { KeyRound  } from 'lucide-react'
 import 'animate.css'
 
 const DataBase = () => {
@@ -79,7 +79,7 @@ const DataBase = () => {
                 <GreenSection>
                     <GreenTitle>
                         Tipos de llaves
-                        <Key />
+                        <KeyRound />
                     </GreenTitle>
 
                     <Element>

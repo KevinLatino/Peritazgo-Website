@@ -42,7 +42,7 @@ const DataStructure = () => {
  //En consola se mostrará Lion `
 
     const stringRec =
-        `const animal = { name: 'Fido', specie: 'Dog', age: 5 };
+        `const animal = { name: 'Dockey Huntey', specie: 'Dog', age: 5 };
 console.log(animal.especie)
 //En consola se mostrará Perro`
 
@@ -105,7 +105,7 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex gap-16'>
+                <div className='flex gap-28'>
                     <GreenSection>
                         <GreenTitle>
                             ● Vector
@@ -145,7 +145,7 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex gap-20'>
+                <div className='flex gap-28'>
                     <BlueSection>
                         <BlueTitle>
                             Ejemplo:
@@ -172,6 +172,7 @@ console.log(animal.especie)
                 </Title>
                 <Paragraph>
                     Una estructura de datos dinámica es aquella cuyo tamaño puede cambiar. Se clasifican en lineales y no lineales. El principal protagonista es el nodo.
+                    Están compuestas de varios nodos que apuntan entre sí.
                 </Paragraph>
 
                 <Space />
@@ -212,13 +213,51 @@ console.log(animal.especie)
                 <Title>
                     Listas enlazadas
                 </Title>
+                <Paragraph>
+                    Las listas enlazadas, también conocidas como arreglos dinámicos, son estructuras de datos lineales que almacenan datos del mismo tipo. Se componen de nodos, cada uno con un campo de puntero que apunta al siguiente nodo en la secuencia, excepto el último nodo que apunta a una dirección nula.
+                    Las listas enlazadas son fundamentales en la programación debido a su capacidad para gestionar datos de manera dinámica y eficiente.
+                </Paragraph>
 
                 <Space />
 
-                <Title>
-                    Listas enlazadas dobles
-                </Title>
+                    <Title>
+                        Pilas o FIFO's y Colas o LIFO's
+                    </Title>
 
+                    <Space />
+
+                    <div className='flex justify-evenly'>
+                    <GreenSection>
+                        <GreenTitle>
+                            Pilas o FIFO's (First In First Out)
+                        </GreenTitle>
+                        <Paragraph>
+                            Es un comportamiento específico de una lista enlazada
+                        </Paragraph>
+                        <Element>
+                            <GreenWordSection>● Solo se pueden ingresar elementos al final</GreenWordSection>
+                        </Element>
+                        <Element>
+                            <GreenWordSection>● Solo se pueden extraer elementos al final</GreenWordSection>
+                        </Element>
+                    </GreenSection>
+
+                    <PurpleSection>
+                        <PurpleTitle>
+                            Colas o LIFO's (Last In First Out)
+                        </PurpleTitle>
+                        <Paragraph>
+                            Es un comportamiento específico de una lista enlazada
+                        </Paragraph>
+                        <Element>
+                            <PurpleWordSection>● Solo se pueden ingresar elementos al principio</PurpleWordSection>
+                        </Element>
+                        <Element>
+                            <PurpleWordSection>● Solo se pueden extraer elementos al final</PurpleWordSection>
+                        </Element>
+                    </PurpleSection>
+                </div>
+                
                 <Space />
 
                 <Title>
@@ -227,50 +266,24 @@ console.log(animal.especie)
                 <Paragraph>
                     Los árboles son estructuras de datos dinámicas no lineales, d
                     onde cada nodo en la estructura tiene al menos dos campos para almacenar punteros a otros nodos en la estructura.
+                    Existen 2 tipos. Árboles Binario: Cada nodo almacena dos punteros y Árboles N-arios: ada nodo almacena más de dos punteros
                 </Paragraph>
 
                 <Space />
-
-                <Subtitle>
-                    Tipos:
-                </Subtitle>
-
-                <Space />
-
-                <div className='flex gap-10'>
-                    <BlueSection>
-                        <BlueTitle>
-                            Árboles Binarios
-                        </BlueTitle>
-                        <Paragraph>
-                            Cada nodo almacena dos punteros
-                        </Paragraph>
-                    </BlueSection>
-
-                    <PurpleSection>
-                        <PurpleTitle>
-                            Árboles N-arios
-                        </PurpleTitle>
-                        <Paragraph>
-                            Cada nodo almacena más de dos punteros
-                        </Paragraph>
-                    </PurpleSection>
-                </div>
-
-                <Space />
+2
                 <Subtitle>
                     Métodos de ordenamiento de árboles:
                 </Subtitle>
 
                 <Space />
 
-                <div className='flex gap-10'>
+                <div className='flex justify-evenly'>
                     <BlueSection>
                         <BlueTitle>
                             Preorden: Raíz al inicio
                         </BlueTitle>
                         <Element>
-                            <BlueWordSection>● Raíz</BlueWordSection>● Raíz
+                            <BlueWordSection>● Raíz</BlueWordSection>
                         </Element>
                         <Element>
                             <BlueWordSection>● Izquierda</BlueWordSection>
@@ -312,7 +325,7 @@ console.log(animal.especie)
                 </div>
 
                 <Space />
-                
+
                 <Title>
                     Grafos
                 </Title>
