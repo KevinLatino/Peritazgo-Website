@@ -280,7 +280,7 @@ console.log(animal.especie)
                 <Space />
 
                 <Subtitle>
-                    Métodos de ordenamiento de árboles:
+                    Recorrido de los árboles:
                 </Subtitle>
 
                 <Space />
