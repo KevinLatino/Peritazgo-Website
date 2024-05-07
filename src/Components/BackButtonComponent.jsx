@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const BackButton = () => {
     return (
         <>
-            <Link to={'/revista-peritazgo'}>
+            <Link to={'/'}>
                 <motion.div 
                 whileHover={{scale:1.2}}
                 style={{

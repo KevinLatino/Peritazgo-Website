@@ -12,7 +12,7 @@ import {
     PurpleTitle,
     BlueTitle,
     RedTitle,
-    Element
+    Element,
 } from '../Components/PageTextsComponent';
 import {
     BlueSection,
@@ -220,13 +220,13 @@ console.log(animal.especie)
 
                 <Space />
 
-                    <Title>
-                        Pilas o FIFO's y Colas o LIFO's
-                    </Title>
+                <Title>
+                    Pilas o FIFO's y Colas o LIFO's
+                </Title>
 
-                    <Space />
+                <Space />
 
-                    <div className='flex justify-evenly'>
+                <div className='flex justify-evenly'>
                     <GreenSection>
                         <GreenTitle>
                             Pilas o FIFO's (First In First Out)
@@ -257,8 +257,16 @@ console.log(animal.especie)
                         </Element>
                     </PurpleSection>
                 </div>
-                
+
                 <Space />
+
+                <Title>
+                    Estructuras de datos no líneales
+                </Title>
+                <Paragraph>
+                    son estructuras de datos dinámicas en las cuales no es necesario recorrer todos los elementos
+                    anteriores para acceder a un elemento cualquiera en la estructura.
+                </Paragraph>
 
                 <Title>
                     Árboles binarios
@@ -270,7 +278,7 @@ console.log(animal.especie)
                 </Paragraph>
 
                 <Space />
-2
+
                 <Subtitle>
                     Métodos de ordenamiento de árboles:
                 </Subtitle>
@@ -330,9 +338,23 @@ console.log(animal.especie)
                     Grafos
                 </Title>
                 <Paragraph>
-                    Los grafos son estructuras de datos dinámicas no lineales, donde cada nodo almacena una lista enlazadade punteros a otros nodes en la estructura. De esta manera,
-                    los nodos de un grafo pueden tener una cantidad arbitraria de hijos, a diferencia de los árboles.
+                    Son estructuras de datos no líneales en las cuales cada nodo guarda una lista enlazada de referencias a otros nodos en la estructura. Esta característica permite que los nodos de un grafo
+                    tengan un número variable de conexiones, lo que los distingue de los árboles, donde cada nodo tiene un número limitado de hijos.
                 </Paragraph>
+
+                <Space />
+
+                <GreenSection>
+                    <GreenTitle>
+                        Los grafos se pueden clasificar en dirigidos o no dirigidos según el siguiente criterio.
+                    </GreenTitle>
+                    <Element>
+                        <GreenWordSection>Dirigido</GreenWordSection>: si un nodo A apunta a un nodo B, no necesariamente B apunta a A.
+                    </Element>
+                    <Element>
+                        <GreenWordSection>No dirigido</GreenWordSection>: Siempre que un nodo A apunte a un nodo B, entonces B también apunta a A.
+                    </Element>
+                </GreenSection>
             </div>
             <BackButton />
         </>

@@ -13,7 +13,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/Revista-peritazgo',
+    path: '/',
     element: <App />
   },
   {
