@@ -7,14 +7,14 @@ import {
   Element,
   GreenTitle,
   BlueTitle
-} from '../../../PageTexts/PageText';
+} from '../../../Components/PageTextsComponent';
 
 import {
   BlueSection,
   GreenSection,
   BlueWordSection,
   GreenWordSection,
-} from '../../../Sections/Section';
+} from '../../../Components/SectionsComponent';
 
 
 const Variable = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import StructureData from '../../../Images/Estructura-de-datos.png'
-import { CodeComponent } from '../../CodeComponent/CodeComponent'
-import { BackButton } from '../../BackButton/BackButton'
-import { Accordion } from '../../AccordionComponent/Accordion'
+import StructureData from '../Images/Estructura-de-datos.png'
+import { CodeComponent } from '../Components/CodeComponent'
+import { BackButton } from '../Components/BackButtonComponent'
+import { Accordion } from '../Components/AccordionComponent'
 import {
     Title,
     Space,
@@ -13,7 +13,7 @@ import {
     BlueTitle,
     RedTitle,
     Element
-} from '../../PageTexts/PageText';
+} from '../Components/PageTextsComponent';
 import {
     BlueSection,
     BlueWordSection,
@@ -23,7 +23,7 @@ import {
     RedSection,
     RedWordSection,
     PurpleWordSection
-} from '../../Sections/Section'
+} from '../Components/SectionsComponent'
 import 'animate.css'
 
 const DataStructure = () => {

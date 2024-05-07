@@ -6,13 +6,13 @@ import {
     Space,
     PurpleTitle,
     GreenTitle
-} from '../../PageTexts/PageText'
+} from '../Components/PageTextsComponent'
 import {
     GreenSection,
     GreenWordSection,
     PurpleSection,
     PurpleWordSection
-} from '../../Sections/Section'
+} from '../Components/SectionsComponent'
 import { Key } from 'lucide-react'
 import 'animate.css'
 

@@ -2,17 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { BasicKnowledgeScreen } from '../src/Components/Articles/BasicKnowledge/BasicKnowledge.jsx'
-import { ExpressionScreen } from '../src/Components/Articles/ExpressionScreen/ExpressionScreen.jsx'
-import { ControlStructure } from '../src/Components/Articles/ControlStructure/ControlStructure.jsx'
-import { ExamComponent } from '../src/Components/Articles/ExamComponent/ExamComponent.jsx'
-import { DataBase } from './Components/Articles/DataBasesComponent/DataBase.jsx'
+import {BasicKnowledgeScreen} from '../src/Articles/BasicKnowledge/BasicKnowledgeScreen.jsx'
+import { ExpressionScreen } from '../src/Articles/ExpressionScreen.jsx'
+import { ControlStructure } from '../src/Articles/ControlStructureScreen.jsx'
+import { Links } from '../src/Articles/LinkScreen.jsx'
+import { DataStructure } from './Articles/DataStructureScreen.jsx'
+import { DataBase } from '../src/Articles/DataBaseScreen.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { DataStructure } from './Components/Articles/DataStructure/DataStructure.jsx'
+
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Revista-peritazgo',
     element: <App />
   },
   {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/pruebas',
-    element: <ExamComponent/>
+    element: <Links/>
   }
 
 

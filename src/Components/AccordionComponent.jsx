@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { MagicMotion } from 'react-magic-motion';
 import { ChevronDown } from 'lucide-react';
 

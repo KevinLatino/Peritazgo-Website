@@ -1,6 +1,18 @@
 import React from 'react';
-import { Title, Paragraph, Element, Space, BlueTitle, PurpleTitle } from '../../../PageTexts/PageText';
-import { BlueSection, BlueWordSection, PurpleSection, PurpleWordSection } from '../../../Sections/Section';
+import {
+  Title,
+  Paragraph,
+  Element,
+  Space,
+  BlueTitle,
+  PurpleTitle
+} from '../../../Components/PageTextsComponent';
+import {
+  BlueSection,
+  BlueWordSection,
+  PurpleSection,
+  PurpleWordSection
+} from '../../../Components/SectionsComponent';
 
 const Algorithm = () => {
 

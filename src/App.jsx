@@ -1,7 +1,7 @@
 import React from 'react'
-import { MainTitle } from '../src/Components/MainTitle/MainTitle';
-import { CardComponent } from '../src/Components/CardComponent/CardComponent';
-import { SearchBar } from '../src/Components/SearchBar/SearchBar';
+import { MainTitle } from '../src/Components/MainTitleComponent';
+import { CardComponent } from '../src/Components/CardComponent';
+import { SearchBar } from '../src/Components/SearchBarComponent';
 import { useState } from 'react';
 import {
   BookText,

@@ -1,7 +1,16 @@
 import React from 'react'
 import { NotebookText } from 'lucide-react'
-import { Title, Paragraph, Space, GreenTitle, Element } from '../../../PageTexts/PageText';
-import { GreenSection, GreenWordSection } from '../../../Sections/Section'
+import {
+    Title,
+    Paragraph,
+    Space,
+    GreenTitle,
+    Element
+} from '../../../Components/PageTextsComponent';
+import {
+    GreenSection,
+    GreenWordSection
+} from '../../../Components/SectionsComponent'
 
 const Pointers = () => {
     return (

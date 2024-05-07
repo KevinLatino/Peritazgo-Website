@@ -1,6 +1,14 @@
 import React from 'react'
-import { Paragraph, Element, Space, BlueTitle, PurpleTitle } from '../../../PageTexts/PageText';
-import { PurpleWordSection, PurpleSection } from '../../../Sections/Section'
+import {
+  Paragraph,
+  Element,
+  Space,
+  PurpleTitle
+} from '../../../Components/PageTextsComponent';
+import {
+  PurpleWordSection,
+  PurpleSection
+} from '../../../Components/SectionsComponent'
 
 
 const Pseudocodigo = () => {
@@ -26,7 +34,7 @@ const Pseudocodigo = () => {
           <Element>Mostras suma;</Element>
           <PurpleTitle>Fin</PurpleTitle>
           <Space />
-          
+
         </PurpleWordSection >
       </PurpleSection>
 

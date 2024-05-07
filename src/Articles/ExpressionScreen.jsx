@@ -8,7 +8,7 @@ import {
   GreenWordSection,
   RedSection,
   RedWordSection
-} from '../../Sections/Section'
+} from '../Components/SectionsComponent'
 import {
   Title,
   Paragraph,
@@ -18,10 +18,11 @@ import {
   GreenTitle,
   PurpleTitle,
   RedTitle
-} from '../../PageTexts/PageText';
+} from '../Components/PageTextsComponent';
+import { BackButton } from '../Components/BackButtonComponent'
 import { NotebookText } from 'lucide-react';
 import { Asterisk } from 'lucide-react';
-import { BackButton } from '../../BackButton/BackButton'
+
 
 const ExpressionScreen = () => {
   return (

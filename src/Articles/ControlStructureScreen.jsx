@@ -1,6 +1,6 @@
 import React from 'react'
-import { BackButton } from '../../BackButton/BackButton'
-import { CodeComponent } from '../../CodeComponent/CodeComponent'
+import { BackButton } from '../Components/BackButtonComponent'
+import { CodeComponent } from '../Components/CodeComponent'
 import {
   Title,
   Paragraph,
@@ -10,13 +10,13 @@ import {
   PurpleTitle,
   GreenTitle,
   RedTitle
-} from '../../PageTexts/PageText';
+} from '../Components/PageTextsComponent';
 import {
   BlueSection,
   GreenSection,
   PurpleSection,
   RedSection
-} from '../../Sections/Section';
+} from '../Components/SectionsComponent';
 import 'animate.css';
 
 
