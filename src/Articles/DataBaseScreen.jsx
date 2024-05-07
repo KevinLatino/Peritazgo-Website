@@ -13,6 +13,7 @@ import {
     PurpleSection,
     PurpleWordSection
 } from '../Components/SectionsComponent'
+import { BackButton } from '../Components/BackButtonComponent'
 import { Key } from 'lucide-react'
 import 'animate.css'
 
@@ -114,6 +115,7 @@ const DataBase = () => {
                 </Paragraph>
 
             </div>
+            <BackButton />
         </>
     )
 }

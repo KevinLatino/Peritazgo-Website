@@ -18,7 +18,7 @@ const FlowChart = () => {
         </BlueTitle>
 
         <Paragraph>
-          Representaciones gráficas de secuencias de pasos a realizar. Son estándares globales por la (ANSI American National Standars Institute)
+          Representaciones gráficas de secuencias de pasos a realizar. Estas figuras gráficas son estándares regulados por la (ANSI).
         </Paragraph>
 
         <Space />
@@ -28,6 +28,8 @@ const FlowChart = () => {
         </div>
 
       </BlueSection>
+
+      
     </>
   )
 }

@@ -37,9 +37,6 @@ const Pseudocodigo = () => {
 
         </PurpleWordSection >
       </PurpleSection>
-
-
-      <Space />
     </>
   )
 }

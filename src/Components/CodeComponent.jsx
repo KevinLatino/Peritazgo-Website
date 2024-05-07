@@ -25,7 +25,7 @@ const CodeComponent = ({ codeString }) => {
             </SyntaxHighlighter>
             {lenguaje && (
                 <div
-                    className='cursor-pointer absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 text-white'>
+                    className='cursor-pointer absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-70 text-white'>
                     JavaScript
                 </div>
             )}

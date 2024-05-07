@@ -4,7 +4,9 @@ import { Algorithm } from './Learn-the-basics/Algorithm'
 import { Pseudocodigo } from './Learn-the-basics/Pseudocodigo'
 import { FlowChart } from './Learn-the-basics/FlowChart'
 import { Pointers } from './Learn-the-basics/Pointers'
+import { Subprocesses } from './Learn-the-basics/Subprocesses'
 import { BackButton } from '../../Components/BackButtonComponent'
+import { Space } from '../../Components/PageTextsComponent'
 import "animate.css";
 
 
@@ -16,10 +18,12 @@ const BasicKnowledgeScreen = () => {
 
         <Variable />
         <Algorithm />
-        <div className='flex gap-14'>
+        <div className='flex gap-16'>
           <FlowChart />
           <Pseudocodigo />
         </div>
+        <Space />
+        <Subprocesses />
         <Pointers />
       </div>
       <BackButton />
