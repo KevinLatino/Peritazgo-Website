@@ -29,7 +29,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="../../Downloads/Frame 3.jpg"  />
+  <img height="200" src="../Revista-Peritazgo-2024//src/Images/Photo_Profile.png"  />
 </div>
 
 ###
