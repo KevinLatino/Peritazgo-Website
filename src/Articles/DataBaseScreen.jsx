@@ -74,7 +74,7 @@ const DataBase = () => {
                     Bases de datos relacionales:
                 </Title>
                 <Paragraph>
-                    Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto. las bases de datos relacionales poseen: 
+                    Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto. las bases de datos relacionales poseen:
                 </Paragraph>
                 <Space />
                 <BlueSection>
@@ -224,6 +224,10 @@ const DataBase = () => {
                 <Title>
                     Formas normales
                 </Title>
+                <p>
+                    son las reglas que aplican durante el proceso de normalización. Existen tres principales formas normales. Estas formas normales son acumulativias, es decir, una tabla en segunda forma normal está en primera forma normal,
+                    de igual manera, una tabla en tercera forma normal está en segunda forma normal y por ende en primera formal normal
+                </p>
 
             </div>
             <BackButton />
