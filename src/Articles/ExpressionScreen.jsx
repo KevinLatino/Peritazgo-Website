@@ -308,6 +308,11 @@ const ExpressionScreen = () => {
           </GreenSection>
 
           <BlueSection>
+            <BlueTitle>
+              Importante también considerar:
+              <NotebookText />
+            </BlueTitle>
+            <Space />
             <BlueTitle>También</BlueTitle>
             <Element>
               Se evalúan los operadores lógicos, con la siguiente precedencia:

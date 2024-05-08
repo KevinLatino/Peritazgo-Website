@@ -3,6 +3,7 @@ import { MainTitle } from '../src/Components/MainTitleComponent';
 import { CardComponent } from '../src/Components/CardComponent';
 import { SearchBar } from '../src/Components/SearchBarComponent';
 import { useState } from 'react';
+import { nfd } from 'unorm';
 import {
   BookText,
   Blocks,
@@ -32,6 +33,7 @@ const App = () => {
   const arrayTopics = [
 
     {
+      id: 1,
       title: 'Entiende las bases',
       description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, punteros, diagramas de flujo.',
       route: '/Aprendiendo',
@@ -43,6 +45,7 @@ const App = () => {
     },
 
     {
+      id: 2,
       title: 'Expresiones',
       description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
       route: '/Expresiones',
@@ -54,6 +57,7 @@ const App = () => {
     },
 
     {
+      id: 3,
       title: 'Estructuras de control',
       description: ' Son componentes de la programación que permiten controlar el flujo de ejecución de un programa.',
       route: '/Estructuras-de-control',
@@ -65,6 +69,7 @@ const App = () => {
     },
 
     {
+      id: 4,
       title: 'Estructuras de datos',
       description: 'Son las que organizan nuestro proyecto en ejecución, se aborda como se clasifican.',
       route: '/Estructuras-de-datos',
@@ -76,6 +81,7 @@ const App = () => {
     },
 
     {
+      id: 5,
       title: 'Bases de datos',
       description: 'Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto.',
       route: '/Bases-de-datos',
@@ -88,6 +94,7 @@ const App = () => {
     },
 
     {
+      id: 6,
       title: 'Prácticas sobre los temas vistos',
       description: 'Encontrarás links de práticas sobre los temas vistos, incluye las respuestas de dichas práticas.',
       route: '/pruebas',
@@ -108,9 +115,9 @@ const App = () => {
   const [search, setSearch] = useState('');
 
   const searchTopic = topic.filter(topic =>
-    (topic.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())) ||
-    (topic.description.toLocaleLowerCase().includes(search.toLocaleLowerCase()))
-  )
+    (topic.title).toLowerCase().includes(nfd(search).toLowerCase())) ||
+    (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
+
 
 
   return (

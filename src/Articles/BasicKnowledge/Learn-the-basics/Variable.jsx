@@ -24,14 +24,12 @@ const Variable = () => {
       <Title>
         Las variables
       </Title>
-
+      
       <Paragraph>
         Una variable es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.
       </Paragraph>
 
       <Space />
-
-      <br />
 
 
       <div className='flex gap-16'>

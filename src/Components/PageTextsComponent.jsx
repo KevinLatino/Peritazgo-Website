@@ -44,33 +44,33 @@ export const PurpleTitle = ({ children }) => {
 
 export const Paragraph = ({ children }) => {
     return (
-        <p className='text-white text-[17px]'>
+        <span className='text-white text-[17px]'>
             {children}
-        </p>
+        </span>
     )
 }
 
 
 export const Element = ({ children }) => {
     return (
-        <p className='flex text-white text-[17px] p-3'>
+        <span className='flex text-white text-[17px] p-3'>
             {children}
-        </p>
+        </span>
+    )
+}
+
+export const Subtitle = ({ children }) => {
+    return (
+        <h2 className='flex text-white gap-3 text-[28px] font-bold'>
+            {children}
+        </h2>
     )
 }
 
 export const Space = () => {
     return (
-        <span>
+        <div>
             &nbsp;
-        </span>
-    )
-}
-
-export const Subtitle = ({children}) => {
-    return (
-        <h2 className='flex text-white gap-3 text-[28px] font-bold'>
-            {children}
-        </h2>
+        </div>
     )
 }
