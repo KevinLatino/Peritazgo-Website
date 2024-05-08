@@ -6,7 +6,8 @@ import {
     Space,
     PurpleTitle,
     GreenTitle,
-    BlueTitle
+    BlueTitle,
+    RedTitle
 } from '../Components/PageTextsComponent'
 import {
     BlueSection,
@@ -14,7 +15,8 @@ import {
     GreenSection,
     GreenWordSection,
     PurpleSection,
-    PurpleWordSection
+    PurpleWordSection,
+    RedSection
 } from '../Components/SectionsComponent'
 import {
     KeyRound,
@@ -224,11 +226,45 @@ const DataBase = () => {
                 <Title>
                     Formas normales
                 </Title>
-                <p>
-                    son las reglas que aplican durante el proceso de normalización. Existen tres principales formas normales. Estas formas normales son acumulativias, es decir, una tabla en segunda forma normal está en primera forma normal,
-                    de igual manera, una tabla en tercera forma normal está en segunda forma normal y por ende en primera formal normal
-                </p>
+                <Paragraph>
+                    Son las reglas que aplican durante el proceso de normalización. Estas formas normales son acumulativias, es decir, una tabla en segunda forma normal está en primera forma normal,
+                    de igual manera, una tabla en tercera forma normal está en segunda forma normal y por ende en primera formal normal.
+                </Paragraph>
 
+                <Space />
+
+                <div className='flex gap-16'>
+                    <GreenSection>
+                        <GreenTitle>
+                            l Formal Normal:
+                        </GreenTitle>
+                        <Element>
+                            ● Ningún dato en un campo de la tabla se puede dividir en más datos sin que este dato pierda su significado.
+                        </Element>
+                        <Element>
+                            ● Existe un llave primaria.
+                        </Element>
+                    </GreenSection>
+
+                    <PurpleSection>
+                        <PurpleTitle>
+                            ll Forma Normal:
+                        </PurpleTitle>
+                        <Element>
+                            ● Existen exclusivamente dependencias funcionales en la tabla.
+                        </Element>
+                    </PurpleSection>
+
+                    <RedSection>
+                        <RedTitle>
+                            lll Forma Normal:
+                        </RedTitle>
+                        <Element>
+                            ● No existe ninguna dependencia transitiva en la tabla.
+                        </Element>
+                    </RedSection>
+
+                </div>
             </div>
             <BackButton />
         </>
