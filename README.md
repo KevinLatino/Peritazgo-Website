@@ -14,7 +14,7 @@
 
 ###
 
-<h2 align="left">Técnologias usadas:</h2>
+<h2 align="left">Técnologias utilizadas:</h2>
 
 ###
 
@@ -24,12 +24,6 @@
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo"  />
-</div>
-
-###
-
-<div align="center">
-  <img height="200" src="../Revista-Peritazgo-2024//src/Images/Photo_Profile.png"  />
 </div>
 
 ###
