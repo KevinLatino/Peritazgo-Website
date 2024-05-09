@@ -27,7 +27,7 @@ export default {
         "blue_word_section": "#434b59",
         "purple_word_section": "#66428e74",
         "green_word_section": "#267c6e5d",
-        "red_word_section": "",
+        "red_word_section": "#d5777764",
 
         //colors components 
         "back_button": "#5cafad58",

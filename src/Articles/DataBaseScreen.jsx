@@ -26,6 +26,8 @@ import {
     Pyramid,
 } from 'lucide-react'
 import { BackButton } from '../Components/BackButtonComponent'
+import { Accordion } from '../Components/AccordionComponent'
+import ERDiagram from '../../public/ER-Diagram.svg'
 import 'animate.css'
 
 const DataBase = () => {
@@ -177,9 +179,14 @@ const DataBase = () => {
                 <Space />
 
                 <Title>
-                    Figuras del diagrama entidad-relación
+                    Figuras del diagrama entidad-relación:
                 </Title>
 
+                <Space />
+
+                <Accordion title='Has click para ver las figuras'>
+                    <img src={ERDiagram} alt="ER-diagram" width={410} />
+                </Accordion>
                 <Space />
 
                 <Title>

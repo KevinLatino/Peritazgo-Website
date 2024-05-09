@@ -1,5 +1,5 @@
 import React from 'react'
-import FlowCharts from '../../../Images/FlowChart.png'
+import FlowCharts from '.././../../../public/FlowChart.svg'
 import {
   Paragraph,
   Space,
@@ -24,7 +24,7 @@ const FlowChart = () => {
         <Space />
 
         <div className='flex justify-center items-center'>
-          <img src={FlowCharts} width={325} />
+          <img src={FlowCharts} width={320} />
         </div>
 
       </BlueSection>

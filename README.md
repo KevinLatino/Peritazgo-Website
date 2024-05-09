@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">• Fundamentos de programación: variables, algoritmos, diagramas de flujo, pseudocófigos, etc..<br><br>• Expresiones: tipos de operadores, expresiones lógicas, expresiones aritméticas, etc..<br><br>• Estructuras de control: ciclos, condicionales, etc..<br><br>• Estructuras de datos: arreglos, matríces, etc..<br><br>• Bases de datos relacionales.<br><br>• Programación orientada a objetos (POO).<br><br> • Y mucho más!</p>
+<p align="left">• Fundamentos de programación: variables, algoritmos, diagramas de flujo, pseudocófigos, etc..<br><br>• Expresiones: tipos de operadores, expresiones lógicas, expresiones aritméticas, etc..<br><br>• Estructuras de control: ciclos, condicionales, etc..<br><br>• Estructuras de datos: arreglos, registros, listas enlazadas etc..<br><br>• Bases de datos relacionales.<br><br>• Programación orientada a objetos (POO).<br><br> • Y mucho más!</p>
 
 ###
 

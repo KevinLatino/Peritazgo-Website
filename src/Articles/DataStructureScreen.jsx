@@ -1,5 +1,5 @@
 import React from 'react'
-import StructureData from '../Images/Estructura-de-datos.png'
+import DataStructureSvg from '../../public/DataStructure.svg'
 import { CodeComponent } from '../Components/CodeComponent'
 import { BackButton } from '../Components/BackButtonComponent'
 import { Accordion } from '../Components/AccordionComponent'
@@ -74,7 +74,7 @@ console.log(animal.especie)
                 <Space />
 
                 <Accordion title='Has click para ver la clasificación'>
-                    <img src={StructureData} width={900} />
+                    <img src={DataStructureSvg} />
                 </Accordion>
 
                 <Space />

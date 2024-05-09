@@ -58,7 +58,7 @@ export const GreenWordSection = ({ children }) => {
 
 export const RedWordSection = ({ children }) => {
     return (
-        <div className='flex justify-center bg-[#d5777764] rounded-md px-1'>
+        <div className='flex justify-center bg-red_word_section rounded-md px-1'>
             {children}
         </div>
     )

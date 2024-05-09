@@ -14,7 +14,7 @@ const Accordion = ({ title, children }) => {
     return (
         <>
             <MagicMotion>
-                <div className=' p-5 flex items-start flex-wrap w-2/4 bg-blue_section rounded-3xl '>
+                <div className=' lflex justify-center items-center p-5 flex flex-wrap w-2/4 bg-blue_section rounded-3xl '>
                     <button
                         className='flex justify-between items-center rounded-3xl bg-fixed text-purple_text w-full text-[18px]'
                         onClick={handleOpen}
@@ -25,7 +25,7 @@ const Accordion = ({ title, children }) => {
 
                     {open && (
                         <>
-                            <div>
+                            <div className='mt-5'>
                                 {children}
                             </div>
                         </>
