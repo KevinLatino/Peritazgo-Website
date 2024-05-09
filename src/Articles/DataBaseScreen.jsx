@@ -28,7 +28,7 @@ import {
 import { BackButton } from '../Components/BackButtonComponent'
 import { Accordion } from '../Components/AccordionComponent'
 import ERDiagram from '../../public/ER-Diagram.svg'
-import ERExample from '../../public/ER-Example.svg'
+import ERExample from '../../public/Er-Example.svg'
 import 'animate.css'
 
 const DataBase = () => {
@@ -196,32 +196,37 @@ const DataBase = () => {
 
                 <Space />
 
-                <PurpleSection>
-                    <PurpleTitle>
-                        Explicación
-                    </PurpleTitle>
-                    <Element>
-                        <PurpleWordSection>Tenemos una entidad llamada persona</PurpleWordSection>
-                    </Element>
-                    <Element>
-                        <PurpleWordSection>La entidad persona tiene 2 atributos</PurpleWordSection>: cédula que es la llave primaria, y nombre
-                    </Element>
-                    <Element>
-                        <PurpleWordSection>Tenemos una relación de 1 a muchos, con el verbo tener</PurpleWordSection>
-                    </Element>
-                    <Element>
-                        <PurpleWordSection>Tenemos otra entidad llamada Carro</PurpleWordSection>
-                    </Element>
-                    <Element>
-                        <PurpleWordSection>Tenemos 3 atributos</PurpleWordSection> Placa que es la llave primaria, Marca, y CedulaPersona que es una llave foránea.
-                    </Element>
-                </PurpleSection>
+                <div className='flex gap-16'>
+                    <PurpleSection>
+                        <PurpleTitle>
+                            Explicación
+                        </PurpleTitle>
+                        <Element>
+                            ● Tenemos una entidad llamada persona.
+                        </Element>
+                        <Element>
+                            ● La entidad persona tiene 2 atributos: cédula que es la llave primaria, y nombre.
+                        </Element>
+                        <Element>
+                            ● Tenemos una relación de 1 a muchos, con el verbo tener.
+                        </Element>
+                        <Element>
+                            ● Tenemos otra entidad llamada Carro.
+                        </Element>
+                        <Element>
+                            ● Tenemos 3 atributos: Placa que es la llave primaria, Marca y CedulaPersona que es una llave foránea.
+                        </Element>
+                    </PurpleSection>
 
-                <BlueSection>
-                    <BlueTitle>
-                        Diagrama entidad relación
-                    </BlueTitle>
-                </BlueSection>
+                    <BlueSection>
+                        <Space />
+                        <PurpleTitle>
+                            Diagrama entidad relación
+                        </PurpleTitle>
+                        <Space/>
+                        <img src={ERExample} width={950}  />
+                    </BlueSection>
+                </div>
 
                 <Space />
 
