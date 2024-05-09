@@ -99,9 +99,9 @@ const App = () => {
       description: 'Encontrarás links de práticas sobre los temas vistos, incluye las respuestas de dichas práticas.',
       route: '/pruebas',
       icons: [
-        <FileType className='text-icon_color p-0.5 m-1' />,
-        <NotepadText className='text-icon_color p-0.5 m-1' />,
-        <Link className='text-icon_color p-0.5 m-1' />
+        <FileType size={27} className='text-icon_color p-0.5 m-1' />,
+        <NotepadText size={27} className='text-icon_color p-0.5 m-1' />,
+        <Link size={27} className='text-icon_color p-0.5 m-1' />
 
       ]
     },

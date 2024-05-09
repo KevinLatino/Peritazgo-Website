@@ -28,6 +28,7 @@ import {
 import { BackButton } from '../Components/BackButtonComponent'
 import { Accordion } from '../Components/AccordionComponent'
 import ERDiagram from '../../public/ER-Diagram.svg'
+import ERExample from '../../public/ER-Example.svg'
 import 'animate.css'
 
 const DataBase = () => {
@@ -192,6 +193,35 @@ const DataBase = () => {
                 <Title>
                     Ejemplo:
                 </Title>
+
+                <Space />
+
+                <PurpleSection>
+                    <PurpleTitle>
+                        Explicación
+                    </PurpleTitle>
+                    <Element>
+                        <PurpleWordSection>Tenemos una entidad llamada persona</PurpleWordSection>
+                    </Element>
+                    <Element>
+                        <PurpleWordSection>La entidad persona tiene 2 atributos</PurpleWordSection>: cédula que es la llave primaria, y nombre
+                    </Element>
+                    <Element>
+                        <PurpleWordSection>Tenemos una relación de 1 a muchos, con el verbo tener</PurpleWordSection>
+                    </Element>
+                    <Element>
+                        <PurpleWordSection>Tenemos otra entidad llamada Carro</PurpleWordSection>
+                    </Element>
+                    <Element>
+                        <PurpleWordSection>Tenemos 3 atributos</PurpleWordSection> Placa que es la llave primaria, Marca, y CedulaPersona que es una llave foránea.
+                    </Element>
+                </PurpleSection>
+
+                <BlueSection>
+                    <BlueTitle>
+                        Diagrama entidad relación
+                    </BlueTitle>
+                </BlueSection>
 
                 <Space />
 
