@@ -28,7 +28,7 @@ import {
 import { BackButton } from '../Components/BackButtonComponent'
 import { Accordion } from '../Components/AccordionComponent'
 import ERDiagram from '../../public/ER-Diagram.svg'
-import ERExample from '../../public/Er-Example.svg'
+import ERExample from '../../public/ER-Example.svg'
 import 'animate.css'
 
 const DataBase = () => {
