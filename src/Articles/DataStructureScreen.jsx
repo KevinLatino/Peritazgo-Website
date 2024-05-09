@@ -145,6 +145,11 @@ console.log(animal.especie)
 
                 <Space />
 
+                <Title>
+                    Ordenamiento
+                </Title>
+
+
                 <div className='flex gap-28'>
                     <BlueSection>
                         <BlueTitle>
