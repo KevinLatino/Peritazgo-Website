@@ -145,11 +145,6 @@ console.log(animal.especie)
 
                 <Space />
 
-                <Title>
-                    Ordenamiento
-                </Title>
-
-
                 <div className='flex gap-28'>
                     <BlueSection>
                         <BlueTitle>
@@ -168,6 +163,41 @@ console.log(animal.especie)
 
                         <CodeComponent codeString={stringRec2} />
                     </RedSection>
+                </div>
+
+                <Space />
+
+                <Title>
+                    Algoritmos de Ordenamiento de Vectores
+                </Title>
+                <Paragraph>
+                    Existen 3 tipos de métodos de ordenamiento.
+                </Paragraph>
+
+                <Space />
+
+                <div className='flex gap-10'>
+                    <BlueSection>
+                        <BlueTitle>
+                            Ordenamiento de Burbuja
+                        </BlueTitle>
+                        <Paragraph>
+                            
+                        </Paragraph>
+
+                    </BlueSection>
+
+                    <PurpleSection>
+                        <PurpleTitle>
+                            Ordenamiento por Selección
+                        </PurpleTitle>
+                    </PurpleSection>
+
+                    <GreenSection>
+                        <GreenTitle>
+                            Ordenamiento por Inserción
+                        </GreenTitle>
+                    </GreenSection>
                 </div>
 
                 <Space />
@@ -231,7 +261,7 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex justify-evenly'>
+                <div className='flex gap-16'>
                     <GreenSection>
                         <GreenTitle>
                             Pilas o FIFO's (First In First Out)
@@ -290,7 +320,7 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex justify-evenly'>
+                <div className='flex gap-16'>
                     <BlueSection>
                         <BlueTitle>
                             Preorden: Raíz al inicio
