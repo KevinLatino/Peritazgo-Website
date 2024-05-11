@@ -32,14 +32,6 @@ export const PurpleSection = ({ children }) => {
     )
 }
 
-export const GreenSectionLine = ({ children }) => {
-    return (
-        <div className=' bg-green_section w-fit p-3 rounded-2xl'>
-            {children}
-        </div>
-    )
-}
-
 export const PurpleWordSection = ({ children }) => {
     return (
         <div className='flex items-start flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-md'>
@@ -67,6 +59,22 @@ export const GreenWordSection = ({ children }) => {
 export const RedWordSection = ({ children }) => {
     return (
         <div className='flex justify-center bg-red_word_section rounded-md px-1'>
+            {children}
+        </div>
+    )
+}
+
+export const GreenSectionLine = ({ children }) => {
+    return (
+        <div className=' bg-green_section w-fit p-3 rounded-2xl'>
+            {children}
+        </div>
+    )
+}
+
+export const PurpleSectionLine = ({ children }) => {
+    return (
+        <div className=' bg-purple_section w-fit p-3 rounded-2xl'>
             {children}
         </div>
     )

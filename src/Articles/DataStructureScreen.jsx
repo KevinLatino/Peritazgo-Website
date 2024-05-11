@@ -3,6 +3,7 @@ import DataStructureSvg from '../../public/DataStructure.svg'
 import { CodeComponent } from '../Components/CodeComponent'
 import { BackButton } from '../Components/BackButtonComponent'
 import { Accordion } from '../Components/AccordionComponent'
+import { FiFoExample } from '../Components/FiFoExample'
 import {
     Title,
     Space,
@@ -23,9 +24,11 @@ import {
     RedSection,
     RedWordSection,
     PurpleWordSection,
-    GreenSectionLine
+    GreenSectionLine,
+    PurpleSectionLine
 } from '../Components/SectionsComponent'
 import 'animate.css'
+import { LiFoExample } from '../Components/LiFoExample'
 
 const DataStructure = () => {
 
@@ -51,19 +54,6 @@ console.log(animal.especie)
         `const animal = { name: 'Chase', specie: 'Cat', age: 4 };
 console.log(animal.especie)
 //En consola se mostrará Cat`
-
-    const [open, setOpen] = useState(false);
-
-    const addNumber = () => {
-        setOpen(!open)
-    }
-
-
-    const [open2, setOpen2] = useState(false);
-
-    const addNumber2 = () => {
-        setOpen2(!open2)
-    }
 
     return (
         <>
@@ -292,73 +282,9 @@ console.log(animal.especie)
 
                     </GreenSection>
 
-                    <GreenSection>
-                        <GreenTitle>
-                            Ejemplo de fifo
-                        </GreenTitle>
-
-                        <Space />
-
-                        <button
-                            className='bg-green_section text-white p-3 rounded-lg'
-                            onClick={addNumber}
-                        >
-                            Agregar
-                        </button>
-
-                        <Space />
-
-                        <div className='flex gap-5'>
-                            <GreenSection>
-                                <Paragraph>
-                                    1
-                                </Paragraph>
-
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    2
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    3
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    4
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    5
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    6
-                                </Paragraph>
-                            </GreenSection>
-
-                            {open && (
-                                <>
-                                    <GreenSection>
-                                        <Paragraph>
-                                            7
-                                        </Paragraph>
-                                    </GreenSection>
-                                </>
-                            )}
-                        </div>
-
-
-                    </GreenSection>
+                    <GreenSectionLine>
+                        <FiFoExample />
+                    </GreenSectionLine>
                 </div>
 
                 <Space />
@@ -379,71 +305,9 @@ console.log(animal.especie)
                         </Element>
                     </PurpleSection>
 
-                    <PurpleSection>
-                        <PurpleTitle>
-                            Ejemplo de FIFO
-                        </PurpleTitle>
-
-                        <Space />
-
-                        <button
-                            className='bg-purple_section p-3 rounded-lg text-white'
-                            onClick={addNumber2}
-                        >
-                            Agregar
-                        </button>
-
-                        <Space />
-
-                        <div className='flex gap-5'>
-
-                            {open2 && (
-                                <>
-                                    <GreenSection>
-                                        <Paragraph>
-                                            1
-                                        </Paragraph>
-                                    </GreenSection>
-                                </>
-                            )}
-                            <GreenSection>
-                                <Paragraph>
-                                    2
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    2
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    3
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    4
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    5
-                                </Paragraph>
-                            </GreenSection>
-
-                            <GreenSection>
-                                <Paragraph>
-                                    6
-                                </Paragraph>
-                            </GreenSection>
-
-                        </div>
-                    </PurpleSection>
+                    <PurpleSectionLine>
+                        <LiFoExample />
+                    </PurpleSectionLine>
                 </div>
 
                 <Space />
