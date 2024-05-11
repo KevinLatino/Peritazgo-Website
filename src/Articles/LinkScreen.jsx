@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
-    Subtitle,
     Title,
     Space,
     BlueTitle,
@@ -15,6 +14,7 @@ import {
     GreenSection,
     GreenWordSection
 } from '../Components/SectionsComponent'
+import { BackButton } from '../Components/BackButtonComponent'
 
 const Links = () => {
 
@@ -30,6 +30,12 @@ const Links = () => {
         window.open(`https://drive.google.com/file/d/1ru9j36a1JCfQsmbNmzEwEyeVWD97Wlz5/view?usp=sharing`)
     }
 
+
+    const [hola, setHola] = useState(false);
+
+    const handleClick2 = () => {
+        setHola(!hola)
+    }
     return (
         <>
             <div className='animate__animated animate__fadeInLeft'>
@@ -39,7 +45,7 @@ const Links = () => {
                 </Title>
 
                 <Space />
-                
+
                 <div className='flex flex-wrap flex-col'>
                     <BlueSection>
                         <BlueTitle>
@@ -63,7 +69,7 @@ const Links = () => {
                         </PurpleTitle>
 
                         <Space />
-                        
+
                         <PurpleWordSection>
                             <span onClick={handleLink2} className='text-white cursor-pointer'>
                                 Has click para ir a la para ir a la prática.
@@ -88,6 +94,7 @@ const Links = () => {
                     </GreenSection>
                 </div>
             </div>
+            <BackButton />
         </>
     )
 }
