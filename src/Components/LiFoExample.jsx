@@ -1,20 +1,30 @@
 import React, { useState } from 'react';
-import { PurpleTitle, Space } from './PageTextsComponent';
+import {
+    PurpleTitle,
+    Space
+} from './PageTextsComponent';
+import { motion } from 'framer-motion';
+import 'animate.css'
+
+
 
 const LiFoExample = () => {
-    const [numbers, setNumbers] = useState([]);
+
+    const [stack, setStack] = useState([]);
+    const [nextNumber, setNextNumber] = useState(1);
 
     const handleAdd = () => {
-        if (numbers.length <= 7) {
-            setNumbers([7 - numbers.length, ...numbers]);
+        if (stack.length < 7) {
+            setStack([nextNumber, ...stack]);
+            setNextNumber(nextNumber + 1);
         }
     }
 
     const handleRemove = () => {
-        if (numbers.length > 0) {
-            const newNumbers = [...numbers];
+        if (stack.length > 0) {
+            const newNumbers = [...stack];
             newNumbers.pop();
-            setNumbers(newNumbers);
+            setStack(newNumbers);
         }
     }
 
@@ -25,25 +35,27 @@ const LiFoExample = () => {
             </PurpleTitle>
             <Space />
             <div className='flex gap-2'>
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
                     onClick={handleAdd}
-                    className='bg-purple_section text-white p-3 rounded-lg'
+                    className='bg-purple_word_section text-white p-3 rounded-lg'
                 >
                     Agregar
-                </button>
+                </motion.button>
 
                 <Space />
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
                     onClick={handleRemove}
-                    className='bg-purple_section text-white p-3 rounded-lg'
+                    className='bg-purple_word_section text-white p-3 rounded-lg'
                 >
                     Eliminar
-                </button>
+                </motion.button>
             </div>
             <Space />
             {
-                numbers.map((number) => (
-                    <span key={number} className='animate__animated animate__rollIn mr-2 bg-green_section text-white text-5 p-3 rounded-lg'>
+                stack.map((number) => (
+                    <span key={number} className='animate__animated animate__rollIn mr-2 bg-purple_section text-white text-5 p-3 rounded-lg'>
                         {number}
                     </span>
                 ))

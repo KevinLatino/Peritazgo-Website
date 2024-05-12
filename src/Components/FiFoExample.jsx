@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
-import { GreenSectionLine, GreenWordSection } from './SectionsComponent';
-import { GreenTitle, Paragraph, Space } from './PageTextsComponent';
+import {
+    GreenTitle,
+    Space
+} from './PageTextsComponent';
+import { motion } from 'framer-motion';
 import 'animate.css'
 
 const FiFoExample = () => {
@@ -29,27 +32,29 @@ const FiFoExample = () => {
             <Space />
 
             <div className='flex gap-5'>
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
                     onClick={handleAddNumber}
-                    className='bg-green_section text-white p-3 rounded-lg'
+                    className='bg-green_word_section text-white p-3 rounded-lg'
                 >
                     Agregar
-                </button>
+                </motion.button>
 
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
                     onClick={handleRemoveNumber}
-                    className='bg-green_section text-white p-3 rounded-lg'
+                    className='bg-green_word_section text-white p-3 rounded-lg'
                 >
                     Eliminar
-                </button>
+                </motion.button>
             </div>
             <Space />
             {
                 number.map((number) => (
 
-                        <span className='animate__animated animate__rollIn mr-2 bg-green_section text-white text-5 p-3 rounded-lg'>
-                            {number}
-                        </span>
+                    <span className='animate__animated animate__rollIn mr-2 bg-green_section text-white text-5 p-3 rounded-lg'>
+                        {number}
+                    </span>
                 ))
             }
         </>
