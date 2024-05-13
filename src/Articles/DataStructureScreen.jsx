@@ -278,38 +278,42 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex gap-16'>
+                <div className='flex gap-20'>
                     <GreenSection>
                         <GreenTitle>
                             Pilas o FIFO's (First In First Out)
                         </GreenTitle>
+                        <Space />
                         <Paragraph>
                             Es un comportamiento específico de una lista enlazada
                         </Paragraph>
+                        <Space/>
                         <Element>
                             <GreenWordSection>● Solo se pueden ingresar elementos al final</GreenWordSection>
                         </Element>
                         <Element>
                             <GreenWordSection>● Solo se pueden extraer elementos al final</GreenWordSection>
                         </Element>
-
                     </GreenSection>
 
                     <GreenSectionLine>
                         <FiFoExample />
+                        <Space />
                     </GreenSectionLine>
                 </div>
 
                 <Space />
 
-                <div className='flex gap-16'>
+                <div className='flex gap-20'>
                     <PurpleSection>
                         <PurpleTitle>
                             Colas o LIFO's (Last In First Out)
                         </PurpleTitle>
+                        <Space />
                         <Paragraph>
                             Es un comportamiento específico de una lista enlazada
                         </Paragraph>
+                        <Space />
                         <Element>
                             <PurpleWordSection>● Solo se pueden ingresar elementos al principio</PurpleWordSection>
                         </Element>
@@ -320,6 +324,7 @@ console.log(animal.especie)
 
                     <PurpleSectionLine>
                         <LiFoExample />
+                        <Space />
                     </PurpleSectionLine>
                 </div>
 

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import {
     PurpleTitle,
-    Space
+    Space, 
+    Element
 } from './PageTextsComponent';
 import { motion } from 'framer-motion';
 import 'animate.css'
+import { PurpleWordSection } from './SectionsComponent';
 
 
 
@@ -33,6 +35,12 @@ const LiFoExample = () => {
             <PurpleTitle>
                 Ejemplo de LIFO
             </PurpleTitle>
+            <Element>
+                <PurpleWordSection>● Si agregas un elemento, se agregará al inicio de la lista.</PurpleWordSection>
+            </Element>
+            <Element>
+                <PurpleWordSection>● Si eliminas un elemento, se eliminará al final de las lista.</PurpleWordSection>
+            </Element>
             <Space />
             <div className='flex gap-2'>
                 <motion.button
@@ -53,9 +61,10 @@ const LiFoExample = () => {
                 </motion.button>
             </div>
             <Space />
+            <Space />
             {
                 stack.map((number) => (
-                    <span key={number} className='animate__animated animate__rollIn mr-2 bg-purple_section text-white text-5 p-3 rounded-lg'>
+                    <span key={number} className='animate__animated animate__rollIn text-[17px] font-bold mr-4 bg-purple_section text-white text-5 p-4 rounded-lg'>
                         {number}
                     </span>
                 ))

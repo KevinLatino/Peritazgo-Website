@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import {
     GreenTitle,
-    Space
+    Space, 
+    Element
 } from './PageTextsComponent';
 import { motion } from 'framer-motion';
 import 'animate.css'
+import { GreenWordSection } from './SectionsComponent';
 
 const FiFoExample = () => {
 
@@ -29,8 +31,15 @@ const FiFoExample = () => {
                 Ejemplo de FIFO
             </GreenTitle>
 
-            <Space />
+            <Element>
+                <GreenWordSection>● Si agregas un número, solo se agregará al final de la lista.</GreenWordSection>
+            </Element>
 
+            <Element>
+                <GreenWordSection>● Si eliminas un número, solo se eliminará al final de la lista. </GreenWordSection>
+            </Element>
+
+            <Space />
             <div className='flex gap-5'>
                 <motion.button
                     whileHover={{ scale: 1.1 }}
@@ -48,11 +57,12 @@ const FiFoExample = () => {
                     Eliminar
                 </motion.button>
             </div>
+            <Space/>
             <Space />
             {
                 number.map((number) => (
 
-                    <span className='animate__animated animate__rollIn mr-2 bg-green_section text-white text-5 p-3 rounded-lg'>
+                    <span className='animate__animated animate__rollIn text-[17px] font-bold mr-4 bg-green_section text-white text-5 p-4 rounded-lg'>
                         {number}
                     </span>
                 ))
