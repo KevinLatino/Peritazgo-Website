@@ -175,7 +175,8 @@ console.log(animal.especie)
                     Algoritmos de Ordenamiento de Vectores
                 </Title>
                 <Paragraph>
-                    Existen 3 tipos de métodos de ordenamiento.
+                    Los algoritmos de ordenación son un conjunto de instrucciones que toman un arreglo o lista como entrada
+                    y organizan los elementos en un orden particular.
                 </Paragraph>
 
                 <Space />
@@ -186,7 +187,10 @@ console.log(animal.especie)
                             Ordenamiento de Burbuja
                         </BlueTitle>
                         <Paragraph>
-
+                            Compara elementos adyacentes y
+                            los intercambia si están en el orden incorrecto.
+                            Este proceso se repite hasta que la lista esté ordenada.
+                            Es simple pero puede ser ineficiente para listas grandes.
                         </Paragraph>
 
                     </BlueSection>
@@ -195,12 +199,21 @@ console.log(animal.especie)
                         <PurpleTitle>
                             Ordenamiento por Selección
                         </PurpleTitle>
+                        <Paragraph>
+                            Ordena una lista encontrando el elemento más pequeño y colocándolo en su lugar
+                            correcto repetidamente hasta que toda la lista esté ordenada.
+                        </Paragraph>
                     </PurpleSection>
 
                     <GreenSection>
                         <GreenTitle>
                             Ordenamiento por Inserción
                         </GreenTitle>
+                        <Paragraph>
+                            Ordena una lista comparando cada elemento con los elementos anteriores, comenzando desde el segundo elemento.
+                            Si un elemento es menor que el que está antes que él,
+                            se intercambian. Esto hasta que se ordene el arreglo.
+                        </Paragraph>
                     </GreenSection>
                 </div>
 

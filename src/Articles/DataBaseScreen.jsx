@@ -219,11 +219,11 @@ const DataBase = () => {
                     </PurpleSection>
 
                     <BlueSection>
-                        <Space />
                         <PurpleTitle>
                             Diagrama entidad relación
                         </PurpleTitle>
                         <Space/>
+                        <Space />
                         <img src={ERExample} width={950}  />
                     </BlueSection>
                 </div>
