@@ -278,16 +278,16 @@ console.log(animal.especie)
 
                 <Space />
 
-                <div className='flex gap-20'>
+                <div className='flex flex-wrap gap-x-20 gap-y-10'>
                     <GreenSection>
                         <GreenTitle>
                             Pilas o FIFO's (First In First Out)
                         </GreenTitle>
                         <Space />
                         <Paragraph>
-                            Es un comportamiento específico de una lista enlazada
+                            Comportamiento específico de una lista enlazada, principales características:
                         </Paragraph>
-                        <Space/>
+                        <Space />
                         <Element>
                             <GreenWordSection>● Solo se pueden ingresar elementos al final</GreenWordSection>
                         </Element>
@@ -300,18 +300,14 @@ console.log(animal.especie)
                         <FiFoExample />
                         <Space />
                     </GreenSectionLine>
-                </div>
 
-                <Space />
-
-                <div className='flex gap-20'>
                     <PurpleSection>
                         <PurpleTitle>
                             Colas o LIFO's (Last In First Out)
                         </PurpleTitle>
                         <Space />
                         <Paragraph>
-                            Es un comportamiento específico de una lista enlazada
+                            Comportamiento específico de una lista enlazada, principales características:
                         </Paragraph>
                         <Space />
                         <Element>
