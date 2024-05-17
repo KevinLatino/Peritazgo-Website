@@ -41,7 +41,7 @@ const Links = () => {
             <div className='animate__animated animate__fadeInLeft'>
 
                 <Title>
-                    Links de las prácticas
+                    Enlances de las prácticas
                 </Title>
 
                 <Space />
@@ -49,14 +49,14 @@ const Links = () => {
                 <div className='flex flex-wrap flex-col'>
                     <BlueSection>
                         <BlueTitle>
-                            Prática #1: Fundamentos de programación
+                            Práctica #1: Fundamentos de programación
                         </BlueTitle>
 
                         <Space />
 
                         <BlueWordSection>
                             <span onClick={handleLink} className='text-white cursor-pointer'>
-                                Has click para ir a la para ir a la prática.
+                                Has click para ir a la práctica.
                             </span>
                         </BlueWordSection>
                     </BlueSection>
@@ -65,14 +65,14 @@ const Links = () => {
 
                     <PurpleSection>
                         <PurpleTitle>
-                            Prática #2: algoritmos, pseudocódigos, diagramas y más
+                            Práctica #2: algoritmos, pseudocódigos, diagramas y más
                         </PurpleTitle>
 
                         <Space />
 
                         <PurpleWordSection>
                             <span onClick={handleLink2} className='text-white cursor-pointer'>
-                                Has click para ir a la para ir a la prática.
+                                Has click para ir a la práctica.
                             </span>
                         </PurpleWordSection>
                     </PurpleSection>
@@ -81,14 +81,14 @@ const Links = () => {
 
                     <GreenSection>
                         <GreenTitle>
-                            Prática #3: Estructuras de datos
+                            Has click para ir a la para ir a la práctica.
                         </GreenTitle>
 
                         <Space />
 
                         <GreenWordSection>
                             <span onClick={handleLink3} className='text-white cursor-pointer'>
-                                Prática #3: Estructuras de datos
+                                Has click para ir a la práctica.
                             </span>
                         </GreenWordSection>
                     </GreenSection>

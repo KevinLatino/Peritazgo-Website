@@ -60,16 +60,16 @@ const DataBase = () => {
                         <PurpleWordSection>● Campo</PurpleWordSection>: conjunto de Bytes, representa una palabra.
                     </Element>
                     <Element>
-                        <PurpleWordSection>● Registro</PurpleWordSection>: un conjunto de campos
+                        <PurpleWordSection>● Registro</PurpleWordSection>: es un conjunto de campos.
                     </Element>
                     <Element>
-                        <PurpleWordSection>● Tablas</PurpleWordSection>: un conjuto de registros
+                        <PurpleWordSection>● Tablas</PurpleWordSection>:  es un conjuto de registros
                     </Element>
                     <Element>
-                        <PurpleWordSection>● Archivo</PurpleWordSection>: un conjunto de tablas
+                        <PurpleWordSection>● Archivo</PurpleWordSection>: es un conjunto de tablas
                     </Element>
                     <Element>
-                        <PurpleWordSection>● Base de datos</PurpleWordSection>: un conjunto de archivos
+                        <PurpleWordSection>● Base de datos</PurpleWordSection>: es un conjunto de archivos.
                     </Element>
                 </PurpleSection>
 
@@ -97,7 +97,7 @@ const DataBase = () => {
                         <BlueWordSection>● Un campo</BlueWordSection>: de una tabla hace referencia a una columna en tal tabla.
                     </Element>
                     <Element>
-                        <BlueWordSection>● Un registro </BlueWordSection>: en una tabla es una fila.
+                        <BlueWordSection>● Un registro </BlueWordSection>: es una fila en una tabla.
                     </Element>
                 </BlueSection>
                 <Space />
@@ -125,7 +125,7 @@ const DataBase = () => {
                         <GreenWordSection>● Llave Alterna</GreenWordSection>: es una potencial llave primaria. También puede encontrar un registro en una tabla.
                     </Element>
                     <Element>
-                        <GreenWordSection>● Súper llave</GreenWordSection>: es un conjunto de campos, es decir 2 campos, que ayuda a encontrar un registro en una tabla.
+                        <GreenWordSection>● Superllave</GreenWordSection>: es un conjunto de campos, es decir 2 campos, que ayuda a encontrar un registro en una tabla.
                     </Element>
                     <Element>
                         <GreenWordSection>● Llave Foránea</GreenWordSection>: un campo que hace referencia a una llave primaria en otra tabla.
@@ -202,10 +202,10 @@ const DataBase = () => {
                             Explicación
                         </PurpleTitle>
                         <Element>
-                            ● Tenemos una entidad llamada persona.
+                            ● Tenemos una entidad llamada Persona.
                         </Element>
                         <Element>
-                            ● La entidad persona tiene 2 atributos: cédula que es la llave primaria, y nombre.
+                            ● La entidad Persona tiene 2 atributos: cédula que es la llave primaria el y nombre.
                         </Element>
                         <Element>
                             ● Tenemos una relación de 1 a muchos, con el verbo tener.
@@ -269,7 +269,7 @@ const DataBase = () => {
                     Formas normales
                 </Title>
                 <Paragraph>
-                    Son las reglas que aplican durante el proceso de normalización. Estas formas normales son acumulativias, es decir, una tabla en segunda forma normal está en primera forma normal,
+                    Son las reglas que se aplican durante el proceso de normalización. Estas formas normales son acumulativias, es decir, una tabla en segunda forma normal está en primera forma normal,
                     de igual manera, una tabla en tercera forma normal está en segunda forma normal y por ende en primera formal normal.
                 </Paragraph>
 

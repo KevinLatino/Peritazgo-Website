@@ -337,9 +337,9 @@ console.log(animal.especie)
                     Árboles binarios
                 </Title>
                 <Paragraph>
-                    Los árboles son estructuras de datos dinámicas no lineales, d
-                    onde cada nodo en la estructura tiene al menos dos campos para almacenar punteros a otros nodos en la estructura.
-                    Existen 2 tipos. Árboles Binario: Cada nodo almacena dos punteros y Árboles N-arios: ada nodo almacena más de dos punteros
+                    Los árboles son estructuras de datos dinámicas no lineales, 
+                    donde cada nodo en la estructura tiene al menos dos campos para almacenar punteros a otros nodos en la estructura.
+                    Existen 2 tipos. Árboles Binario: Cada nodo almacena dos punteros y Árboles N-arios: cada nodo almacena más de dos punteros
                 </Paragraph>
 
                 <Space />

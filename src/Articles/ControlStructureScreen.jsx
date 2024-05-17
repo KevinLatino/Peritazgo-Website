@@ -23,12 +23,11 @@ import 'animate.css';
 const ControlStructure = () => {
 
 
-  const stringArea = 
-  ` //Cálculo de área de un triángulo secuencialmente
-  const base = 5;
+  const stringArea =
+    `  const base = 5;
   const height = 3;
   let area = base * height;
-  console.log('La base del triángulo es ', area) `
+  console.log('La base del triángulo es ', area); `
 
   const stringIf =
     ` let age = 18;
@@ -116,7 +115,11 @@ const ControlStructure = () => {
         <Space />
 
         <BlueSection>
-          <CodeComponent codeString={stringArea}/>
+          <BlueTitle>
+            Ejemplo del cálculo del área de un triángulo secuencialmente:
+          </BlueTitle>
+          <Space />
+          <CodeComponent codeString={stringArea} />
         </BlueSection>
 
         <Space />
@@ -234,7 +237,7 @@ const ControlStructure = () => {
 
         </div>
       </div>
-      
+
       <BackButton />
     </>
   )
