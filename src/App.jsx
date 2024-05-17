@@ -64,7 +64,6 @@ const App = () => {
       icons: [
         <Split size={27} className='text-icon_color p-0.5 m-1' />,
         <Workflow size={27} className='text-icon_color p-0.5 m-1' />,
-        <RefreshCcw size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
 
