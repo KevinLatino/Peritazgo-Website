@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
 import { MagicMotion } from "react-magic-motion";
-import { Space } from './PageTextsComponent';
 
 
 const CardComponent = ({title, route, description, icons}) => {

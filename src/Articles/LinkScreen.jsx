@@ -29,13 +29,7 @@ const Links = () => {
     const handleLink3 = () => {
         window.open(`https://drive.google.com/file/d/1ru9j36a1JCfQsmbNmzEwEyeVWD97Wlz5/view?usp=sharing`)
     }
-
-
-    const [hola, setHola] = useState(false);
-
-    const handleClick2 = () => {
-        setHola(!hola)
-    }
+    
     return (
         <>
             <div className='animate__animated animate__fadeInLeft'>
@@ -49,7 +43,7 @@ const Links = () => {
                 <div className='flex flex-wrap flex-col'>
                     <BlueSection>
                         <BlueTitle>
-                            Práctica #1: Fundamentos de programación
+                            Práctica #1: Fundamentos de programación.
                         </BlueTitle>
 
                         <Space />
@@ -65,7 +59,7 @@ const Links = () => {
 
                     <PurpleSection>
                         <PurpleTitle>
-                            Práctica #2: algoritmos, pseudocódigos, diagramas y más
+                            Práctica #2: algoritmos, pseudocódigos, diagramas y más.
                         </PurpleTitle>
 
                         <Space />
@@ -81,7 +75,7 @@ const Links = () => {
 
                     <GreenSection>
                         <GreenTitle>
-                            Has click para ir a la para ir a la práctica.
+                            Práctica #3: estructura de datos
                         </GreenTitle>
 
                         <Space />

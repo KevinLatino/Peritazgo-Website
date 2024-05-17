@@ -3,7 +3,7 @@ import { MainTitle } from '../src/Components/MainTitleComponent';
 import { CardComponent } from '../src/Components/CardComponent';
 import { SearchBar } from '../src/Components/SearchBarComponent';
 import { useState } from 'react';
-import { nfd } from 'unorm';
+import { nfd } from 'unorm'; 2
 import {
   BookText,
   Blocks,
@@ -119,7 +119,6 @@ const App = () => {
     (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
 
 
-
   return (
     <>
       <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
@@ -127,7 +126,7 @@ const App = () => {
         <SearchBar search={search} setSearch={setSearch} />
         <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
           {searchTopic.map(renderTopic => (<CardComponent
-            key={renderTopic.title}
+            key={renderTopic.id}
             route={renderTopic.route}
             title={renderTopic.title}
             description={renderTopic.description}
