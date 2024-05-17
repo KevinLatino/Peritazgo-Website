@@ -22,6 +22,14 @@ import 'animate.css';
 
 const ControlStructure = () => {
 
+
+  const stringArea = 
+  ` //Cálculo de área de un triángulo secuencialmente
+  const base = 5;
+  const height = 3;
+  let area = base * height;
+  console.log('La base del triángulo es ', area) `
+
   const stringIf =
     ` let age = 18;
  if (age >= 18){
@@ -108,28 +116,7 @@ const ControlStructure = () => {
         <Space />
 
         <BlueSection>
-          <BlueTitle>
-            Inicio
-          </BlueTitle>
-
-          <Element>
-            base = 5
-          </Element>
-
-          <Element>
-            altura = 3
-          </Element>
-
-          <Element>
-            area = base * altura
-          </Element>
-
-          <Element>
-            Escribir 'El área del rectángulo es: ', area
-          </Element>
-          <BlueTitle>
-            Fin
-          </BlueTitle>
+          <CodeComponent codeString={stringArea}/>
         </BlueSection>
 
         <Space />
@@ -180,7 +167,7 @@ const ControlStructure = () => {
           <GreenSection>
             <GreenTitle >Condicionales Anidados</GreenTitle>
             <Paragraph>
-              permite implementar condicionales
+              Permite implementar condicionales
               más complicados, en los que se “encadenan” condiciones. Es un condional, dentro de otro..
             </Paragraph>
             <Space />

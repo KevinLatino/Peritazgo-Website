@@ -24,7 +24,7 @@ const Algorithm = () => {
 
       <Paragraph>
         Es un método para resolver un problema mediante una secuencia de pasos
-        bien definidos, ordenados y finitos
+        bien definidos, ordenados y finitos.
       </Paragraph>
 
       <Space />
@@ -58,7 +58,7 @@ const Algorithm = () => {
             <PurpleWordSection>● Proceso</PurpleWordSection>: es el conjunto de todas las operaciones a realizar.
           </Element>
           <Element>
-            <PurpleWordSection>● Salida</PurpleWordSection>: son los resultados obtenidos
+            <PurpleWordSection>● Salida</PurpleWordSection>: son los resultados obtenidos.
           </Element>
 
         </PurpleSection>

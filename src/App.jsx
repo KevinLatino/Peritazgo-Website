@@ -71,7 +71,7 @@ const App = () => {
     {
       id: 4,
       title: 'Estructuras de datos',
-      description: 'Son las que organizan nuestro proyecto en ejecución, se aborda como se clasifican.',
+      description: 'Son las que organizan nuestro proyecto en ejecución, se abordan sus distintas clasificaciones.',
       route: '/Estructuras-de-datos',
       icons: [
         <FileText size={27} className='text-icon_color p-0.5 m-1' />,
@@ -83,7 +83,7 @@ const App = () => {
     {
       id: 5,
       title: 'Bases de datos',
-      description: 'Es un conjunto de datos relacionados entre si, que pertenecen a un mismo contexto.',
+      description: 'Se refiere a un conjunto de datos relacionados entre sí que pertenecen a un mismo contexto.',
       route: '/Bases-de-datos',
       icons: [
         <Database size={27} className='text-icon_color p-0.5 m-1' />,
@@ -96,7 +96,7 @@ const App = () => {
     {
       id: 6,
       title: 'Prácticas sobre los temas vistos',
-      description: 'Encontrarás links de práticas sobre los temas vistos, incluye las respuestas de dichas práticas.',
+      description: 'Encontrarás enlaces de prácticas sobre los temas vistos, además se incluyen respuestas de las mismas.',
       route: '/pruebas',
       icons: [
         <FileType size={27} className='text-icon_color p-0.5 m-1' />,

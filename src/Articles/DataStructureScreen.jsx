@@ -62,7 +62,7 @@ console.log(animal.especie)
                     Datos
                 </Title>
                 <Paragraph>
-                    Los datos pueden es una unidad, puede ser número, letras o simplemente
+                    Los datos pueden ser una unidad, puede ser número, letras o simplemente
                     algún caracter, pero, al interpretar estos, se pueden convertir en información
                     sumamente importante
                 </Paragraph>
@@ -72,8 +72,7 @@ console.log(animal.especie)
                     Estructuras de datos
                 </Title>
                 <Paragraph>
-                    Las estructuras de datos son todos aquellos mecanismos que permiten la organización de datos.
-                    Permite hacer de deshacer datos
+                    Las estructuras de datos son todos aquellos mecanismos que permiten la organización de datos. Estos se clasifican en:
                 </Paragraph>
                 <Space />
 

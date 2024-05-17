@@ -46,10 +46,10 @@ const Subprocesses = () => {
                 Subprocesos
             </Title>
             <Paragraph>
-                Es básicamente una parte más pequeña de una tarea más grande.
-                Los algotimos poseen parametros, los parámetros 
+                Un subproceso, en términos simples, es una pequeña tarea que se ejecuta dentro de un programa más grande.
+                Los subprocesos poseen parámetros, los parámetros
                 son básicamente variables que se utilizan para recibir valores cuando una función es llamada.
-                los subprocesos necesitan:
+                Los subprocesos necesitan:
             </Paragraph>
 
             <Space />

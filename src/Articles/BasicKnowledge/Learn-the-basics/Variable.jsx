@@ -26,7 +26,7 @@ const Variable = () => {
       </Title>
       
       <Paragraph>
-        Una variable es un espacio reservado en memoria que tiene una dirección, un tipo, un nombre y un valor.
+        Una variable es un espacio reservado en la memoria RAM que tiene una dirección, un tipo, un nombre y un valor.
       </Paragraph>
 
       <Space />
@@ -76,7 +76,7 @@ const Variable = () => {
           </Element>
 
           <Element>
-            <GreenWordSection>● Evitar nombres largos</GreenWordSection>: Buscar que cortos y compactos.
+            <GreenWordSection>● Evitar nombres largos</GreenWordSection>: buscar que sean cortos y compactos.
           </Element>
 
         </GreenSection>

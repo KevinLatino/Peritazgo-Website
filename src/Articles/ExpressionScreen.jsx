@@ -34,9 +34,8 @@ const ExpressionScreen = () => {
         </Title>
 
         <Paragraph>
-          Estos componentes pueden ser simples, como un número o una variable que contiene un valor,
-          Es una combinación de valores, variables, operadores y funciones que se evalúa para producir un resultado.
-          o más complejos, como una fórmula matemática o una llamada a una función.
+          Estos componentes pueden ser simples, como un número o una variable que contiene un valor. O también pueden ser una
+          combinación de valores, variables, operadores y funciones que se evalúan para producir un resultado.
         </Paragraph>
 
         <Space />
