@@ -51,7 +51,7 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <div className='flex gap-10'>
+        <div className='flex gap-14'>
           <BlueSection>
             <BlueTitle>Tipos de valores:</BlueTitle>
             <Element>
@@ -59,7 +59,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <BlueWordSection>● Variables</BlueWordSection>: Se referencian por la representación textual de su valor.
+              <BlueWordSection>● Variables</BlueWordSection>: se referencian por la representación textual de su valor.
             </Element>
 
           </BlueSection>
@@ -68,11 +68,11 @@ const ExpressionScreen = () => {
             <PurpleTitle>Ejemplos:</PurpleTitle>
 
             <Element>
-              <PurpleWordSection>● Literales</PurpleWordSection>: El número 10 o una cadena de "caracteres".
+              <PurpleWordSection>● Literales</PurpleWordSection>: el número 10 o una cadena de "caracteres".
             </Element>
 
             <Element>
-              <PurpleWordSection>● Variables</PurpleWordSection>:Asignación de una variable como: numero = 10.
+              <PurpleWordSection>● Variables</PurpleWordSection>: asignación de una variable como: numero = 10.
             </Element>
           </PurpleSection>
         </div>
@@ -102,7 +102,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <GreenWordSection>● Multiplicación<Asterisk size={15} /></GreenWordSection>: es utilizado para la |multiplicación de dos valores.
+              <GreenWordSection>● Multiplicación<Asterisk size={15} /></GreenWordSection>: es utilizado para la multiplicación de dos valores.
             </Element>
           </GreenSection>
 
