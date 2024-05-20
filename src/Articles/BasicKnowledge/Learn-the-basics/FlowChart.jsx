@@ -18,13 +18,13 @@ const FlowChart = () => {
         </BlueTitle>
 
         <Paragraph>
-          Representaciones gráficas de secuencias de pasos a realizar. Estas figuras gráficas son estándares regulados por la (ANSI).
+          Son representaciones gráficas de secuencias de pasos a realizar. Estas figuras gráficas son estándares regulados por la (ANSI).
         </Paragraph>
 
         <Space />
 
         <div className='flex justify-center items-center'>
-          <img src={FlowCharts} width={320} />
+          <img src={FlowCharts} width={350} />
         </div>
 
       </BlueSection>

@@ -7,6 +7,27 @@ html, body {
     background-color: #080b10;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #080b10; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b3b7b752; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #267c6e5d; 
+  }
+  
 #root {
     max-width: 1300px;
     margin: 0 auto;

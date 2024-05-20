@@ -65,7 +65,7 @@ const ControlStructure = () => {
   };`
 
   const stringFor =
-    `for (i=0; i<4; i++){
+    `for (let i=0; i<4; i++){
     console.log(i)
   };
   //En consola: 0, 1, 2, 3`

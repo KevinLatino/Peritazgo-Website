@@ -15,27 +15,32 @@ const Pseudocodigo = () => {
   return (
     <>
       <PurpleSection>
+
         <PurpleTitle>
           Pseudocódigos
         </PurpleTitle>
         <Paragraph>
           Es una forma de escribir algoritmos utilizando un lenguaje simple y estructurado que se parece mucho al lenguaje humano.
         </Paragraph>
+
         <Space />
 
-        <PurpleWordSection>
+        <div className='flex justify-center items-center'>
+          <PurpleWordSection>
+            <Space />
+            <PurpleTitle>Inicio</PurpleTitle>
+            <Element>Definir num como Entero;</Element>
+            <Element>Escribir "Ingresa un número para saber si es par o no";</Element>
+            <Element>Leer num;</Element>
+            <Element>Si num % 2 == 0 entonces </Element>
+            <Element>mostrar “El número es par”;</Element>
+            <Element>Sino</Element>
+            <Element>mostrar “El número es impar”;</Element>
+            <PurpleTitle>Fin</PurpleTitle>
+            <Space />
+          </PurpleWordSection >
+        </div >
 
-          <Space />
-          <PurpleTitle>Inicio</PurpleTitle>
-          <Element>Definir num1, num2, suma como Entero;</Element>
-          <Element>Leer num1;</Element>
-          <Element>Leer num2;</Element>
-          <Element>suma = num1 + num2;</Element>
-          <Element>Mostras suma;</Element>
-          <PurpleTitle>Fin</PurpleTitle>
-          <Space />
-
-        </PurpleWordSection >
       </PurpleSection>
     </>
   )

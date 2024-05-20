@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BlueSection = ({ children }) => {
     return (
-        <div className='flex items-start flex-col flex-wrap bg-blue_section w-fit p-5 rounded-2xl'>
+        <div className='flex flex-col flex-wrap bg-blue_section w-fit p-5 rounded-2xl'>
             {children}
         </div>
     )
@@ -10,7 +10,7 @@ export const BlueSection = ({ children }) => {
 
 export const GreenSection = ({ children }) => {
     return (
-        <div className="flex items-start flex-col flex-wrap bg-green_section w-fit p-5 rounded-2xl">
+        <div className="flex flex-col flex-wrap bg-green_section w-fit p-5 rounded-2xl">
             {children}
         </div>
     )
@@ -18,7 +18,7 @@ export const GreenSection = ({ children }) => {
 
 export const RedSection = ({ children }) => {
     return (
-        <div className="flex items-start flex-col flex-wrap bg-red_section w-fit p-5 rounded-2xl">
+        <div className="flex flex-col flex-wrap bg-red_section w-fit p-5 rounded-2xl">
             {children}
         </div>
     )
@@ -26,7 +26,7 @@ export const RedSection = ({ children }) => {
 
 export const PurpleSection = ({ children }) => {
     return (
-        <div className='flex items-start flex-col flex-wrap bg-purple_section w-fit p-5 rounded-2xl'>
+        <div className='flex flex-col flex-wrap bg-purple_section w-fit p-5 rounded-2xl'>
             {children}
         </div>
     )
@@ -34,7 +34,7 @@ export const PurpleSection = ({ children }) => {
 
 export const PurpleWordSection = ({ children }) => {
     return (
-        <div className='flex items-start flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-md'>
+        <div className='flex flex-col flex-wrap bg-purple_word_section w-fit px-1 rounded-md'>
             {children}
         </div>
     )
@@ -42,7 +42,7 @@ export const PurpleWordSection = ({ children }) => {
 
 export const BlueWordSection = ({ children }) => {
     return (
-        <div className=' flex items-start flex-col flex-wrap bg-blue_word_section rounded-md px-1 '>
+        <div className='flex flex-col flex-wrap bg-blue_word_section w-fit px-1 rounded-md  '>
             {children}
         </div>
     )

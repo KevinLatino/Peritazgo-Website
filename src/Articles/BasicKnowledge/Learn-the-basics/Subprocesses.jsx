@@ -80,6 +80,7 @@ const Subprocesses = () => {
                 </RedSection>
 
                 <Space />
+                
                 <PurpleSection>
                     <PurpleTitle>
                         <PurpleWordSection>Funciones:</PurpleWordSection> se puede apreciar que devuelve el resultado.
