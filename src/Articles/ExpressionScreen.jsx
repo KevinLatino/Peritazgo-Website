@@ -58,7 +58,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <BlueWordSection>● Variables</BlueWordSection>: se referencian por la representación textual de su valor.
+              <BlueWordSection>● Variables</BlueWordSection>: se referencian por la representación textual de su valor..
             </Element>
 
           </BlueSection>

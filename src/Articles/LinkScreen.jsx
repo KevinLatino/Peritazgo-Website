@@ -29,7 +29,7 @@ const Links = () => {
     const handleLink3 = () => {
         window.open(`https://drive.google.com/file/d/1ru9j36a1JCfQsmbNmzEwEyeVWD97Wlz5/view?usp=sharing`)
     }
-    
+
     return (
         <>
             <div className='animate__animated animate__fadeInLeft'>
