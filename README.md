@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Página  hecha especialmente para estudiantes de colegios técnicos de la especialidad de Desarrollo Web en Costa Rica, los cuales deseen estudiar para la prueba nacional de Peritazgo 2024. 💻📚🎓</p>
+<p align="left">Página web creada especialmente para estudiantes de colegios técnicos de la especialidad de Desarrollo Web en Costa Rica, los cuales deseen estudiar para la prueba nacional de Peritazgo 2024. 💻📚🎓</p>
 
 ###
 
