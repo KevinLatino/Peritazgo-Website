@@ -3,7 +3,7 @@ import { MainTitle } from '../src/Components/MainTitleComponent';
 import { CardComponent } from '../src/Components/CardComponent';
 import { SearchBar } from '../src/Components/SearchBarComponent';
 import { useState } from 'react';
-import { nfd } from 'unorm'; 2
+import { nfd } from 'unorm'; 
 import {
   BookText,
   Blocks,
