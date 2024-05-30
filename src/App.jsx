@@ -3,7 +3,7 @@ import { MainTitle } from '../src/Components/MainTitleComponent';
 import { CardComponent } from '../src/Components/CardComponent';
 import { SearchBar } from '../src/Components/SearchBarComponent';
 import { useState } from 'react';
-import { nfd } from 'unorm'; 
+import { nfd } from 'unorm';
 import {
   BookText,
   Blocks,
@@ -22,7 +22,10 @@ import {
   Server,
   Link,
   NotepadText,
-  FileType
+  FileType,
+  Box,
+  Dna, 
+  Apple
 } from 'lucide-react';
 import 'animate.css';
 import './index.css'
@@ -95,6 +98,17 @@ const App = () => {
 
     {
       id: 6,
+      title: 'P.O.O',
+      description: 'Paradigma Orientado a Objetos (POO) es un paradigma que organiza el software en torno a "objetos" y "clases".',
+      icons: [
+        <Box size={27} className='text-icon_color p-0.5 m-1'/>,
+        <Apple size={27} className='text-icon_color p-0.5 m-1' />,
+        <Dna size={27} className='text-icon_color p-0.5 m-1' />
+      ]
+    },
+
+    {
+      id: 9,
       title: 'Prácticas sobre los temas vistos',
       description: 'Encontrarás enlaces de prácticas sobre los temas vistos, además se incluyen respuestas de las mismas.',
       route: '/pruebas',
