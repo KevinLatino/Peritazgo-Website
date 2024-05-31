@@ -16,12 +16,12 @@ html, body {
   }
    
 ::-webkit-scrollbar-thumb {
-    background: #b3b7b752; 
+    background: #9b9c9c52; 
     border-radius: 10px;
   }
   
 ::-webkit-scrollbar-thumb:hover {
-    background: #267c6e5d; 
+    background: #f1f1f152; 
   }
   
 #root {
