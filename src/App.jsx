@@ -100,6 +100,7 @@ const App = () => {
       id: 6,
       title: 'P.O.O',
       description: 'Paradigma Orientado a Objetos (POO) es un paradigma que organiza el software en torno a "objetos" y "clases".',
+      route: '/Paradigma-Orientado-Objetos',
       icons: [
         <Box size={27} className='text-icon_color p-0.5 m-1'/>,
         <Apple size={27} className='text-icon_color p-0.5 m-1' />,
