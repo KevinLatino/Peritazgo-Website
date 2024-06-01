@@ -3,6 +3,8 @@ import { Title, Paragraph, Space, BlueTitle, PurpleTitle, GreenTitle, RedTitle }
 import { BlueSection, GreenSection, PurpleSection, RedSection } from '../Components/SectionsComponent'
 import { BackButton } from '../Components/BackButtonComponent'
 import { CodeComponent } from '../Components/CodeComponent'
+import { Accordion } from '../Components/AccordionComponent'
+import Classes from '../../public/POO.jpg'
 
 const POOScreen = () => {
 
@@ -105,6 +107,68 @@ dog.makeSound(); // Figo makes a sound`
                         </Paragraph>
                         <Space />
                         <CodeComponent codeString={stringObject} />
+                    </RedSection>
+                </div>
+
+                <Space />
+
+                <Title>
+                    Ejemplo:
+                </Title>
+
+                <Space />
+
+                <Accordion title='Has click para ver una imágen'>
+                    <img src={Classes} width={600} />
+                </Accordion>
+
+                <Space />
+
+                <Title>
+                    Principos de la POO
+                </Title>
+
+                <Space />
+                
+                <div className='flex gap-12'>
+                    <BlueSection>
+                        <BlueTitle>
+                            La abstracción
+                        </BlueTitle>
+                        <Paragraph>
+                            La abstracción consiste en enfocarse en lo esencial y ocultar los detalles complicados, se deben determinar los atributos importantes.
+                        </Paragraph>
+                    </BlueSection>
+
+                    <PurpleSection>
+                        <PurpleTitle>
+                            La encapsulación
+                        </PurpleTitle>
+                        <Paragraph>
+                            La encapsulación consiste en proteger los datos de un objeto para que no puedan ser modificados directamente desde fuera.
+                        </Paragraph>
+                    </PurpleSection>
+                </div>
+
+                <Space />
+
+                <div className='flex gap-12'>
+                    <GreenSection>
+                        <GreenTitle>
+                            La herencia
+                        </GreenTitle>
+                        <Paragraph>
+                            La herencia es un mecanismo que permite crear nuevas clases basadas en clases existentes, reutilizando métodos y atributos.
+                        </Paragraph>
+                    </GreenSection>
+
+                    <RedSection>
+                        <RedTitle>
+                            El polimorfismo
+                        </RedTitle>
+                        <Paragraph>
+                            El polimorfismo permite que la misma operación o método funcione de diferentes maneras según el objeto que lo use.
+                        </Paragraph>
                     </RedSection>
                 </div>
             </div>
