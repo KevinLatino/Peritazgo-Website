@@ -20,7 +20,7 @@ const POOScreen = () => {
     this.name = name;
     this.specie = specie;
  };
- makeSound(){ //aquí se declara la clase
+ makeSound(){ //aquí se declaran los métodos
     console.log(this.name + ' make a sound');
  };
 };`
