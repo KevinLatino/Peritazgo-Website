@@ -23,6 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# Postgres data
-postgres_data/
 
