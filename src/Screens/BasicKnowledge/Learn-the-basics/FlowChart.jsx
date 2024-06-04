@@ -24,7 +24,7 @@ const FlowChart = () => {
         <Space />
 
         <div className='flex justify-center items-center'>
-          <img src={FlowCharts} width={350} />
+          <img src={FlowCharts} width={350} className='pointer-events-none'/>
         </div>
 
       </BlueSection>

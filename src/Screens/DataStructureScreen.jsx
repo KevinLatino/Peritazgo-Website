@@ -120,7 +120,7 @@ let arr = [64, 34, 25, 12, 22, 11, 90];`
                 <Space />
 
                 <Accordion title='Has click para ver la clasificación'>
-                    <img src={DataStructureSvg} />
+                    <img src={DataStructureSvg} className='pointer-events-none'/>
                 </Accordion>
 
                 <Space />

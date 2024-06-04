@@ -186,7 +186,7 @@ const DataBase = () => {
                 <Space />
 
                 <Accordion title='Has click para ver las figuras'>
-                    <img src={ERDiagram} alt="ER-diagram" width={410} />
+                    <img src={ERDiagram} alt="ER-diagram" width={410} className='pointer-events-none' />
                 </Accordion>
                 <Space />
 
@@ -224,7 +224,7 @@ const DataBase = () => {
                         </PurpleTitle>
                         <Space/>
                         <Space />
-                        <img src={ERExample} width={950}  />
+                        <img src={ERExample} width={950} className='pointer-events-none' />
                     </BlueSection>
                 </div>
 

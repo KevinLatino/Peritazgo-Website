@@ -119,7 +119,7 @@ dog.makeSound(); // Figo makes a sound`
                 <Space />
 
                 <Accordion title='Has click para ver una imágen'>
-                    <img src={Classes} width={600} />
+                    <img src={Classes} width={600} className='pointer-events-none' />
                 </Accordion>
 
                 <Space />
