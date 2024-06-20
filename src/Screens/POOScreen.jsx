@@ -113,23 +113,11 @@ dog.makeSound(); // Figo makes a sound`
                 <Space />
 
                 <Title>
-                    Ejemplo:
-                </Title>
-
-                <Space />
-
-                <Accordion title='Has click para ver una imágen'>
-                    <img src={Classes} width={600} className='pointer-events-none' />
-                </Accordion>
-
-                <Space />
-
-                <Title>
                     Principos de la POO
                 </Title>
 
                 <Space />
-                
+
                 <div className='flex gap-12'>
                     <BlueSection>
                         <BlueTitle>
@@ -172,6 +160,19 @@ dog.makeSound(); // Figo makes a sound`
                     </RedSection>
                 </div>
             </div>
+
+            <Space />
+
+            <Title>
+                Ejemplo:
+            </Title>
+
+            <Space />
+
+            <Accordion title='Has click para ver una imágen'>
+                <img src={Classes} width={600} className='pointer-events-none' />
+            </Accordion>
+
             <BackButton />
         </>
     )
