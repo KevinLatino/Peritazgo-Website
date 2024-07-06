@@ -10,12 +10,12 @@
 
 ###
 
-<p align="left">• Programming fundamentals: variables, algorithms, flowcharts, pseudocode, etc.
-• Expressions: types of operators, logical expressions, arithmetic expressions, etc.
-• Control structures: loops, conditionals, etc.
-• Data structures: arrays, matrices, etc.
-• Relational databases.
-• Object-oriented programming (OOP).
+<p align="left">• Programming fundamentals: variables, algorithms, flowcharts, pseudocode, etc. <br><br>
+• Expressions: types of operators, logical expressions, arithmetic expressions, etc. <br><br>
+• Control structures: loops, conditionals, etc. <br><br>
+• Data structures: arrays, matrices, etc. <br><br>
+• Relational databases. <br><br> 
+• Object-oriented programming (OOP). <br><br>
 And much more!"</p>
 
 ###
