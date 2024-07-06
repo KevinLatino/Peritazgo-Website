@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { BasicKnowledgeScreen } from '../src/Screens/BasicKnowledge/BasicKnowledgeScreen.jsx';
 import { ExpressionScreen } from '../src/Screens/ExpressionScreen.jsx';
 import { ControlStructure } from '../src/Screens/ControlStructureScreen.jsx';
 import { Links } from '../src/Screens/LinkScreen.jsx';
 import { DataStructure } from './Screens/DataStructureScreen.jsx';
 import { DataBase } from '../src/Screens/DataBaseScreen.jsx';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { POOScreen } from './Screens/POOScreen.jsx';
 
 const router = createBrowserRouter([
