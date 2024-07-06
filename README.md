@@ -6,7 +6,7 @@
 
 ###
 
-<h2 align="left">Temas abordados:</h2>
+<h2 align="left">Topics covered:</h2>
 
 ###
 
