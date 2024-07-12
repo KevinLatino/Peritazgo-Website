@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Page focused on students from technical high schools specializing in Web Development in Costa Rica, who want to study for the 2024 National Peritazgo Test. 💻📚🎓</p>
+<p align="left">Website focused on students from technical high schools specializing in Web Development in Costa Rica, who want to study for the 2024 National Peritazgo Test. 💻📚🎓</p>
 
 ###
 
