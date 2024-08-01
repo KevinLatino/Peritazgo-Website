@@ -2,19 +2,25 @@
 
 ###
 
-<p align="left">Página web creada especialmente para estudiantes de colegios técnicos de la especialidad de Desarrollo Web en Costa Rica, los cuales deseen estudiar para la prueba nacional de Peritazgo 2024. 💻📚🎓</p>
+<p align="left">Website focused on students from technical high schools specializing in Web Development in Costa Rica, who want to study for the 2024 National Peritazgo Test. 💻📚🎓</p>
 
 ###
 
-<h2 align="left">Temas abordados:</h2>
+<h2 align="left">Topics covered:</h2>
 
 ###
 
-<p align="left">• Fundamentos de programación: variables, algoritmos, diagramas de flujo, pseudocófigos, etc..<br><br>• Expresiones: tipos de operadores, expresiones lógicas, expresiones aritméticas, etc..<br><br>• Estructuras de control: ciclos, condicionales, etc..<br><br>• Estructuras de datos: arreglos, matríces, etc..<br><br>• Bases de datos relacionales.<br><br>• Programación orientada a objetos (POO).<br><br> • Y mucho más!</p>
+<p align="left">• Programming fundamentals: variables, algorithms, flowcharts, pseudocode, etc. <br><br>
+• Expressions: types of operators, logical expressions, arithmetic expressions, etc. <br><br>
+• Control structures: loops, conditionals, etc. <br><br>
+• Data structures: arrays, matrices, etc. <br><br>
+• Relational databases. <br><br> 
+• Object-oriented programming (OOP). <br><br>
+And much more!"</p>
 
 ###
 
-<h2 align="left">Tecnologías utilizadas:</h2>
+<h2 align="left">Tech Stack:</h2>
 
 ###
 
