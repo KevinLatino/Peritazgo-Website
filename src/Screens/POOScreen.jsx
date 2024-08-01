@@ -173,7 +173,7 @@ dog.makeSound(); // Figo makes a sound`
                 <img src={Classes} width={600} className='pointer-events-none' />
             </Accordion>
 
-            <BackButton />
+            <BackButton link={'/WebDev'}/>
         </>
     )
 }

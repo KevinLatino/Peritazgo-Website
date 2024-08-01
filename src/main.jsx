@@ -10,11 +10,16 @@ import { Links } from '../src/Screens/LinkScreen.jsx';
 import { DataStructure } from './Screens/DataStructureScreen.jsx';
 import { DataBase } from '../src/Screens/DataBaseScreen.jsx';
 import { POOScreen } from './Screens/POOScreen.jsx';
+import WebDevScreen from './Screens/WebDevScreen.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
+  },
+  {
+    path: '/WebDev',
+    element: <WebDevScreen />,
   },
   {
     path: '/Aprendiendo',
@@ -38,16 +43,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/Paradigma-Orientado-Objetos',
-    element: < POOScreen />
+    element: <POOScreen />
   },
   {
     path: '/pruebas',
-    element: <Links/>
+    element: <Links />
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

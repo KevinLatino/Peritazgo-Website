@@ -238,7 +238,7 @@ const ControlStructure = () => {
         </div>
       </div>
 
-      <BackButton />
+      <BackButton link={'/WebDev'}/>
     </>
   )
 }

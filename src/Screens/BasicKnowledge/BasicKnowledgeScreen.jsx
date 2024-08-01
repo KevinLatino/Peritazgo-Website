@@ -26,7 +26,7 @@ const BasicKnowledgeScreen = () => {
         <Subprocesses />
         <Pointers />
       </div>
-      <BackButton />
+      <BackButton link={'/WebDev'}/>
     </>
   )
 }

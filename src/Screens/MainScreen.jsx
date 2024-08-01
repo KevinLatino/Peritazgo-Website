@@ -5,7 +5,7 @@ import { SearchBar } from '../Components/SearchBarComponent';
 import { useState } from 'react';
 import { nfd } from 'unorm';
 import {
-    Book,
+    Binary,
     Briefcase,
     Code,
     Layout,
@@ -30,7 +30,7 @@ const MainScreen = () => {
             id: 1,
             title: 'Tecnologías de la información',
             description: 'Explora el vasto mundo de las tecnologías de la información, incluyendo redes, sistemas operativos y ciberseguridad.',
-            route: '/Aprendiendo',
+            route: '/tecnología',
             icons: [
                 <Network size={27} className='text-[#5cafad] p-0.5 m-1 ' />,
                 <Server size={27} className='text-[#5cafad] p-0.5 m-1' />,
@@ -42,7 +42,7 @@ const MainScreen = () => {
             id: 2,
             title: 'Emprendimiento e innovación',
             description: 'Descubre cómo iniciar y hacer crecer tu propio negocio con técnicas de innovación y estrategias empresariales.',
-            route: '/Expresiones',
+            route: '/innovación',
             icons: [
                 <Briefcase size={27} className='text-icon_color p-0.5 m-1' />,
                 <Lightbulb size={27} className='text-icon_color p-0.5 m-1' />,
@@ -53,11 +53,11 @@ const MainScreen = () => {
         {
             id: 3,
             title: 'Programación Web',
-            description: 'Aprende sobre las últimas tecnologías y mejores prácticas en desarrollo web, incluyendo HTML, CSS y JavaScript.',
-            route: '/Estructuras-de-control',
+            description: 'Aprende las bases de la programación, POO, Estructuras de Control, Estructuras de datos y más.',
+            route: '/WebDev',
             icons: [
                 <Code size={27} className='text-icon_color p-0.5 m-1' />,
-                <Terminal size={27} className='text-icon_color p-0.5 m-1' />,
+                <Binary size={27} className='text-icon_color p-0.5 m-1' />,
                 <Monitor size={27} className='text-icon_color p-0.5 m-1' />,
             ],
         },
@@ -66,7 +66,7 @@ const MainScreen = () => {
             id: 4,
             title: 'Diseño de Software',
             description: 'Conoce los principios de diseño de software y cómo aplicarlos para crear aplicaciones eficientes y mantenibles.',
-            route: '/Estructuras-de-datos',
+            route: '/Diseño',
             icons: [
                 <Layout size={27} className='text-icon_color p-0.5 m-1' />,
                 <Layers size={27} className='text-icon_color p-0.5 m-1' />,
@@ -78,7 +78,7 @@ const MainScreen = () => {
             id: 5,
             title: 'Soporte TI',
             description: 'Obtén habilidades para proporcionar soporte técnico y resolver problemas en entornos de TI.',
-            route: '/Bases-de-datos',
+            route: '/Soporte',
             icons: [
                 <Database size={27} className='text-icon_color p-0.5 m-1' />,
                 <Server size={27} className='text-icon_color p-0.5 m-1' />,

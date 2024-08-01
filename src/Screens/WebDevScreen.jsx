@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { MainTitle } from '../Components/MainTitleComponent';
 import { CardComponent } from '../Components/CardComponent';
 import { SearchBar } from '../Components/SearchBarComponent';
-import { useState } from 'react';
 import { nfd } from 'unorm';
 import {
   BookText,
@@ -20,7 +19,7 @@ import {
   Database,
   Brain,
   Server,
-  Link,
+  Link as LinkIcon,
   NotepadText,
   FileType,
   Box,
@@ -28,13 +27,9 @@ import {
   Apple
 } from 'lucide-react';
 import 'animate.css';
-import './index.css'
-
 
 const WebDevScreen = () => {
-
   const arrayTopics = [
-
     {
       id: 1,
       title: 'Entiende las bases',
@@ -46,7 +41,6 @@ const WebDevScreen = () => {
         <BookText size={27} className='text-[#5cafad] p-0.5 m-1' />,
       ],
     },
-
     {
       id: 2,
       title: 'Expresiones',
@@ -58,7 +52,6 @@ const WebDevScreen = () => {
         <BrainCircuit size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
-
     {
       id: 3,
       title: 'Estructuras de control',
@@ -70,7 +63,6 @@ const WebDevScreen = () => {
         <RefreshCcw size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
-
     {
       id: 4,
       title: 'Estructuras de datos',
@@ -82,7 +74,6 @@ const WebDevScreen = () => {
         <Binary size={27} className='text-icon_color p-0.5 m-1' />
       ],
     },
-
     {
       id: 5,
       title: 'Bases de datos',
@@ -92,10 +83,8 @@ const WebDevScreen = () => {
         <Database size={27} className='text-icon_color p-0.5 m-1' />,
         <Server size={27} className='text-icon_color p-0.5 m-1' />,
         <Brain className='text-icon_color p-0.5 m-1' />,
-
       ],
     },
-
     {
       id: 6,
       title: 'P.O.O',
@@ -107,7 +96,6 @@ const WebDevScreen = () => {
         <Dna size={27} className='text-icon_color p-0.5 m-1' />
       ]
     },
-
     {
       id: 9,
       title: 'Prácticas sobre los temas vistos',
@@ -116,45 +104,36 @@ const WebDevScreen = () => {
       icons: [
         <FileType size={27} className='text-icon_color p-0.5 m-1' />,
         <NotepadText size={27} className='text-icon_color p-0.5 m-1' />,
-        <Link size={27} className='text-icon_color p-0.5 m-1' />
-
+        <LinkIcon size={27} className='text-icon_color p-0.5 m-1' />
       ]
     },
-
-
   ];
 
-
   const [topic, setTopic] = useState(arrayTopics);
-
   const [search, setSearch] = useState('');
 
   const searchTopic = topic.filter(topic =>
     (topic.title).toLowerCase().includes(nfd(search).toLowerCase())) ||
     (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
 
-
   return (
-    <>
-      <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
-        <MainTitle>
-            Temas de Desarrollo Web
-        </MainTitle>
-        <SearchBar search={search} setSearch={setSearch} />
-        <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
-          {searchTopic.map(renderTopic => (<CardComponent
+    <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
+      <MainTitle>Temas de Desarrollo Web</MainTitle>
+      <SearchBar search={search} setSearch={setSearch} />
+      <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
+        {searchTopic.map(renderTopic => (
+          <CardComponent
             key={renderTopic.id}
             route={renderTopic.route}
             title={renderTopic.title}
             description={renderTopic.description}
             icons={renderTopic.icons}
-          />))}
-        </div>
+          />
+        ))}
       </div>
-    </>
 
+    </div>
+  );
+};
 
-  )
-}
-
-export default WebDevScreen
+export default WebDevScreen;

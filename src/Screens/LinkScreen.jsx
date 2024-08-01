@@ -88,7 +88,7 @@ const Links = () => {
                     </GreenSection>
                 </div>
             </div>
-            <BackButton />
+            <BackButton link={'/WebDev'}/>
         </>
     )
 }

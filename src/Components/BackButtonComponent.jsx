@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { Undo2 } from 'lucide-react';
 import { motion } from 'framer-motion'
 
-const BackButton = () => {
+const BackButton = ({link}) => {
     return (
         <>
-            <Link to={'/'}>
+            <Link to={link}>
                 <motion.div 
                 whileHover={{scale:1.2}}
                 style={{
