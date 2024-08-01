@@ -1,34 +1,26 @@
-import React from 'react'
+import React from 'react';
 import { MainTitle } from '../Components/MainTitleComponent';
 import { CardComponent } from '../Components/CardComponent';
 import { SearchBar } from '../Components/SearchBarComponent';
 import { useState } from 'react';
 import { nfd } from 'unorm';
 import {
-    BookText,
-    Blocks,
-    Puzzle,
-    Split,
-    BrainCircuit,
-    Ampersands,
-    Divide,
-    Route,
-    Workflow,
-    Binary,
-    RefreshCcw,
-    FileText,
-    Database,
-    Brain,
+    Book,
+    Briefcase,
+    Code,
+    Layout,
     Server,
-    Link,
-    NotepadText,
-    FileType,
-    Box,
-    Dna,
-    Apple
+    Network,
+    Shield,
+    Lightbulb,
+    Rocket,
+    Terminal,
+    Monitor,
+    Database,
+    Layers,
+    Cpu,
 } from 'lucide-react';
 import 'animate.css';
-
 
 const MainScreen = () => {
 
@@ -37,74 +29,70 @@ const MainScreen = () => {
         {
             id: 1,
             title: 'Tecnologías de la información',
-            description: 'Se abordan temas básicos, variables, algoritmos, pseudocódigo, punteros, diagramas de flujo.',
+            description: 'Explora el vasto mundo de las tecnologías de la información, incluyendo redes, sistemas operativos y ciberseguridad.',
             route: '/Aprendiendo',
             icons: [
-                <Blocks size={27} className='text-[#5cafad] p-0.5 m-1 ' />,
-                <Puzzle size={27} className='text-[#5cafad] p-0.5 m-1' />,
-                <BookText size={27} className='text-[#5cafad] p-0.5 m-1' />,
+                <Network size={27} className='text-[#5cafad] p-0.5 m-1 ' />,
+                <Server size={27} className='text-[#5cafad] p-0.5 m-1' />,
+                <Shield size={27} className='text-[#5cafad] p-0.5 m-1' />,
             ],
         },
 
         {
             id: 2,
-            title: 'Emprendiemiento e innovación',
-            description: 'Se abordan temas como valores, distintos tipos de operadores y distintos tipos de expresiones.',
+            title: 'Emprendimiento e innovación',
+            description: 'Descubre cómo iniciar y hacer crecer tu propio negocio con técnicas de innovación y estrategias empresariales.',
             route: '/Expresiones',
             icons: [
-                <Ampersands size={27} className='text-icon_color p-0.5 m-1' />,
-                <Divide size={27} className='text-icon_color p-0.5 m-1' />,
-                <BrainCircuit size={27} className='text-icon_color p-0.5 m-1' />
+                <Briefcase size={27} className='text-icon_color p-0.5 m-1' />,
+                <Lightbulb size={27} className='text-icon_color p-0.5 m-1' />,
+                <Rocket size={27} className='text-icon_color p-0.5 m-1' />,
             ],
         },
 
         {
             id: 3,
             title: 'Programación Web',
-            description: ' Son componentes de la programación que permiten controlar el flujo de ejecución de un programa.',
+            description: 'Aprende sobre las últimas tecnologías y mejores prácticas en desarrollo web, incluyendo HTML, CSS y JavaScript.',
             route: '/Estructuras-de-control',
             icons: [
-                <Split size={27} className='text-icon_color p-0.5 m-1' />,
-                <Workflow size={27} className='text-icon_color p-0.5 m-1' />,
-                <RefreshCcw size={27} className='text-icon_color p-0.5 m-1' />
+                <Code size={27} className='text-icon_color p-0.5 m-1' />,
+                <Terminal size={27} className='text-icon_color p-0.5 m-1' />,
+                <Monitor size={27} className='text-icon_color p-0.5 m-1' />,
             ],
         },
 
         {
             id: 4,
             title: 'Diseño de Software',
-            description: 'Son las que organizan nuestro proyecto en ejecución, se abordan sus distintas clasificaciones.',
+            description: 'Conoce los principios de diseño de software y cómo aplicarlos para crear aplicaciones eficientes y mantenibles.',
             route: '/Estructuras-de-datos',
             icons: [
-                <FileText size={27} className='text-icon_color p-0.5 m-1' />,
-                <Route size={27} className='text-icon_color p-0.5 m-1' />,
-                <Binary size={27} className='text-icon_color p-0.5 m-1' />
+                <Layout size={27} className='text-icon_color p-0.5 m-1' />,
+                <Layers size={27} className='text-icon_color p-0.5 m-1' />,
+                <Cpu size={27} className='text-icon_color p-0.5 m-1' />,
             ],
         },
 
         {
             id: 5,
             title: 'Soporte TI',
-            description: 'Se refiere a un conjunto de datos relacionados entre sí que pertenecen a un mismo contexto.',
+            description: 'Obtén habilidades para proporcionar soporte técnico y resolver problemas en entornos de TI.',
             route: '/Bases-de-datos',
             icons: [
                 <Database size={27} className='text-icon_color p-0.5 m-1' />,
                 <Server size={27} className='text-icon_color p-0.5 m-1' />,
-                <Brain className='text-icon_color p-0.5 m-1' />,
-
+                <Monitor size={27} className='text-icon_color p-0.5 m-1' />,
             ],
         },
     ];
 
-
     const [topic, setTopic] = useState(arrayTopics);
-
     const [search, setSearch] = useState('');
 
     const searchTopic = topic.filter(topic =>
         (topic.title).toLowerCase().includes(nfd(search).toLowerCase())) ||
         (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
-
 
     return (
         <>
@@ -124,9 +112,7 @@ const MainScreen = () => {
                 </div>
             </div>
         </>
-
-
     )
 }
 
-export default MainScreen
+export default MainScreen;
