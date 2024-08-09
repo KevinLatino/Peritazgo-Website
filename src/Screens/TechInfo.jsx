@@ -5,27 +5,27 @@ import { Title, Space, BlueTitle, PurpleTitle, GreenTitle } from '../Components/
 const TechInfo = () => {
 
     const handleLink = () => {
-        
+        window.open(`https://www.canva.com/design/DAGHYl1NgwQ/6hrp7GhwqZKtjmsL5dnIGg/edit?utm_content=DAGHYl1NgwQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`)
     }
 
     const handleLink2 = () => {
-
+        window.open(`https://www.canva.com/design/DAGGvB2ZGsk/BNHn1JEM0DmyvfV-MjYsRw/edit?utm_content=DAGGvB2ZGsk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`)
     }
 
     const handleLink3 = () => {
-
+        window.open(`https://www.canva.com/design/DAGGvAMz5rU/xQOmJRx7JjTxN8xMVTvo1Q/edit`)
     }
 
     const handleLink4 = () => {
-
+        window.open(`https://www.canva.com/design/DAGIHRSfkBU/8VxIa-tDP99phF77C0kx9w/edit?utm_content=DAGIHRSfkBU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`)
     }
 
     const handleLink5 = () => {
-
+        window.open(`https://www.canva.com/design/DAGGvV3vUdE/NxWHrKYpeTxWmNKGb0lFEg/edit`)
     }
 
     const handleLink6 = () => {
-
+        window.open(`https://www.canva.com/design/DAGHY8UJqE4/F2FFuIyOKo4Ix6UHAdR26A/edit`)
     }
 
 
