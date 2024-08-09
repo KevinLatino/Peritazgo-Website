@@ -3,6 +3,7 @@ import { MainTitle } from '../Components/MainTitleComponent';
 import { CardComponent } from '../Components/CardComponent';
 import { SearchBar } from '../Components/SearchBarComponent';
 import { nfd } from 'unorm';
+import { BackButton } from '../Components/BackButtonComponent';
 import {
   BookText,
   Blocks,
@@ -23,7 +24,7 @@ import {
   NotepadText,
   FileType,
   Box,
-  Dna, 
+  Dna,
   Apple
 } from 'lucide-react';
 import 'animate.css';
@@ -91,7 +92,7 @@ const WebDevScreen = () => {
       description: 'Paradigma Orientado a Objetos (POO) es un paradigma que organiza el software en torno a "objetos" y "clases".',
       route: '/Paradigma-Orientado-Objetos',
       icons: [
-        <Box size={27} className='text-icon_color p-0.5 m-1'/>,
+        <Box size={27} className='text-icon_color p-0.5 m-1' />,
         <Apple size={27} className='text-icon_color p-0.5 m-1' />,
         <Dna size={27} className='text-icon_color p-0.5 m-1' />
       ]
@@ -117,21 +118,23 @@ const WebDevScreen = () => {
     (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
 
   return (
-    <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
-      <MainTitle>Temas de Desarrollo Web</MainTitle>
-      <SearchBar search={search} setSearch={setSearch} />
-      <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
-        {searchTopic.map(renderTopic => (
-          <CardComponent
-            key={renderTopic.id}
-            route={renderTopic.route}
-            title={renderTopic.title}
-            description={renderTopic.description}
-            icons={renderTopic.icons}
-          />
-        ))}
-      </div>
-
+    <div className='h-full'>
+      <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
+        <MainTitle>Temas de Desarrollo Web</MainTitle>
+        <SearchBar search={search} setSearch={setSearch} />
+        <div className='flex flex-wrap items-center justify-center gap-x-36 gap-y-16 p-8'>
+          {searchTopic.map(renderTopic => (
+            <CardComponent
+              key={renderTopic.id}
+              route={renderTopic.route}
+              title={renderTopic.title}
+              description={renderTopic.description}
+              icons={renderTopic.icons}
+            />
+          ))}
+        </div>
+        </div>
+        <BackButton link={'/'} />
     </div>
   );
 };

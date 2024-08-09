@@ -10,6 +10,7 @@ import { Links } from '../src/Screens/LinkScreen.jsx';
 import { DataStructure } from './Screens/DataStructureScreen.jsx';
 import { DataBase } from '../src/Screens/DataBaseScreen.jsx';
 import { POOScreen } from './Screens/POOScreen.jsx';
+import TechInfo from '../src/Screens/TechInfo.jsx'
 import WebDevScreen from './Screens/WebDevScreen.jsx';
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: '/pruebas',
     element: <Links />
+  },
+  {
+    path: '/tecnología',
+    element: <TechInfo />
   }
 ]);
 
