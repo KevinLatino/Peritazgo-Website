@@ -82,33 +82,33 @@ const TechInfo = () => {
                         </GreenWordSection>
                     </GreenSection>
 
-                    <GreenSection>
-                        <GreenTitle>
+                    <BlueSection>
+                        <BlueTitle>
                             Tendencias Tecnológicas
-                        </GreenTitle>
+                        </BlueTitle>
 
                         <Space />
 
-                        <GreenWordSection>
+                        <BlueWordSection>
                             <span onClick={handleLink4} className='text-white cursor-pointer'>
                                 Has click para ir a la práctica.
                             </span>
-                        </GreenWordSection>
-                    </GreenSection>
+                        </BlueWordSection>
+                    </BlueSection>
 
-                    <GreenSection>
-                        <GreenTitle>
+                    <PurpleSection>
+                        <PurpleTitle>
                             Eficiencia energética 2
-                        </GreenTitle>
+                        </PurpleTitle>
 
                         <Space />
 
-                        <GreenWordSection>
+                        <PurpleWordSection>
                             <span onClick={handleLink5} className='text-white cursor-pointer'>
                                 Has click para ir a la práctica.
                             </span>
-                        </GreenWordSection>
-                    </GreenSection>
+                        </PurpleWordSection>
+                    </PurpleSection>
 
                     <GreenSection>
                         <GreenTitle>
