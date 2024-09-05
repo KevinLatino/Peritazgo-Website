@@ -16,11 +16,9 @@ import {
   GreenWordSection,
 } from '../../../Components/SectionsComponent';
 
-
 const Variable = () => {
   return (
     <>
-
       <Title>
         Las variables
       </Title>
@@ -31,9 +29,7 @@ const Variable = () => {
 
       <Space />
 
-
-      <div className='flex gap-16'>
-
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
         <BlueSection>
           <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
           <Element>
@@ -55,9 +51,7 @@ const Variable = () => {
           </Element>
         </BlueSection>
 
-
         <GreenSection>
-
           <GreenTitle>
             Buenas prácticas al utilizar variables <CircleCheckBig />
           </GreenTitle>
@@ -87,4 +81,3 @@ const Variable = () => {
 };
 
 export { Variable };
-

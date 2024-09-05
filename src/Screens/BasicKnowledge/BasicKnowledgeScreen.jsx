@@ -15,8 +15,9 @@ const BasicKnowledgeScreen = () => {
     <>
 
       <div className="animate__animated animate__fadeInLeft">
-
-        <Variable />
+        <div className=''>
+          <Variable />
+        </div>
         <Algorithm />
         <div className='flex gap-16'>
           <FlowChart />
@@ -26,7 +27,7 @@ const BasicKnowledgeScreen = () => {
         <Subprocesses />
         <Pointers />
       </div>
-      <BackButton link={'/WebDev'}/>
+      <BackButton link={'/WebDev'} />
     </>
   )
 }
