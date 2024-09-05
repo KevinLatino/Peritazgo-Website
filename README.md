@@ -6,7 +6,7 @@
 
 ###
 
-<h2 align="left">Topics covered:</h2>
+<h2 align="left">Topics covered 👀</h2>
 
 ###
 
@@ -33,6 +33,10 @@ And much more!"</p>
   <img width="12" />
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="40" alt="vercel logo"  />
 </div>
+
+###
+
+<img src="https://github.com/user-attachments/assets/e35c47bc-f853-4607-a9b1-980bd17ebbd0" width="400">
 
 ###
 
