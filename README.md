@@ -37,6 +37,13 @@
 </div>
 
 ###
+
+<h2 align="left">Check it out here 👀</h2>
+
+https://peritazgo-website-2024.vercel.app/
+###
+
+###
 <h2 align="left"> Just a video about it! 📽️</h2>
 <video src="https://github.com/user-attachments/assets/05bae34c-a68d-4ed0-be11-3abd72a7efb3" width="700" />
 
