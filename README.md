@@ -39,7 +39,7 @@ And much more!"</p>
 
 ###
 <h2 align="left"> Just a video about it! 📽️</h2>
-<video src="https://github.com/user-attachments/assets/344471c3-4169-471b-b479-75beddb3e998" width="700" />
+<video src="https://github.com/user-attachments/assets/e5472c24-10da-455c-9e3e-c73f2e55c55e" width="700" />
 
 <img src="https://github.com/user-attachments/assets/e35c47bc-f853-4607-a9b1-980bd17ebbd0" width="700">
 
