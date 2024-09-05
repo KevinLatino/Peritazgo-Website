@@ -16,7 +16,6 @@
 • Data structures: arrays, matrices, etc. <br><br>
 • Relational databases. <br><br> 
 • Object-oriented programming (OOP). <br><br>
-And much more!"</p>
 
 ###
 
