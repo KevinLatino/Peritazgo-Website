@@ -24,10 +24,6 @@ And much more!"</p>
 
 ###
 
-Just a Video 
-
-<video src"https://github.com/user-attachments/assets/2dabcf9c-29a4-4d81-8339-8923d57dd7e6" />
-
 
 ###
 
@@ -40,6 +36,12 @@ Just a Video
   <img width="12" />
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="40" alt="vercel logo"  />
 </div>
+
+###
+Just a video about it!
+<video src="https://github.com/user-attachments/assets/2dabcf9c-29a4-4d81-8339-8923d57dd7e6" width="700" />
+
+###
 
 ###
 
