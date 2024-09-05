@@ -36,7 +36,7 @@ And much more!"</p>
 
 ###
 
-<img src="https://github.com/user-attachments/assets/e35c47bc-f853-4607-a9b1-980bd17ebbd0" width="800">
+<img src="https://github.com/user-attachments/assets/e35c47bc-f853-4607-a9b1-980bd17ebbd0" width="700">
 
 ###
 
