@@ -38,7 +38,7 @@ And much more!"</p>
 </div>
 
 ###
-Just a video about it!
+<h2 align="left"> Just a video about it!</h2>
 <video src="https://github.com/user-attachments/assets/2dabcf9c-29a4-4d81-8339-8923d57dd7e6" width="700" />
 
 ###
