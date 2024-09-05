@@ -6,7 +6,7 @@
 
 ###
 
-<h2 align="left">Topics covered:</h2>
+<h2 align="left">Topics covered 👀</h2>
 
 ###
 
@@ -20,7 +20,10 @@ And much more!"</p>
 
 ###
 
-<h2 align="left">Tech Stack:</h2>
+<h2 align="left">Tech Stack 🧬🌌</h2>
+
+###
+
 
 ###
 
@@ -33,6 +36,12 @@ And much more!"</p>
   <img width="12" />
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="40" alt="vercel logo"  />
 </div>
+
+###
+<h2 align="left"> Just a video about it!</h2>
+<video src="https://github.com/user-attachments/assets/2dabcf9c-29a4-4d81-8339-8923d57dd7e6" width="700" />
+
+<img src="https://github.com/user-attachments/assets/e35c47bc-f853-4607-a9b1-980bd17ebbd0" width="700">
 
 ###
 
