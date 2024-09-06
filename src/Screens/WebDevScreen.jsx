@@ -96,18 +96,7 @@ const WebDevScreen = () => {
         <Apple size={27} className='text-icon_color p-0.5 m-1' />,
         <Dna size={27} className='text-icon_color p-0.5 m-1' />
       ]
-    },
-    {
-      id: 9,
-      title: 'Prácticas sobre los temas vistos',
-      description: 'Encontrarás enlaces de prácticas sobre los temas vistos, además se incluyen respuestas de las mismas.',
-      route: '/pruebas',
-      icons: [
-        <FileType size={27} className='text-icon_color p-0.5 m-1' />,
-        <NotepadText size={27} className='text-icon_color p-0.5 m-1' />,
-        <LinkIcon size={27} className='text-icon_color p-0.5 m-1' />
-      ]
-    },
+    }
   ];
 
   const [topic, setTopic] = useState(arrayTopics);
@@ -118,7 +107,7 @@ const WebDevScreen = () => {
     (topic.description).toLowerCase().includes(nfd(search).toLowerCase());
 
   return (
-    <div className='h-full'>
+    <div className='h-full '>
       <div className='flex justify-normal items-center flex-col animate__animated animate__fadeInDown'>
         <MainTitle>Temas de Desarrollo Web</MainTitle>
         <SearchBar search={search} setSearch={setSearch} />

@@ -260,34 +260,6 @@ let arr = [64, 34, 25, 12, 22, 11, 90];`
 
                 <Space />
 
-                <div className='flex flex-wrap gap-5'>
-                    <BlueSection>
-                        <BlueTitle>
-                            Ejemplo de Ordenamiento de Burbuja:
-                        </BlueTitle>
-                        <Space />
-                        <CodeComponent codeString={stringBurbleSort} />
-                    </BlueSection>
-
-                    <PurpleSection>
-                        <PurpleTitle>
-                            Ejemplo de Ordenamiento por Selección:
-                        </PurpleTitle>
-                        <Space />
-                        <CodeComponent codeString={stringSelectionSort} />
-                    </PurpleSection>
-
-                    <GreenSection>
-                        <GreenTitle>
-                            Ejemplo de Ordenamiento por Inserción:
-                        </GreenTitle>
-                        <Space />
-                        <CodeComponent codeString={stringInsertionSort} />
-                    </GreenSection>
-                </div>
-
-                <Space />
-
                 <Title>
                     Estructuras de Datos Dinámicas
                 </Title>
@@ -420,7 +392,7 @@ let arr = [64, 34, 25, 12, 22, 11, 90];`
 
                 <Space />
 
-                <div className='flex gap-16'>
+                <div className='flex justify-around items-center'>
                     <BlueSection>
                         <BlueTitle>
                             Preorden: Raíz al inicio
@@ -491,7 +463,7 @@ let arr = [64, 34, 25, 12, 22, 11, 90];`
                     </Element>
                 </GreenSection>
             </div >
-            <BackButton link={'/WebDev'} />
+            <BackButton  />
         </>
     )
 }

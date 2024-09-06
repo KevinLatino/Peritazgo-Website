@@ -1,11 +1,11 @@
 import React from 'react'
-import MainScreen from './Screens/MainScreen'
+import WebDevScreen from './Screens/WebDevScreen'
 
 const App = () => {
 
   return (
     <>
-      <MainScreen />
+      <WebDevScreen />
     </>
 
 

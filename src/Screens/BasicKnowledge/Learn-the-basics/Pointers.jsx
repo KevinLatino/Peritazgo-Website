@@ -48,20 +48,22 @@ const Pointers = () => {
 
             <Space />
 
-            <GreenSection>
-                <GreenTitle> Nota importante <NotebookText /></GreenTitle>
-                <Element>
-                    <GreenWordSection>● &x</GreenWordSection>: La dirección en memoria de la variable x.
-                </Element >
+            <div className='flex justify-center items-center'>
+                <GreenSection>
+                    <GreenTitle> Nota importante <NotebookText /></GreenTitle>
+                    <Element>
+                        <GreenWordSection>● &x</GreenWordSection>: La dirección en memoria de la variable x.
+                    </Element >
 
-                <Element>
-                    <GreenWordSection>● *p</GreenWordSection>: El valor de la variable a la que apunta la variable puntero p.
-                </Element>
+                    <Element>
+                        <GreenWordSection>● *p</GreenWordSection>: El valor de la variable a la que apunta la variable puntero p.
+                    </Element>
 
-                <Element>
-                    <GreenWordSection>● *p = y</GreenWordSection>: Se almacena el valor y en la dirección en memoria que almacena la variable puntero p.
-                </Element>
-            </GreenSection >
+                    <Element>
+                        <GreenWordSection>● *p = y</GreenWordSection>: Se almacena el valor y en la dirección en memoria que almacena la variable puntero p.
+                    </Element>
+                </GreenSection >
+            </div>s
 
             <Space />
         </>

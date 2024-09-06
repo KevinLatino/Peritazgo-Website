@@ -29,7 +29,7 @@ const Algorithm = () => {
 
       <Space />
 
-      <div className='flex gap-16'>
+      <div className='flex justify-center items-center gap-16'>
         <BlueSection>
 
           <BlueTitle>Caracteristicas de los algotimos:</BlueTitle>
@@ -38,7 +38,7 @@ const Algorithm = () => {
           </Element>
 
           <Element>
-            <BlueWordSection>● Preciso</BlueWordSection>: sus acciones son lógicas, por ende, no tienen ambigüedad.
+            <BlueWordSection>● Preciso</BlueWordSection>: sus acciones son lógicas, por ende,  carece de ambigüedad.
           </Element>
 
           <Element>

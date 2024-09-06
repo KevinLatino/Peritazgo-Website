@@ -50,7 +50,7 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <div className='flex gap-14'>
+        <div className='flex justify-center gap-28'>
           <BlueSection>
             <BlueTitle>Tipos de valores:</BlueTitle>
             <Element>
@@ -89,7 +89,7 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <div className='flex gap-14'>
+        <div className='flex justify-center gap-12'>
           <GreenSection>
             <GreenTitle>Ejemplos:</GreenTitle>
             <Element>
@@ -133,7 +133,7 @@ const ExpressionScreen = () => {
 
         <Space />
 
-        <div className='flex gap-14'>
+        <div className='flex justify-center gap-14'>
           <BlueSection>
             <BlueTitle>Ejemplos:</BlueTitle>
             <Element>
@@ -141,7 +141,7 @@ const ExpressionScreen = () => {
             </Element>
 
             <Element>
-              <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>:  Num1 y Num2 son diferentes.
+              <BlueWordSection>● Num1 != Num2 o Num1 &lt;&gt; Num2</BlueWordSection>:   son diferentes.
             </Element>
 
             <Element>
@@ -330,7 +330,7 @@ const ExpressionScreen = () => {
         </div>
 
       </div>
-      <BackButton link={'/WebDev'} />
+      <BackButton  />
     </>
 
   )

@@ -6,21 +6,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { BasicKnowledgeScreen } from '../src/Screens/BasicKnowledge/BasicKnowledgeScreen.jsx';
 import { ExpressionScreen } from '../src/Screens/ExpressionScreen.jsx';
 import { ControlStructure } from '../src/Screens/ControlStructureScreen.jsx';
-import { Links } from '../src/Screens/LinkScreen.jsx';
 import { DataStructure } from './Screens/DataStructureScreen.jsx';
 import { DataBase } from '../src/Screens/DataBaseScreen.jsx';
 import { POOScreen } from './Screens/POOScreen.jsx';
-import TechInfo from '../src/Screens/TechInfo.jsx'
-import WebDevScreen from './Screens/WebDevScreen.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-  },
-  {
-    path: '/WebDev',
-    element: <WebDevScreen />,
   },
   {
     path: '/Aprendiendo',
@@ -46,14 +39,6 @@ const router = createBrowserRouter([
     path: '/Paradigma-Orientado-Objetos',
     element: <POOScreen />
   },
-  {
-    path: '/pruebas',
-    element: <Links />
-  },
-  {
-    path: '/tecnología',
-    element: <TechInfo />
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

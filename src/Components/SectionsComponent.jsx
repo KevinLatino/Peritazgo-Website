@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BlueSection = ({ children }) => {
     return (
-        <div className='flex flex-col flex-wrap bg-blue_section w-fit p-5 rounded-2xl'>
+        <div className='flex flex-col flex-wrap bg-[#37405726] w-fit p-5 rounded-2xl'>
             {children}
         </div>
     )

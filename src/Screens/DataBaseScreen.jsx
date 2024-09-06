@@ -308,7 +308,7 @@ const DataBase = () => {
 
                 </div>
             </div>
-            <BackButton link={'/WebDev'}/>
+            <BackButton />
         </>
     )
 }

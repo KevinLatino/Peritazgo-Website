@@ -29,7 +29,7 @@ const Variable = () => {
 
       <Space />
 
-      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+      <div className="flex justify-center gap-16">
         <BlueSection>
           <BlueTitle>Ejemplos de como asignar un valor:</BlueTitle>
           <Element>
@@ -40,7 +40,7 @@ const Variable = () => {
           </Element>
 
           <Element>
-            <BlueTitle>Y para asignar caracteres a una variable tenemos este ejemplo:</BlueTitle>
+            <BlueTitle>Para asignar caracteres a una variable tenemos este ejemplo:</BlueTitle>
           </Element>
 
           <Element>
@@ -64,6 +64,7 @@ const Variable = () => {
           <Element>
             <GreenWordSection>● Utilizar camelCase</GreenWordSection>: ayuda a la consistencia del código.
           </Element>
+
 
           <Element>
             <GreenWordSection>● Usar nombres en inglés</GreenWordSection>: ya que es el idioma universal.

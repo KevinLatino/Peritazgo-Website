@@ -54,7 +54,7 @@ const Subprocesses = () => {
 
             <Space />
 
-            <div className='flex flex-wrap gap-x-20 gap-y-12'>
+            <div className='flex justify-center items-center flex-wrap gap-y-8 gap-x-6'>
                 <BlueSection>
                     <BlueTitle>
                         Requisitos
@@ -63,7 +63,7 @@ const Subprocesses = () => {
                         <BlueWordSection>Definición</BlueWordSection>: creación del subproceso.
                     </Element>
                     <Element>
-                        <BlueWordSection>Invocación</BlueWordSection>: se necesita llamar al subproceso para que exista.
+                        <BlueWordSection>Invocación:</BlueWordSection>: se debe invocar al subproceso para que este exista.
                     </Element>
                 </BlueSection>
 
@@ -75,15 +75,14 @@ const Subprocesses = () => {
                         <RedWordSection>Funciones</RedWordSection>: devuelven un valor al algoritmo principal.
                     </Element>
                     <Element>
-                        <RedWordSection>Procedimientos</RedWordSection>: no devuelven un valor al algoritmo principal.
+                        <RedWordSection>Procedimientos</RedWordSection>: no devuelven un valor al algoritmo principal
                     </Element>
                 </RedSection>
 
-                <Space />
                 
                 <PurpleSection>
                     <PurpleTitle>
-                        <PurpleWordSection>Funciones:</PurpleWordSection> se puede apreciar que devuelve el resultado.
+                        <PurpleWordSection>Funciones</PurpleWordSection> se puede apreciar que se el residuo es devuelto
                     </PurpleTitle>
                     <Space />
 
@@ -92,14 +91,13 @@ const Subprocesses = () => {
 
                 <GreenSection>
                     <GreenTitle>
-                        <GreenWordSection>Subprocesos:</GreenWordSection> se puede ver que no devuelve el resultado.
+                        <GreenWordSection>Subproceso:</GreenWordSection> se puede ver que no devuelve el resultado.
                     </GreenTitle>
                     <Space />
 
                     <CodeComponent codeString={stringProcesses} />
                 </GreenSection>
             </div>
-            <Space />
         </>
     )
 }

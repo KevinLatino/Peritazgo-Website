@@ -118,62 +118,51 @@ dog.makeSound(); // Figo makes a sound`
 
                 <Space />
 
-                <div className='flex gap-12'>
-                    <BlueSection>
-                        <BlueTitle>
-                            La abstracción
-                        </BlueTitle>
-                        <Paragraph>
-                            La abstracción consiste en enfocarse en lo esencial y ocultar los detalles complicados, se deben determinar los atributos importantes.
-                        </Paragraph>
-                    </BlueSection>
+                <div className='flex justify-center flex-wrap'>
+                    <div className='flex gap-12'>
+                        <BlueSection>
+                            <BlueTitle>
+                                La abstracción
+                            </BlueTitle>
+                            <Paragraph>
+                                La abstracción consiste en enfocarse en lo esencial y ocultar los detalles complicados, se deben determinar los atributos importantes.
+                            </Paragraph>
+                        </BlueSection>
 
-                    <PurpleSection>
-                        <PurpleTitle>
-                            La encapsulación
-                        </PurpleTitle>
-                        <Paragraph>
-                            La encapsulación consiste en proteger los datos de un objeto para que no puedan ser modificados directamente desde fuera.
-                        </Paragraph>
-                    </PurpleSection>
-                </div>
+                        <PurpleSection>
+                            <PurpleTitle>
+                                La encapsulación
+                            </PurpleTitle>
+                            <Paragraph>
+                                La encapsulación consiste en proteger los datos de un objeto para que no puedan ser modificados directamente desde fuera.
+                            </Paragraph>
+                        </PurpleSection>
+                    </div>
 
-                <Space />
+                    <Space />
 
-                <div className='flex gap-12'>
-                    <GreenSection>
-                        <GreenTitle>
-                            La herencia
-                        </GreenTitle>
-                        <Paragraph>
-                            La herencia es un mecanismo que permite crear nuevas clases basadas en clases existentes, reutilizando métodos y atributos.
-                        </Paragraph>
-                    </GreenSection>
+                    <div className='flex gap-12'>
+                        <GreenSection>
+                            <GreenTitle>
+                                La herencia
+                            </GreenTitle>
+                            <Paragraph>
+                                La herencia es un mecanismo que permite crear nuevas clases basadas en clases existentes, reutilizando métodos y atributos.
+                            </Paragraph>
+                        </GreenSection>
 
-                    <RedSection>
-                        <RedTitle>
-                            El polimorfismo
-                        </RedTitle>
-                        <Paragraph>
-                            El polimorfismo permite que la misma operación o método funcione de diferentes maneras según el objeto que lo use.
-                        </Paragraph>
-                    </RedSection>
+                        <RedSection>
+                            <RedTitle>
+                                El polimorfismo
+                            </RedTitle>
+                            <Paragraph>
+                                El polimorfismo permite que la misma operación o método funcione de diferentes maneras según el objeto que lo use.
+                            </Paragraph>
+                        </RedSection>
+                    </div>
                 </div>
             </div>
-
-            <Space />
-
-            <Title>
-                Ejemplo:
-            </Title>
-
-            <Space />
-
-            <Accordion title='Has click para ver una imágen'>
-                <img src={Classes} width={600} className='pointer-events-none' />
-            </Accordion>
-
-            <BackButton link={'/WebDev'}/>
+            <BackButton />
         </>
     )
 }

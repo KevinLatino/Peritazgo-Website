@@ -10,7 +10,7 @@ import { BlueSection } from '../../../Components/SectionsComponent';
 const FlowChart = () => {
 
   return (
-    <>
+    <div>
 
       <BlueSection>
         <BlueTitle>
@@ -30,7 +30,7 @@ const FlowChart = () => {
       </BlueSection>
 
       
-    </>
+    </div>
   )
 }
 
