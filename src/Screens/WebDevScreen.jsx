@@ -122,8 +122,7 @@ const WebDevScreen = () => {
             />
           ))}
         </div>
-        </div>
-        <BackButton link={'/'} />
+      </div>
     </div>
   );
 };
