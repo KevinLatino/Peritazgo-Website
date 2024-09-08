@@ -40,7 +40,7 @@
 
 <h2 align="left">Check it out here 👀</h2>
 
-https://peritazgo-website-2024.vercel.app/
+https://peritazgo-website.vercel.app/
 ###
 
 ###
