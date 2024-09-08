@@ -5,7 +5,6 @@ import {
   Title,
   Paragraph,
   BlueTitle,
-  Element,
   Space,
   PurpleTitle,
   GreenTitle,

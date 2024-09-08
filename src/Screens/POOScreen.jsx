@@ -3,8 +3,6 @@ import { Title, Paragraph, Space, BlueTitle, PurpleTitle, GreenTitle, RedTitle }
 import { BlueSection, GreenSection, PurpleSection, RedSection } from '../Components/SectionsComponent'
 import { BackButton } from '../Components/BackButtonComponent'
 import { CodeComponent } from '../Components/CodeComponent'
-import { Accordion } from '../Components/AccordionComponent'
-import Classes from '../../public/POO.jpg'
 
 const POOScreen = () => {
 

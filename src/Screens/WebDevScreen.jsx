@@ -3,7 +3,6 @@ import { MainTitle } from '../Components/MainTitleComponent';
 import { CardComponent } from '../Components/CardComponent';
 import { SearchBar } from '../Components/SearchBarComponent';
 import { nfd } from 'unorm';
-import { BackButton } from '../Components/BackButtonComponent';
 import {
   BookText,
   Blocks,
